@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Oaxaca de Juárez</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        
+        #mapa {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="mapa"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-omnivore/0.3.1/leaflet-omnivore.min.js"></script>
+    
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script>
+        const limitesOaxaca = [
+            [16.85, -96.95],
+            [17.25, -96.55]
+        ];
+
+        const mapa = L.map('mapa', {
+            maxBounds: limitesOaxaca,
+            maxBoundsViscosity: 1.0,
+            minZoom: 11
+        }).setView([17.0608, -96.7250], 12);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 20
+        }).addTo(mapa);
+
+        const kmlFiles = [
+            { archivo: "Ruta RC-11 Má┼² La RayaAeropuerto - Módulo Azul.kml", nombre: "RC-11 Má' La Raya Aeropuerto - Módulo Azul" },
+            { archivo: "Ruta RC-15 Yu Ngnta' H de la Mujer y la Niñez Oaxaqueña - Base Walmart Símbolos Patrios - Módulo Azul.kml", nombre: "RC-15 Yu Ngnta' H de la Mujer y la Niñez - Módulo Azul" },
+            { archivo: "Ruta RC-06 Mondok San Jacinto Amilpas - Camino a Huayápam.kml", nombre: "RC-06 Mondok San Jacinto Amilpas - Camino a Huayápam" },
+            { archivo: "Ruta RC-10 Kaymo Manzana L - Ánimas Trujano.kml", nombre: "RC-10 Kaymo Manzana L - Ánimas Trujano" },
+            { archivo: "Ruta RC-09 Kítsian Jan Colónia Bugambilias - Fracc. El Rosario.kml", nombre: "RC-09 Kítsian Jan Colonia Bugambilias - Fracc. El Rosario" },
+            { archivo: "Ruta RA-18 Nave'e Yuroo Viguera – Centro de Rehabilitación DIF.kml", nombre: "RA-18 Nave'e Yuroo Viguera – Centro de Rehabilitación DIF" },
+            { archivo: "Ruta RA-04 Monumento a la MadreTecnológico - Santa Cruz Amilpas.kml", nombre: "RA-04 Monumento a la Madre Tecnológico - Santa Cruz Amilpas" },
+            { archivo: "Ruta RA-02 Mo' Santa María Atzompa - Guadalupe Victoria.kml", nombre: "RA-02 Mo' Santa María Atzompa - Guadalupe Victoria" },
+            { archivo: "Ruta RA-05 GUIE' Colonia Jardín - Anáhuac.kml", nombre: "RA-05 GUIE' Colonia Jardín - Anáhuac" },
+            { archivo: "Ruta RA-10 Tza' Tøk Fraccionamiento el Rosario 5a. Etapa - La Cuevita.kml", nombre: "RA-10 Tza' Tøk Fracc. El Rosario 5a. Etapa - La Cuevita" },
+            { archivo: "Ruta RA-14 Poj Montoya - Fraccionamiento El Rosario.kml", nombre: "RA-14 Poj Montoya - Fracc. El Rosario" },
+            { archivo: "Ruta RT-01 Kayaal Yuroo Viguera - Yuroo Xoxocotlán (2).kml", nombre: "RT-01 Kayaal Yuroo Viguera - Yuroo Xoxocotlán" },
+            { archivo: "Ruta RA-07 Uxacha 2da. Sección Guadalupe Victoria - Colonia Moctezuma.kml", nombre: "RA-07 Uxacha 2da. Sección Guadalupe Victoria - Col. Moctezuma" },
+            { archivo: "Ruta RC-08 Ruja Colonia Jardín - Colonia Heladio Ramírez López.kml", nombre: "RC-08 Ruja Colonia Jardín - Col. Heladio Ramírez López" },
+            { archivo: "Ruta RC-04 Atlantekomatl Fracc. Benito JuárezEsmeralda - Plaza del Valle.kml", nombre: "RC-04 Atlantekomatl Fracc. Benito Juárez Esmeralda - Plaza del Valle" },
+            { archivo: "Ruta RA-09 Moog Fraccionamiento Los Álamos - Panteón Jardín.kml", nombre: "RA-09 Moog Fracc. Los Álamos - Panteón Jardín" },
+            { archivo: "Ruta RC-02 Fane Kantsini Viguera - Primera Etapa.kml", nombre: "RC-02 Fane Kantsini Viguera - Primera Etapa" },
+            { archivo: "Ruta RC-01 Fane Kantsini Viguera - Segunda Etapa.kml", nombre: "RC-01 Fane Kantsini Viguera - Segunda Etapa" },
+            { archivo: "Ruta RC-03 Fane Kantsini Viguera - Tercera Etapa.kml", nombre: "RC-03 Fane Kantsini Viguera - Tercera Etapa" },
+            { archivo: "Ruta RC-05 Atlantekomatl Fracc. Benito JuárezEsmeralda - Plaza del Valle.kml", nombre: "RC-05 Atlantekomatl Fracc. Benito Juárez Esmeralda - Plaza del Valle" },
+            { archivo: "Ruta RC-07 Ruja Colonia Jardín - Colonia Heladio Ramírez López.kml", nombre: "RC-07 Ruja Colonia Jardín - Col. Heladio Ramírez López" },
+            { archivo: "Ruta RC-12 Kaymo Manzana L - Ánimas Trujano.kml", nombre: "RC-12 Kaymo Manzana L - Ánimas Trujano" },
+            { archivo: "Ruta RC-13 Mondok San Jacinto Amilpas - Camino a Huayápam.kml", nombre: "RC-13 Mondok San Jacinto Amilpas - Camino a Huayápam" },
+            { archivo: "Ruta RC-14 Kaymo Manzana L - Ánimas Trujano.kml", nombre: "RC-14 Kaymo Manzana L - Ánimas Trujano" },
+            { archivo: "Ruta RC-15 Yu Ngnta' H de la Mujer y la Niñez Oaxaqueña - Base Walmart Símbolos Patrios - Módulo Azul.kml", nombre: "RC-15 Yu Ngnta' H de la Mujer y la Niñez - Módulo Azul" }
+        ];
+
+        const capasRutas = [];
+
+        kmlFiles.forEach((ruta, index) => {
+            const hue = index * (360 / kmlFiles.length);
+            const colorRuta = `hsl(${hue}, 80%, 45%)`;
+
+            const customLayer = L.geoJson(null, {
+                style: function() {
+                    return { color: '#888888', weight: 1.5, opacity: 0.7 };
+                },
+                pointToLayer: function(feature, latlng) {
+                    return L.circleMarker(latlng, {
+                        radius: 3,
+                        fillColor: '#888888',
+                        color: '#fff',
+                        weight: 1,
+                        opacity: 1,
+                        fillOpacity: 0.9
+                    });
+                }
+            });
+
+            customLayer.colorRuta = colorRuta;
+
+            capasRutas.push(customLayer);
+
+            omnivore.kml(`kml/${ruta.archivo}`, null, customLayer)
+                .on('ready', function() {
+                    this.setStyle({ color: '#888888', weight: 1.5, opacity: 0.7 });
+
+                    this.eachLayer(function(layer) {
+                        if (layer.setRadius) {
+                            layer.setRadius(3);
+                            layer.setStyle({ fillColor: '#888888', color: '#fff', weight: 1, fillOpacity: 0.9 });
+                        }
+                        layer.bindPopup(`<b>Ruta:</b><br>${ruta.nombre}`);
+
+                        layer.on('click', function() {
+                            reproducirMarimba();
+                        });
+                    });
+                })
+                .addTo(mapa);
+        });
+
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        const audioCtx = new AudioContext();
+
+        document.addEventListener('click', () => {
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+        }, { once: true });
+
+        function reproducirMarimba() {
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+
+            const osc1 = audioCtx.createOscillator();
+            const osc2 = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+
+            const tiempo = audioCtx.currentTime + 0.05;
+
+            osc1.type = 'sine';
+            osc1.frequency.setValueAtTime(523.25, tiempo);
+            osc2.type = 'triangle';
+            osc2.frequency.setValueAtTime(1046.50, tiempo);
+
+            gainNode.gain.setValueAtTime(1, tiempo);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, tiempo + 0.5);
+
+            osc1.connect(gainNode);
+            osc2.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+
+            osc1.start(tiempo);
+            osc2.start(tiempo);
+            osc1.stop(tiempo + 0.5);
+            osc2.stop(tiempo + 0.5);
+            
+            console.log("🎵 Sonido reproducido");
+        }
+
+        const socket = io();
+
+        const layerTimers = {};
+
+        socket.on('iluminar_estacion', function(nombreEstacion) {
+            let fueIluminada = false;
+            
+            const nombreBuscado = nombreEstacion.trim().toLowerCase().replace(/\./g, '');
+            
+            const verificarCapa = (layer) => {
+                if (layer.feature && layer.feature.properties) {
+                    const propNombre = layer.feature.properties.nombre || layer.feature.properties.name;
+                    if (propNombre) {
+                        const nombreActual = propNombre.trim().toLowerCase().replace(/\./g, '');
+                        if (nombreActual === nombreBuscado) {
+                            if (layer.setStyle) {
+                                layer.setStyle({ fillColor: '#ff9900', color: '#ff9900', radius: 7, fillOpacity: 1, weight: 2 });
+                                layer.bringToFront();
+                                fueIluminada = true;
+                                
+                                if (layer.getLatLng) {
+                                    mapa.flyTo(layer.getLatLng(), 15, { duration: 1.5 });
+                                }
+
+                                const layerId = L.stamp(layer);
+                                if (layerTimers[layerId]) {
+                                    clearTimeout(layerTimers[layerId]);
+                                }
+
+                                layerTimers[layerId] = setTimeout(() => {
+                                    if (layer.setStyle) {
+                                        layer.setStyle({ 
+                                            radius: 3,           
+                                            fillColor: '#888888', 
+                                            color: '#fff',       
+                                            weight: 1,           
+                                            fillOpacity: 0.9     
+                                        });
+                                    }
+                                    delete layerTimers[layerId];
+                                }, 10000);
+                            }
+                        }
+                    }
+                }
+            };
+
+            mapa.eachLayer(layer => {
+                if (layer.eachLayer) {
+                    layer.eachLayer(subLayer => verificarCapa(subLayer));
+                } else {
+                    verificarCapa(layer);
+                }
+            });
+
+            if (fueIluminada) {
+                console.log(`✅ Estación encontrada e iluminada: ${nombreEstacion}`);
+                reproducirMarimba();
+            } else {
+                console.warn(`⚠️ No se encontró la estación (revisa el nombre exacto): ${nombreEstacion}`);
+            }
+        });
+    </script>
+
+</body>
+</html>

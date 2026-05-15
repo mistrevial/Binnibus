@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta RT-01 Kayaal Yuroo Viguera - Yuroo Xoxocotlán</name>
+    <description/>
+    <Style id="icon-1532-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7CB342-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-7CB342-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>IDA</name>
+      <Placemark>
+        <name>Ida</name>
+        <styleUrl>#line-0288D1-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.768198,17.126391,0
+            -96.768156,17.126396,0
+            -96.767702,17.126545,0
+            -96.766039,17.12443,0
+            -96.764921,17.123036,0
+            -96.764486,17.122459,0
+            -96.764446,17.122305,0
+            -96.764285,17.122192,0
+            -96.763137,17.120841,0
+            -96.761871,17.119403,0
+            -96.760559,17.117724,0
+            -96.759457,17.116391,0
+            -96.758556,17.115333,0
+            -96.757944,17.114594,0
+            -96.757174,17.11351,0
+            -96.756619,17.112572,0
+            -96.756316,17.111982,0
+            -96.755622,17.110418,0
+            -96.75557,17.110206,0
+            -96.754795,17.108365,0
+            -96.753889,17.106237,0
+            -96.753226,17.104753,0
+            -96.752623,17.103256,0
+            -96.751901,17.101651,0
+            -96.751368,17.100436,0
+            -96.750726,17.09889,0
+            -96.750163,17.0975,0
+            -96.750067,17.097296,0
+            -96.749941,17.097131,0
+            -96.749793,17.096829,0
+            -96.748983,17.094793,0
+            -96.748436,17.093537,0
+            -96.748259,17.093258,0
+            -96.748017,17.09265,0
+            -96.74798,17.092422,0
+            -96.747784,17.092073,0
+            -96.747722,17.091822,0
+            -96.747164,17.090643,0
+            -96.746588,17.089235,0
+            -96.745899,17.08771,0
+            -96.745451,17.086671,0
+            -96.745145,17.086058,0
+            -96.745021,17.08573,0
+            -96.744579,17.084682,0
+            -96.744179,17.083684,0
+            -96.743804,17.082818,0
+            -96.743577,17.082292,0
+            -96.743557,17.081084,0
+            -96.743532,17.080463,0
+            -96.743472,17.080058,0
+            -96.743287,17.079646,0
+            -96.742854,17.078844,0
+            -96.742398,17.078087,0
+            -96.741902,17.077254,0
+            -96.741347,17.076249,0
+            -96.741223,17.075885,0
+            -96.741138,17.075713,0
+            -96.740877,17.075524,0
+            -96.740724,17.0753,0
+            -96.739949,17.074195,0
+            -96.738598,17.072393,0
+            -96.738475,17.072146,0
+            -96.738313,17.071887,0
+            -96.737865,17.070992,0
+            -96.737503,17.070034,0
+            -96.737188,17.069272,0
+            -96.736337,17.067864,0
+            -96.735895,17.067105,0
+            -96.735982,17.0665,0
+            -96.736257,17.066003,0
+            -96.736414,17.065608,0
+            -96.736406,17.065285,0
+            -96.736123,17.064431,0
+            -96.735595,17.063452,0
+            -96.735113,17.062747,0
+            -96.734923,17.062609,0
+            -96.734199,17.061598,0
+            -96.733472,17.060534,0
+            -96.732394,17.058972,0
+            -96.731573,17.057831,0
+            -96.731447,17.057616,0
+            -96.731311,17.057434,0
+            -96.731147,17.057351,0
+            -96.730626,17.056605,0
+            -96.730629,17.056412,0
+            -96.73046,17.056065,0
+            -96.730298,17.055559,0
+            -96.730144,17.055038,0
+            -96.73003,17.054688,0
+            -96.729802,17.053895,0
+            -96.72951,17.052954,0
+            -96.729357,17.052316,0
+            -96.729336,17.051682,0
+            -96.729301,17.051488,0
+            -96.729213,17.051339,0
+            -96.728987,17.051045,0
+            -96.729022,17.050931,0
+            -96.729181,17.050354,0
+            -96.729254,17.050194,0
+            -96.729537,17.050072,0
+            -96.730798,17.04975,0
+            -96.731039,17.049584,0
+            -96.731082,17.049533,0
+            -96.73109,17.049451,0
+            -96.731266,17.049242,0
+            -96.731381,17.049118,0
+            -96.731457,17.048831,0
+            -96.731441,17.048652,0
+            -96.731309,17.047705,0
+            -96.731094,17.046368,0
+            -96.730967,17.045701,0
+            -96.730913,17.04548,0
+            -96.730552,17.04462,0
+            -96.730169,17.043699,0
+            -96.729823,17.042958,0
+            -96.729564,17.042382,0
+            -96.729399,17.041857,0
+            -96.729184,17.040841,0
+            -96.729017,17.039949,0
+            -96.728841,17.038992,0
+            -96.72873,17.038223,0
+            -96.728629,17.037651,0
+            -96.728502,17.036765,0
+            -96.728501,17.036654,0
+            -96.728502,17.036529,0
+            -96.73019,17.022805,0
+            -96.730313,17.02246,0
+            -96.730737,17.021571,0
+            -96.730871,17.021226,0
+            -96.731154,17.020592,0
+            -96.731427,17.019988,0
+            -96.73168,17.01941,0
+            -96.732053,17.018596,0
+            -96.732427,17.017779,0
+            -96.732772,17.016988,0
+            -96.733079,17.016324,0
+            -96.73312,17.01623,0
+            -96.732833,17.016071,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yuroo Viguera</name>
+        <description><![CDATA[Yuroo Viguera<br>  <br> latitude 17.12653<br> longitude -96.76779<br> sentido IDA<br> id 1]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76779,17.12653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotonda Benito Juárez</name>
+        <description><![CDATA[Rotonda Benito Juárez<br>  <br> latitude 17.12184<br> longitude -96.76401<br> sentido IDA<br> id 2]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76401,17.12184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COBAO 01</name>
+        <description><![CDATA[COBAO 01<br>  <br> latitude 17.11844<br> longitude -96.76114<br> sentido IDA<br> id 3]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76114,17.11844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plutarco Elías Calles</name>
+        <description><![CDATA[Plutarco Elías Calles<br>  <br> latitude 17.11558<br> longitude -96.75879<br> sentido IDA<br> id 4]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.75879,17.11558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicente Guerrero</name>
+        <description><![CDATA[Vicente Guerrero<br>  <br> latitude 17.11226<br> longitude -96.75647<br> sentido IDA<br> id 5]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.756561,17.11245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emiliano Zapata</name>
+        <description><![CDATA[Emiliano Zapata<br>  <br> latitude 17.10832<br> longitude -96.75478<br> sentido IDA<br> id 6]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.75478,17.10832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brenamiel</name>
+        <description><![CDATA[Brenamiel<br>  <br> latitude 17.10369<br> longitude -96.75283<br> sentido IDA<br> id 7]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.75283,17.10369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Col. Del Mestro</name>
+        <description><![CDATA[Col. Del Mestro<br>  <br> latitude 17.10157<br> longitude -96.7519<br> sentido IDA<br> id 8]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7519,17.10157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugambilias</name>
+        <description><![CDATA[Bugambilias<br>  <br> latitude 17.09765<br> longitude -96.75026<br> sentido IDA<br> id 9]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.750218,17.097613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zonal Santa Rosa</name>
+        <description><![CDATA[Zonal Santa Rosa<br>  <br> latitude 17.0939<br> longitude -96.74862<br> sentido IDA<br> id 10]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.74862,17.0939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ex Hacienda Santa Rosa</name>
+        <description><![CDATA[Ex Hacienda Santa Rosa<br>  <br> latitude 17.09121<br> longitude -96.74747<br> sentido IDA<br> id 11]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.74747,17.09121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naga´nda</name>
+        <description><![CDATA[Naga´nda<br>  <br> latitude 17.08601<br> longitude -96.74516<br> sentido IDA<br> id 12]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.745203,17.086095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuahutemoc</name>
+        <description><![CDATA[Cuahutemoc<br>  <br> latitude 17.08311<br> longitude -96.74395<br> sentido IDA<br> id 13]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.74395,17.08311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tecnlógico</name>
+        <description><![CDATA[Tecnlógico<br>  <br> latitude 17.07929<br> longitude -96.7431<br> sentido IDA<br> id 14]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7431,17.07929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glorieta de los Niños Héroes</name>
+        <description><![CDATA[Glorieta de los Niños Héroes<br>  <br> latitude 17.07561<br> longitude -96.74105<br> sentido IDA<br> id 15]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.74105,17.07561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicente suárez</name>
+        <description><![CDATA[Vicente suárez<br>  <br> latitude 17.07223<br> longitude -96.73848<br> sentido IDA<br> id 16]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73848,17.07223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo del Ferrocarril</name>
+        <description><![CDATA[Museo del Ferrocarril<br>  <br> latitude 17.06841<br> longitude -96.73666<br> sentido IDA<br> id 17]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73666,17.06841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez JUANA CATA</name>
+        <description><![CDATA[Yubez JUANA CATA<br>  <br> latitude 17.06245<br> longitude -96.73474<br> sentido IDA<br> id 18]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.734788,17.062412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez MARIA SABINA</name>
+        <description><![CDATA[Yubez MARIA SABINA<br>  <br> latitude 17.0572<br> longitude -96.73092<br> sentido IDA<br> id 19]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.731005,17.05715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riveras</name>
+        <description><![CDATA[Riveras<br>  <br> latitude 17.05324<br> longitude -96.72956<br> sentido IDA<br> id 20]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729599,17.053236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[TERMINAL PARQUE DEL AMOR  "Ladxidó´"]]></name>
+        <description><![CDATA[TERMINAL PARQUE DEL AMOR  "Ladxidó´"<br>  <br> latitude 17.05106<br> longitude -96.72894<br> sentido IDA<br> id 21]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.72911,17.050636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Primavera Cho´Ndoba</name>
+        <description><![CDATA[Parque Primavera Cho´Ndoba<br>  <br> latitude 17.04858<br> longitude -96.73139<br> sentido IDA<br> id 22]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.731433,17.048588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Anita</name>
+        <description><![CDATA[Santa Anita<br>  <br> latitude 17.04475<br> longitude -96.73056<br> sentido IDA<br> id 23]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.730603,17.044747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Elena</name>
+        <description><![CDATA[Santa Elena<br>  <br> latitude 17.04031<br> longitude -96.72905<br> sentido IDA<br> id 24]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.72905,17.04031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ex Garita</name>
+        <description><![CDATA[Ex Garita<br>  <br> latitude 17.03637<br> longitude -96.72849<br> sentido IDA<br> id 25]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.72849,17.03637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rancho Escondido</name>
+        <description><![CDATA[Rancho Escondido<br>  <br> latitude 17.03475<br> longitude -96.72868<br> sentido IDA<br> id 26]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.72871,17.034635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samaria</name>
+        <description><![CDATA[Samaria<br>  <br> latitude 17.03178<br> longitude -96.72902<br> sentido IDA<br> id 27]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729092,17.031762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornos</name>
+        <description><![CDATA[Hornos<br>  <br> latitude 17.03012<br> longitude -96.72922<br> sentido IDA<br> id 28]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729349,17.029674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moctezuma</name>
+        <description><![CDATA[Moctezuma<br>  <br> latitude 17.02696<br> longitude -96.72961<br> sentido IDA<br> id 29]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729701,17.026814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado de Xoxocotlán</name>
+        <description><![CDATA[Mercado de Xoxocotlán<br>  <br> latitude 17.02571<br> longitude -96.72977<br> sentido IDA<br> id 30]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729789,17.025612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotonda xoxocotlán</name>
+        <description><![CDATA[Rotonda xoxocotlán<br>  <br> latitude 17.02375<br> longitude -96.73001<br> sentido IDA<br> id 31]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.730064,17.023581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuroo  XOXOCOTLÁN</name>
+        <description><![CDATA[Yuroo  XOXOCOTLÁN<br>  <br> latitude 17.01638<br> longitude -96.73293<br> sentido IDA<br> id 32]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.732632,17.015944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>VUELTA</name>
+      <Placemark>
+        <name>Línea 2</name>
+        <styleUrl>#line-7CB342-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.732771,17.016011,0
+            -96.733027,17.016093,0
+            -96.732625,17.017078,0
+            -96.731826,17.018832,0
+            -96.730259,17.022346,0
+            -96.73005,17.022976,0
+            -96.729997,17.023161,0
+            -96.729977,17.023291,0
+            -96.729928,17.023578,0
+            -96.729849,17.024183,0
+            -96.729549,17.026595,0
+            -96.729256,17.028852,0
+            -96.729197,17.029524,0
+            -96.72894,17.031363,0
+            -96.728731,17.032963,0
+            -96.728566,17.034548,0
+            -96.728452,17.035397,0
+            -96.728356,17.036349,0
+            -96.728347,17.036497,0
+            -96.72834,17.036642,0
+            -96.728352,17.036784,0
+            -96.728547,17.038169,0
+            -96.728803,17.039567,0
+            -96.729095,17.041252,0
+            -96.729216,17.041849,0
+            -96.729551,17.042693,0
+            -96.730123,17.04399,0
+            -96.730638,17.04528,0
+            -96.730847,17.045993,0
+            -96.730951,17.046627,0
+            -96.73112,17.047534,0
+            -96.731279,17.04857,0
+            -96.731302,17.04892,0
+            -96.731208,17.04918,0
+            -96.731056,17.049545,0
+            -96.731008,17.04959,0
+            -96.730804,17.049729,0
+            -96.730051,17.04993,0
+            -96.729515,17.05009,0
+            -96.729148,17.05019,0
+            -96.728993,17.050368,0
+            -96.728796,17.050842,0
+            -96.728661,17.051152,0
+            -96.728757,17.051313,0
+            -96.72896,17.051727,0
+            -96.729048,17.051966,0
+            -96.729177,17.052458,0
+            -96.729534,17.053627,0
+            -96.729897,17.054812,0
+            -96.730106,17.055403,0
+            -96.730243,17.055749,0
+            -96.730333,17.056025,0
+            -96.730491,17.056463,0
+            -96.731028,17.057299,0
+            -96.731382,17.057794,0
+            -96.731679,17.058194,0
+            -96.732068,17.058774,0
+            -96.732978,17.060002,0
+            -96.733275,17.060319,0
+            -96.733511,17.060665,0
+            -96.733585,17.06085,0
+            -96.734147,17.06172,0
+            -96.734458,17.062092,0
+            -96.734708,17.062466,0
+            -96.735121,17.063087,0
+            -96.735504,17.063605,0
+            -96.736102,17.064862,0
+            -96.736231,17.065266,0
+            -96.736274,17.065497,0
+            -96.7362,17.065841,0
+            -96.736074,17.065997,0
+            -96.735858,17.066138,0
+            -96.735677,17.066146,0
+            -96.735459,17.066245,0
+            -96.735338,17.066369,0
+            -96.735231,17.066466,0
+            -96.734434,17.066741,0
+            -96.73444,17.066827,0
+            -96.734871,17.067266,0
+            -96.735381,17.067969,0
+            -96.735778,17.06867,0
+            -96.735998,17.069101,0
+            -96.736161,17.069528,0
+            -96.736432,17.070197,0
+            -96.736642,17.070946,0
+            -96.736996,17.071635,0
+            -96.737444,17.072433,0
+            -96.737747,17.073,0
+            -96.738238,17.073825,0
+            -96.738559,17.074361,0
+            -96.738943,17.074951,0
+            -96.739621,17.075745,0
+            -96.739959,17.076428,0
+            -96.740326,17.077276,0
+            -96.740706,17.07813,0
+            -96.741518,17.079843,0
+            -96.741618,17.08014,0
+            -96.7417,17.080258,0
+            -96.742183,17.080558,0
+            -96.742701,17.080955,0
+            -96.742907,17.081155,0
+            -96.74309,17.081502,0
+            -96.743706,17.082966,0
+            -96.744042,17.083717,0
+            -96.744248,17.084283,0
+            -96.744656,17.085201,0
+            -96.744991,17.085952,0
+            -96.745018,17.08615,0
+            -96.745469,17.087037,0
+            -96.745831,17.087916,0
+            -96.746265,17.088875,0
+            -96.746939,17.090485,0
+            -96.747614,17.092024,0
+            -96.747944,17.0927,0
+            -96.74814,17.093241,0
+            -96.748773,17.094733,0
+            -96.749151,17.095546,0
+            -96.74954,17.096428,0
+            -96.749808,17.097189,0
+            -96.74994,17.097478,0
+            -96.750157,17.097892,0
+            -96.750522,17.098774,0
+            -96.751024,17.099876,0
+            -96.751627,17.10134,0
+            -96.752037,17.102294,0
+            -96.752469,17.103304,0
+            -96.753136,17.104869,0
+            -96.75361,17.105962,0
+            -96.754034,17.106933,0
+            -96.754465,17.107882,0
+            -96.755189,17.109587,0
+            -96.755597,17.11053,0
+            -96.755701,17.110858,0
+            -96.755911,17.111358,0
+            -96.756358,17.112355,0
+            -96.756522,17.112581,0
+            -96.756624,17.112773,0
+            -96.756999,17.113427,0
+            -96.757233,17.113747,0
+            -96.757877,17.114652,0
+            -96.758405,17.115365,0
+            -96.758958,17.116003,0
+            -96.760336,17.117695,0
+            -96.76139,17.118977,0
+            -96.762672,17.12052,0
+            -96.763649,17.121755,0
+            -96.764075,17.122317,0
+            -96.764184,17.122514,0
+            -96.764298,17.122617,0
+            -96.764834,17.123255,0
+            -96.766151,17.124839,0
+            -96.767503,17.126523,0
+            -96.767697,17.126391,0
+            -96.767829,17.126291,0
+            -96.767982,17.126278,0
+            -96.768374,17.126187,0
+            -96.768399,17.126131,0
+            -96.768521,17.126185,0
+            -96.768469,17.126319,0
+            -96.768387,17.12629,0
+            -96.7682,17.126378,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Rotonda Xoxocotlán</name>
+        <description><![CDATA[Rotonda Xoxocotlán<br>  <br> latitude 17.01768<br> longitude -96.73242<br> sentido REGRESO<br> id 33]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.732369,17.017649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MOCTEZUMA</name>
+        <description><![CDATA[MOCTEZUMA<br>  <br> latitude 17.02653<br> longitude -96.72956<br> sentido REGRESO<br> id 34]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.72956,17.02653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornos</name>
+        <description><![CDATA[Hornos<br>  <br> latitude 17.02908<br> longitude -96.72925<br> sentido REGRESO<br> id 35]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729202,17.029401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samaria</name>
+        <description><![CDATA[Samaria<br>  <br> latitude 17.03162<br> longitude -96.72893<br> sentido REGRESO<br> id 36]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.728917,17.031533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rancho Escondido</name>
+        <description><![CDATA[Rancho Escondido<br>  <br> latitude 17.03441<br> longitude -96.72856<br> sentido REGRESO<br> id 37]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.728587,17.034282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ex Garita</name>
+        <description><![CDATA[Ex Garita<br>  <br> latitude 17.03625<br> longitude -96.72834<br> sentido REGRESO<br> id 38]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.72834,17.03625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Elena</name>
+        <description><![CDATA[Santa Elena<br>  <br> latitude 17.04149<br> longitude -96.72915<br> sentido REGRESO<br> id 39]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.72915,17.04149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Anita</name>
+        <description><![CDATA[Santa Anita<br>  <br> latitude 17.04529<br> longitude -96.73067<br> sentido REGRESO<br> id 40]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.730665,17.045341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Primavera Cho´Ndoba</name>
+        <description><![CDATA[Parque Primavera Cho´Ndoba<br>  <br> latitude 17.04838<br> longitude -96.73123<br> sentido REGRESO<br> id 41]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73123,17.04838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[TERMINAL PARQUE DEL AMOR  "Ladxidó´"]]></name>
+        <description><![CDATA[TERMINAL PARQUE DEL AMOR  "Ladxidó´"<br>  <br> latitude 17.05006<br> longitude -96.72908<br> sentido REGRESO<br> id 42]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.728908,17.05059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez Lázaro Cárdenas</name>
+        <description><![CDATA[Yubez Lázaro Cárdenas<br>  <br> latitude 17.05582<br> longitude -96.73036<br> sentido REGRESO<br> id 43]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73027,17.055828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez Flores Magón</name>
+        <description><![CDATA[Yubez Flores Magón<br>  <br> latitude 17.06019<br> longitude -96.7332<br> sentido REGRESO<br> id 44]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.733201,17.060241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Francisco I. Madero</name>
+        <description><![CDATA[Parque Francisco I. Madero<br>  <br> latitude 17.06624<br> longitude -96.73542<br> sentido REGRESO<br> id 45]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73542,17.06624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ignacio Rayón</name>
+        <description><![CDATA[Ignacio Rayón<br>  <br> latitude 17.06814<br> longitude -96.73547<br> sentido REGRESO<br> id 46]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73547,17.06814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alfonso Pérez Gasga</name>
+        <description><![CDATA[Alfonso Pérez Gasga<br>  <br> latitude 17.0709<br> longitude -96.73661<br> sentido REGRESO<br> id 47]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73661,17.0709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montes de Oca</name>
+        <description><![CDATA[Montes de Oca<br>  <br> latitude 17.07368<br> longitude -96.73811<br> sentido REGRESO<br> id 48]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73811,17.07368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panteón del Ex Marquesado</name>
+        <description><![CDATA[Panteón del Ex Marquesado<br>  <br> latitude 17.07512<br> longitude -96.73907<br> sentido REGRESO<br> id 49]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73907,17.07512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monumento a la Madre</name>
+        <description><![CDATA[Monumento a la Madre<br>  <br> latitude 17.0794<br> longitude -96.74129<br> sentido REGRESO<br> id 50]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.74136,17.07952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuahutemoc</name>
+        <description><![CDATA[Cuahutemoc<br>  <br> latitude 17.08306<br> longitude -96.74369<br> sentido REGRESO<br> id 51]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.743741,17.08304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naga´nda</name>
+        <description><![CDATA[Naga´nda<br>  <br> latitude 17.0864708<br> longitude -96.7452508<br> sentido REGRESO<br> id 52]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.745105,17.086331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niidxi</name>
+        <description><![CDATA[Niidxi<br>  <br> latitude 17.0900134<br> longitude -96.746781<br> sentido REGRESO<br> id 53]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.746729,17.08999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zonal Santa Rosa</name>
+        <description><![CDATA[Zonal Santa Rosa<br>  <br> latitude 17.09329<br> longitude -96.74805<br> sentido REGRESO<br> id 54]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.748179,17.093327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugambilias</name>
+        <description><![CDATA[Bugambilias<br>  <br> latitude 17.09778<br> longitude -96.75001<br> sentido REGRESO<br> id 55]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.750092,17.097745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Col. Del Mestro</name>
+        <description><![CDATA[Col. Del Mestro<br>  <br> latitude 17.1008405<br> longitude -96.7514083<br> sentido REGRESO<br> id 56]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.75147,17.100963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jaime Torres Bodet</name>
+        <description><![CDATA[Jaime Torres Bodet<br>  <br> latitude 17.10498<br> longitude -96.75309<br> sentido REGRESO<br> id 57]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.753223,17.104957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queretáro</name>
+        <description><![CDATA[Queretáro<br>  <br> latitude 17.1084425<br> longitude -96.7547104<br> sentido REGRESO<br> id 58]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.754729,17.108468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicente Guerrero</name>
+        <description><![CDATA[Vicente Guerrero<br>  <br> latitude 17.11238<br> longitude -96.75631<br> sentido REGRESO<br> id 59]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.756356,17.112354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plutarco Elías Calles</name>
+        <description><![CDATA[Plutarco Elías Calles<br>  <br> latitude 17.1155529<br> longitude -96.758627<br> sentido REGRESO<br> id 60]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.75863,17.11564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COBAO 01</name>
+        <description><![CDATA[COBAO 01<br>  <br> latitude 17.1184566<br> longitude -96.7609575<br> sentido REGRESO<br> id 61]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.760899,17.11838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotonda Benito Juárez</name>
+        <description><![CDATA[Rotonda Benito Juárez<br>  <br> latitude 17.12215<br> longitude -96.76379<br> sentido REGRESO<br> id 62]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76379,17.12215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuroo Viguera</name>
+        <description><![CDATA[Yuroo Viguera<br>  <br> latitude 17.12653<br> longitude -96.76779<br> sentido REGRESO<br> id 63]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76779,17.12653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,7 @@
+2026/05/14-22:01:24.765 d90 Creating DB D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
+2026/05/14-22:01:25.098 d90 Reusing MANIFEST D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/05/14-22:01:25.099 d90 Recovering log #3
+2026/05/14-22:01:25.102 d90 Reusing old log D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 
+2026/05/14-22:02:25.118 d90 Level-0 table #5: started
+2026/05/14-22:02:25.193 d90 Level-0 table #5: 27600 bytes OK
+2026/05/14-22:02:25.268 d90 Delete type=0 #3

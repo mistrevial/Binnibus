@@ -1,0 +1,4432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta RC13 Yuku Tay: Hospital ISSSTE - Base CRIT</name>
+    <description/>
+    <Style id="icon-1532-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-3000-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-3000-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-3000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-3000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-3000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5650-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5.65</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5650-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>8.475</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5650">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5650-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5650-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>IDA</name>
+      <Placemark>
+        <name>RC13 RUTA IDA</name>
+        <description><![CDATA[Descripción: <br>RUTA: <br>SAE: <br>NUM_ PARADERO: <br>SENTIDO: <br>LATITUD: <br>LONGITUD: <br>NUM_PARADA_GESCAR: ]]></description>
+        <styleUrl>#line-0288D1-3000</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value/>
+          </Data>
+          <Data name="LATITUD">
+            <value/>
+          </Data>
+          <Data name="LONGITUD">
+            <value/>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.721494,17.08308,0
+            -96.721215,17.082973,0
+            -96.721,17.082927,0
+            -96.720941,17.082988,0
+            -96.720952,17.08308,0
+            -96.72099,17.083162,0
+            -96.720485,17.083742,0
+            -96.720357,17.083808,0
+            -96.72018,17.083383,0
+            -96.720019,17.083014,0
+            -96.719842,17.08285,0
+            -96.71953,17.08282,0
+            -96.719416,17.08286,0
+            -96.719214,17.082796,0
+            -96.719145,17.082752,0
+            -96.719147,17.082327,0
+            -96.71912,17.08217,0
+            -96.719024,17.082001,0
+            -96.718917,17.081901,0
+            -96.71926,17.079392,0
+            -96.719295,17.079233,0
+            -96.719384,17.07911,0
+            -96.719422,17.079005,0
+            -96.71933,17.078887,0
+            -96.719301,17.078849,0
+            -96.719414,17.077994,0
+            -96.719672,17.075808,0
+            -96.719698,17.07542,0
+            -96.719644,17.075108,0
+            -96.719494,17.074733,0
+            -96.719553,17.074528,0
+            -96.71952,17.074426,0
+            -96.719456,17.074323,0
+            -96.719645,17.071808,0
+            -96.71979,17.070798,0
+            -96.722504,17.057561,0
+            -96.722734,17.056759,0
+            -96.725599,17.057257,0
+            -96.726494,17.057426,0
+            -96.727935,17.05081,0
+            -96.72801,17.050615,0
+            -96.728235,17.050363,0
+            -96.728471,17.05022,0
+            -96.730032,17.049743,0
+            -96.730692,17.049553,0
+            -96.730971,17.049461,0
+            -96.731229,17.049338,0
+            -96.731384,17.049112,0
+            -96.731476,17.048835,0
+            -96.731395,17.048384,0
+            -96.730941,17.04552,0
+            -96.730372,17.044196,0
+            -96.729771,17.042884,0
+            -96.729503,17.042166,0
+            -96.729385,17.041848,0
+            -96.729235,17.041099,0
+            -96.728772,17.038613,0
+            -96.728547,17.03732,0
+            -96.728503,17.036797,0
+            -96.728572,17.036684,0
+            -96.728567,17.036602,0
+            -96.728486,17.036535,0
+            -96.72854,17.035832,0
+            -96.728833,17.033697,0
+            -96.729013,17.032023,0
+            -96.729317,17.02997,0
+            -96.729687,17.02663,0
+            -96.729927,17.024371,0
+            -96.73008,17.02339,0
+            -96.730208,17.023262,0
+            -96.730434,17.023216,0
+            -96.7306,17.023154,0
+            -96.734397,17.02441,0
+            -96.735448,17.024749,0
+            -96.736345,17.024365,0
+            -96.738201,17.023636,0
+            -96.739247,17.023226,0
+            -96.740052,17.022918,0
+            -96.747212,17.020117,0
+            -96.748178,17.019717,0
+            -96.748468,17.019625,0
+            -96.749283,17.019286,0
+            -96.751345,17.018088,0
+            -96.754047,17.016461,0
+            -96.7561,17.015173,0
+            -96.756766,17.014794,0
+            -96.758665,17.013686,0
+            -96.760027,17.012865,0
+            -96.761111,17.012219,0
+            -96.76606,17.00925,0
+            -96.767771,17.008218,0
+            -96.768311,17.007893,0
+            -96.768462,17.007755,0
+            -96.768172,17.007503,0
+            -96.767115,17.00699,0
+            -96.76682,17.006918,0
+            -96.765849,17.006883,0
+            -96.765495,17.006826,0
+            -96.76339,17.006084,0
+            -96.763009,17.005941,0
+            -96.76265,17.005859,0
+            -96.761947,17.005772,0
+            -96.761842,17.005725,0
+            -96.76178,17.005594,0
+            -96.761416,17.004837,0
+            -96.760791,17.003833,0
+            -96.760385,17.003235,0
+            -96.760143,17.002953,0
+            -96.759854,17.002681,0
+            -96.759687,17.00247,0
+            -96.759623,17.002317,0
+            -96.759607,17.001937,0
+            -96.759427,17.001383,0
+            -96.759349,17.001216,0
+            -96.758891,17.000403,0
+            -96.758719,17.000008,0
+            -96.758617,16.999777,0
+            -96.758554,16.999612,0
+            -96.758623,16.999003,0
+            -96.758344,16.997772,0
+            -96.757958,16.997197,0
+            -96.756596,16.997046,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base ISSSTE</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 1<br>SENTIDO: IDA<br>LATITUD: 17.08297<br>LONGITUD: -96.72155<br>NUM_PARADA_GESCAR: 2463<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 1.0<br>SENTIDO: IDA<br>LATITUD: 17.08297<br>LONGITUD: -96.72155<br>NUM_PARADA_GESCAR: 2463.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 1
+SENTIDO: IDA
+LATITUD: 17.08297
+LONGITUD: -96.72155
+NUM_PARADA_GESCAR: 2463</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>1.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.08297</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72155</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2463.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72155,17.08297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Félix Romero</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 2<br>SENTIDO: IDA<br>LATITUD: 17.083739<br>LONGITUD: -96.720452<br>NUM_PARADA_GESCAR:<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 2.0<br>SENTIDO: IDA<br>LATITUD: 17.083739<br>LONGITUD: -96.720452<br>NUM_PARADA_GESCAR: ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 2
+SENTIDO: IDA
+LATITUD: 17.083739
+LONGITUD: -96.720452
+NUM_PARADA_GESCAR:</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>2.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.083739</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.720452</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.720452,17.083739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gerardo valera</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 3<br>SENTIDO: IDA<br>LATITUD: 17.08282<br>LONGITUD: -96.71953<br>NUM_PARADA_GESCAR:<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 3.0<br>SENTIDO: IDA<br>LATITUD: 17.08282<br>LONGITUD: -96.71953<br>NUM_PARADA_GESCAR: ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 3
+SENTIDO: IDA
+LATITUD: 17.08282
+LONGITUD: -96.71953
+NUM_PARADA_GESCAR:</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>3.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.08282</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71953</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71953,17.08282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fuente de las 8 Regiones</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 4<br>SENTIDO: IDA<br>LATITUD: 17.08223<br>LONGITUD: -96.71916<br>NUM_PARADA_GESCAR: 129<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 4.0<br>SENTIDO: IDA<br>LATITUD: 17.08223<br>LONGITUD: -96.71916<br>NUM_PARADA_GESCAR: 129.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 4
+SENTIDO: IDA
+LATITUD: 17.08223
+LONGITUD: -96.71916
+NUM_PARADA_GESCAR: 129</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>4.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.08223</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71916</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>129.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71916,17.08223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heroica Escuela Naval Militar</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 5<br>SENTIDO: IDA<br>LATITUD: 17.07944<br>LONGITUD: -96.71926<br>NUM_PARADA_GESCAR: 130<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 5.0<br>SENTIDO: IDA<br>LATITUD: 17.07944<br>LONGITUD: -96.71926<br>NUM_PARADA_GESCAR: 130.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 5
+SENTIDO: IDA
+LATITUD: 17.07944
+LONGITUD: -96.71926
+NUM_PARADA_GESCAR: 130</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>5.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07944</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71926</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>130.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71926,17.07944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Belisario Dominguez</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 6<br>SENTIDO: IDA<br>LATITUD: 17.07618<br>LONGITUD: -96.71967<br>NUM_PARADA_GESCAR: 131<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 6.0<br>SENTIDO: IDA<br>LATITUD: 17.07618<br>LONGITUD: -96.71967<br>NUM_PARADA_GESCAR: 131.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 6
+SENTIDO: IDA
+LATITUD: 17.07618
+LONGITUD: -96.71967
+NUM_PARADA_GESCAR: 131</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>6.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07618</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71967</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>131.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71967,17.07618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crucero de Fonapaz</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 7<br>SENTIDO: IDA<br>LATITUD: 17.07093<br>LONGITUD: -96.71977<br>NUM_PARADA_GESCAR: 1649<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 7.0<br>SENTIDO: IDA<br>LATITUD: 17.07093<br>LONGITUD: -96.71977<br>NUM_PARADA_GESCAR: 1649.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 7
+SENTIDO: IDA
+LATITUD: 17.07093
+LONGITUD: -96.71977
+NUM_PARADA_GESCAR: 1649</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>7.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07093</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71977</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1649.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71977,17.07093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Humboldt</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 8<br>SENTIDO: IDA<br>LATITUD: 17.06759<br>LONGITUD: -96.72036<br>NUM_PARADA_GESCAR: 1650<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 8.0<br>SENTIDO: IDA<br>LATITUD: 17.06759<br>LONGITUD: -96.72036<br>NUM_PARADA_GESCAR: 1650.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 8
+SENTIDO: IDA
+LATITUD: 17.06759
+LONGITUD: -96.72036
+NUM_PARADA_GESCAR: 1650</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>8.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06759</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72036</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1650.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72036,17.06759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Constitucion</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 9<br>SENTIDO: IDA<br>LATITUD: 17.0654<br>LONGITUD: -96.720803<br>NUM_PARADA_GESCAR: 2006<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 9.0<br>SENTIDO: IDA<br>LATITUD: 17.0654<br>LONGITUD: -96.720803<br>NUM_PARADA_GESCAR: 2006.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 9
+SENTIDO: IDA
+LATITUD: 17.0654
+LONGITUD: -96.720803
+NUM_PARADA_GESCAR: 2006</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>9.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0654</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.720803</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2006.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.720803,17.0654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murguia</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 10<br>SENTIDO: IDA<br>LATITUD: 17.0634<br>LONGITUD: -96.7213<br>NUM_PARADA_GESCAR: 2057<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 10.0<br>SENTIDO: IDA<br>LATITUD: 17.0634<br>LONGITUD: -96.7213<br>NUM_PARADA_GESCAR: 2057.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 10
+SENTIDO: IDA
+LATITUD: 17.0634
+LONGITUD: -96.7213
+NUM_PARADA_GESCAR: 2057</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>10.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0634</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7213</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2057.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.7213,17.0634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. De la Independencia</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 11<br>SENTIDO: IDA<br>LATITUD: 17.06142<br>LONGITUD: -96.72164<br>NUM_PARADA_GESCAR: 136<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 11.0<br>SENTIDO: IDA<br>LATITUD: 17.06142<br>LONGITUD: -96.72164<br>NUM_PARADA_GESCAR: 136.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 11
+SENTIDO: IDA
+LATITUD: 17.06142
+LONGITUD: -96.72164
+NUM_PARADA_GESCAR: 136</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>11.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06142</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72164</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>136.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72164,17.06142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicente Guerrero</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 12<br>SENTIDO: IDA<br>LATITUD: 17.05953<br>LONGITUD: -96.72207<br>NUM_PARADA_GESCAR: 137<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 12.0<br>SENTIDO: IDA<br>LATITUD: 17.05953<br>LONGITUD: -96.72207<br>NUM_PARADA_GESCAR: 137.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 12
+SENTIDO: IDA
+LATITUD: 17.05953
+LONGITUD: -96.72207
+NUM_PARADA_GESCAR: 137</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>12.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.05953</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72207</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>137.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72207,17.05953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rayon</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 13<br>SENTIDO: IDA<br>LATITUD: 17.05777<br>LONGITUD: -96.722467<br>NUM_PARADA_GESCAR: 2117<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 13.0<br>SENTIDO: IDA<br>LATITUD: 17.05777<br>LONGITUD: -96.722467<br>NUM_PARADA_GESCAR: 2117.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 13
+SENTIDO: IDA
+LATITUD: 17.05777
+LONGITUD: -96.722467
+NUM_PARADA_GESCAR: 2117</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>13.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.05777</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.722467</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2117.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.722467,17.05777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bustamante</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 14<br>SENTIDO: IDA<br>LATITUD: 17.057265<br>LONGITUD: -96.725381<br>NUM_PARADA_GESCAR: 1957<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 14.0<br>SENTIDO: IDA<br>LATITUD: 17.057265<br>LONGITUD: -96.725381<br>NUM_PARADA_GESCAR: 1957.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 14
+SENTIDO: IDA
+LATITUD: 17.057265
+LONGITUD: -96.725381
+NUM_PARADA_GESCAR: 1957</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>14.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.057265</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725381</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1957.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725381,17.057265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zaragoza</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 15<br>SENTIDO: IDA<br>LATITUD: 17.056672<br>LONGITUD: -96.72665<br>NUM_PARADA_GESCAR: 2125<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 15.0<br>SENTIDO: IDA<br>LATITUD: 17.056672<br>LONGITUD: -96.72665<br>NUM_PARADA_GESCAR: 2125.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 15
+SENTIDO: IDA
+LATITUD: 17.056672
+LONGITUD: -96.72665
+NUM_PARADA_GESCAR: 2125</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>15.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.056672</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72665</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2125.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72665,17.056672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nuño del Mercado</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 16<br>SENTIDO: IDA<br>LATITUD: 17.054666<br>LONGITUD: -96.727111<br>NUM_PARADA_GESCAR: 2374<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 16.0<br>SENTIDO: IDA<br>LATITUD: 17.054666<br>LONGITUD: -96.727111<br>NUM_PARADA_GESCAR: 2374.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 16
+SENTIDO: IDA
+LATITUD: 17.054666
+LONGITUD: -96.727111
+NUM_PARADA_GESCAR: 2374</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>16.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.054666</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.727111</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2374.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.727111,17.054666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prepa-uno</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 17<br>SENTIDO: IDA<br>LATITUD: 17.051144<br>LONGITUD: -96.72786<br>NUM_PARADA_GESCAR: 611<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 17.0<br>SENTIDO: IDA<br>LATITUD: 17.051144<br>LONGITUD: -96.72786<br>NUM_PARADA_GESCAR: 611.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 17
+SENTIDO: IDA
+LATITUD: 17.051144
+LONGITUD: -96.72786
+NUM_PARADA_GESCAR: 611</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>17.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.051144</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72786</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>611.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72786,17.051144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Primavera Cho Ndoba</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 18<br>SENTIDO: IDA<br>LATITUD: 17.04858<br>LONGITUD: -96.73139<br>NUM_PARADA_GESCAR: 1894<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 18.0<br>SENTIDO: IDA<br>LATITUD: 17.04858<br>LONGITUD: -96.73139<br>NUM_PARADA_GESCAR: 1894.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 18
+SENTIDO: IDA
+LATITUD: 17.04858
+LONGITUD: -96.73139
+NUM_PARADA_GESCAR: 1894</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>18.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.04858</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73139</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1894.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73139,17.04858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Anita</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 19<br>SENTIDO: IDA<br>LATITUD: 17.04475<br>LONGITUD: -96.73056<br>NUM_PARADA_GESCAR: 630<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 19.0<br>SENTIDO: IDA<br>LATITUD: 17.04475<br>LONGITUD: -96.73056<br>NUM_PARADA_GESCAR: 630.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 19
+SENTIDO: IDA
+LATITUD: 17.04475
+LONGITUD: -96.73056
+NUM_PARADA_GESCAR: 630</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>19.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.04475</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73056</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>630.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73056,17.04475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Elena</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 20<br>SENTIDO: IDA<br>LATITUD: 17.04031<br>LONGITUD: -96.72905<br>NUM_PARADA_GESCAR: 608<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 20.0<br>SENTIDO: IDA<br>LATITUD: 17.04031<br>LONGITUD: -96.72905<br>NUM_PARADA_GESCAR: 608.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 20
+SENTIDO: IDA
+LATITUD: 17.04031
+LONGITUD: -96.72905
+NUM_PARADA_GESCAR: 608</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>20.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.04031</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72905</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>608.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72905,17.04031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ex Garita</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 21<br>SENTIDO: IDA<br>LATITUD: 17.03637<br>LONGITUD: -96.72849<br>NUM_PARADA_GESCAR: 593<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 21.0<br>SENTIDO: IDA<br>LATITUD: 17.03637<br>LONGITUD: -96.72849<br>NUM_PARADA_GESCAR: 593.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 21
+SENTIDO: IDA
+LATITUD: 17.03637
+LONGITUD: -96.72849
+NUM_PARADA_GESCAR: 593</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>21.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.03637</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72849</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>593.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72849,17.03637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rancho Escondido</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 22<br>SENTIDO: IDA<br>LATITUD: 17.03475<br>LONGITUD: -96.72868<br>NUM_PARADA_GESCAR: 562<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 22.0<br>SENTIDO: IDA<br>LATITUD: 17.03475<br>LONGITUD: -96.72868<br>NUM_PARADA_GESCAR: 562.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 22
+SENTIDO: IDA
+LATITUD: 17.03475
+LONGITUD: -96.72868
+NUM_PARADA_GESCAR: 562</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>22.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.03475</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72868</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>562.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72868,17.03475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samaria</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 23<br>SENTIDO: IDA<br>LATITUD: 17.03178<br>LONGITUD: -96.72902<br>NUM_PARADA_GESCAR: 544<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 23.0<br>SENTIDO: IDA<br>LATITUD: 17.03178<br>LONGITUD: -96.72902<br>NUM_PARADA_GESCAR: 544.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 23
+SENTIDO: IDA
+LATITUD: 17.03178
+LONGITUD: -96.72902
+NUM_PARADA_GESCAR: 544</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>23.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.03178</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72902</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>544.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72902,17.03178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornos</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 24<br>SENTIDO: IDA<br>LATITUD: 17.03012<br>LONGITUD: -96.72922<br>NUM_PARADA_GESCAR: 534<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 24.0<br>SENTIDO: IDA<br>LATITUD: 17.03012<br>LONGITUD: -96.72922<br>NUM_PARADA_GESCAR: 534.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 24
+SENTIDO: IDA
+LATITUD: 17.03012
+LONGITUD: -96.72922
+NUM_PARADA_GESCAR: 534</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>24.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.03012</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72922</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>534.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72922,17.03012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moctezuma</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 25<br>SENTIDO: IDA<br>LATITUD: 17.02696<br>LONGITUD: -96.72961<br>NUM_PARADA_GESCAR: 523<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 25.0<br>SENTIDO: IDA<br>LATITUD: 17.02696<br>LONGITUD: -96.72961<br>NUM_PARADA_GESCAR: 523.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 25
+SENTIDO: IDA
+LATITUD: 17.02696
+LONGITUD: -96.72961
+NUM_PARADA_GESCAR: 523</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>25.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.02696</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72961</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>523.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72961,17.02696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado de Xoxocotlan</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 26<br>SENTIDO: IDA<br>LATITUD: 17.02571<br>LONGITUD: -96.72977<br>NUM_PARADA_GESCAR: 516<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 26.0<br>SENTIDO: IDA<br>LATITUD: 17.02571<br>LONGITUD: -96.72977<br>NUM_PARADA_GESCAR: 516.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 26
+SENTIDO: IDA
+LATITUD: 17.02571
+LONGITUD: -96.72977
+NUM_PARADA_GESCAR: 516</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>26.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.02571</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72977</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>516.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72977,17.02571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotonda Xoxocotlan</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 27<br>SENTIDO: IDA<br>LATITUD: 17.02375<br>LONGITUD: -96.73001<br>NUM_PARADA_GESCAR: 501<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 27.0<br>SENTIDO: IDA<br>LATITUD: 17.02375<br>LONGITUD: -96.73001<br>NUM_PARADA_GESCAR: 501.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 27
+SENTIDO: IDA
+LATITUD: 17.02375
+LONGITUD: -96.73001
+NUM_PARADA_GESCAR: 501</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>27.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.02375</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73001</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>501.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73001,17.02375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Progreso</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 28<br>SENTIDO: IDA<br>LATITUD: 17.023966<br>LONGITUD: -96.733138<br>NUM_PARADA_GESCAR: 2031<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 28.0<br>SENTIDO: IDA<br>LATITUD: 17.023966<br>LONGITUD: -96.733138<br>NUM_PARADA_GESCAR: 2031.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 28
+SENTIDO: IDA
+LATITUD: 17.023966
+LONGITUD: -96.733138
+NUM_PARADA_GESCAR: 2031</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>28.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.023966</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.733138</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2031.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.733138,17.023966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Insurgentes</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 29<br>SENTIDO: IDA<br>LATITUD: 17.024689<br>LONGITUD: -96.735576<br>NUM_PARADA_GESCAR: 2032<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 29.0<br>SENTIDO: IDA<br>LATITUD: 17.024689<br>LONGITUD: -96.735576<br>NUM_PARADA_GESCAR: 2032.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 29
+SENTIDO: IDA
+LATITUD: 17.024689
+LONGITUD: -96.735576
+NUM_PARADA_GESCAR: 2032</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>29.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.024689</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.735576</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2032.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.735576,17.024689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mi Ranchito</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 30<br>SENTIDO: IDA<br>LATITUD: 17.02297<br>LONGITUD: -96.739937<br>NUM_PARADA_GESCAR: 2033<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 30.0<br>SENTIDO: IDA<br>LATITUD: 17.02297<br>LONGITUD: -96.739937<br>NUM_PARADA_GESCAR: 2033.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 30
+SENTIDO: IDA
+LATITUD: 17.02297
+LONGITUD: -96.739937
+NUM_PARADA_GESCAR: 2033</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>30.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.02297</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.739937</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2033.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.739937,17.02297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donaji</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 31<br>SENTIDO: IDA<br>LATITUD: 17.021562<br>LONGITUD: -96.743599<br>NUM_PARADA_GESCAR: 2034<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 31.0<br>SENTIDO: IDA<br>LATITUD: 17.021562<br>LONGITUD: -96.743599<br>NUM_PARADA_GESCAR: 2034.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 31
+SENTIDO: IDA
+LATITUD: 17.021562
+LONGITUD: -96.743599
+NUM_PARADA_GESCAR: 2034</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>31.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.021562</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.743599</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2034.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.743599,17.021562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Esquipulas</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 32<br>SENTIDO: IDA<br>LATITUD: 17.020214<br>LONGITUD: -96.747003<br>NUM_PARADA_GESCAR: 2035<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 32.0<br>SENTIDO: IDA<br>LATITUD: 17.020214<br>LONGITUD: -96.747003<br>NUM_PARADA_GESCAR: 2035.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 32
+SENTIDO: IDA
+LATITUD: 17.020214
+LONGITUD: -96.747003
+NUM_PARADA_GESCAR: 2035</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>32.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.020214</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.747003</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2035.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.747003,17.020214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3 de Octubre</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 33<br>SENTIDO: IDA<br>LATITUD: 17.018831<br>LONGITUD: -96.750108<br>NUM_PARADA_GESCAR: 2134<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 33.0<br>SENTIDO: IDA<br>LATITUD: 17.018831<br>LONGITUD: -96.750108<br>NUM_PARADA_GESCAR: 2134.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 33
+SENTIDO: IDA
+LATITUD: 17.018831
+LONGITUD: -96.750108
+NUM_PARADA_GESCAR: 2134</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>33.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.018831</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.750108</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2134.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.750108,17.018831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamos</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 34<br>SENTIDO: IDA<br>LATITUD: 17.016613<br>LONGITUD: -96.753914<br>NUM_PARADA_GESCAR: 2118<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 34.0<br>SENTIDO: IDA<br>LATITUD: 17.016613<br>LONGITUD: -96.753914<br>NUM_PARADA_GESCAR: 2118.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 34
+SENTIDO: IDA
+LATITUD: 17.016613
+LONGITUD: -96.753914
+NUM_PARADA_GESCAR: 2118</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>34.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.016613</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.753914</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2118.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.753914,17.016613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente de Nazareno Xoxo</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 35<br>SENTIDO: IDA<br>LATITUD: 17.015018<br>LONGITUD: -96.756527<br>NUM_PARADA_GESCAR: 2119<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 35.0<br>SENTIDO: IDA<br>LATITUD: 17.015018<br>LONGITUD: -96.756527<br>NUM_PARADA_GESCAR: 2119.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 35
+SENTIDO: IDA
+LATITUD: 17.015018
+LONGITUD: -96.756527
+NUM_PARADA_GESCAR: 2119</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>35.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.015018</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.756527</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2119.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.756527,17.015018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morelos</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 36<br>SENTIDO: IDA<br>LATITUD: 17.013576<br>LONGITUD: -96.758942<br>NUM_PARADA_GESCAR: 2120<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 36.0<br>SENTIDO: IDA<br>LATITUD: 17.013576<br>LONGITUD: -96.758942<br>NUM_PARADA_GESCAR: 2120.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 36
+SENTIDO: IDA
+LATITUD: 17.013576
+LONGITUD: -96.758942
+NUM_PARADA_GESCAR: 2120</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>36.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.013576</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.758942</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2120.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.758942,17.013576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cruz Blanca</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 37<br>SENTIDO: IDA<br>LATITUD: 17.011533<br>LONGITUD: -96.762391<br>NUM_PARADA_GESCAR: 2121<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 37.0<br>SENTIDO: IDA<br>LATITUD: 17.011533<br>LONGITUD: -96.762391<br>NUM_PARADA_GESCAR: 2121.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 37
+SENTIDO: IDA
+LATITUD: 17.011533
+LONGITUD: -96.762391
+NUM_PARADA_GESCAR: 2121</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>37.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.011533</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.762391</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2121.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.762391,17.011533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Bajio</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 38<br>SENTIDO: IDA<br>LATITUD: 17.009571<br>LONGITUD: -96.765638<br>NUM_PARADA_GESCAR: 2122<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 38.0<br>SENTIDO: IDA<br>LATITUD: 17.009571<br>LONGITUD: -96.765638<br>NUM_PARADA_GESCAR: 2122.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 38
+SENTIDO: IDA
+LATITUD: 17.009571
+LONGITUD: -96.765638
+NUM_PARADA_GESCAR: 2122</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>38.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.009571</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.765638</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2122.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.765638,17.009571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Tepeyac</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 39<br>SENTIDO: IDA<br>LATITUD: 17.007436<br>LONGITUD: -96.768082<br>NUM_PARADA_GESCAR: 2123<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 39.0<br>SENTIDO: IDA<br>LATITUD: 17.007436<br>LONGITUD: -96.768082<br>NUM_PARADA_GESCAR: 2123.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 39
+SENTIDO: IDA
+LATITUD: 17.007436
+LONGITUD: -96.768082
+NUM_PARADA_GESCAR: 2123</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>39.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.007436</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.768082</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2123.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.768082,17.007436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moctezuma</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 40<br>SENTIDO: IDA<br>LATITUD: 17.006868<br>LONGITUD: -96.76561<br>NUM_PARADA_GESCAR: 2124<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 40.0<br>SENTIDO: IDA<br>LATITUD: 17.006868<br>LONGITUD: -96.76561<br>NUM_PARADA_GESCAR: 2124.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 40
+SENTIDO: IDA
+LATITUD: 17.006868
+LONGITUD: -96.76561
+NUM_PARADA_GESCAR: 2124</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>40.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.006868</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.76561</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2124.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76561,17.006868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enrique Rebsamen</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 41<br>SENTIDO: IDA<br>LATITUD: 17.005781<br>LONGITUD: -96.762042<br>NUM_PARADA_GESCAR: 2127<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 41.0<br>SENTIDO: IDA<br>LATITUD: 17.005781<br>LONGITUD: -96.762042<br>NUM_PARADA_GESCAR: 2127.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 41
+SENTIDO: IDA
+LATITUD: 17.005781
+LONGITUD: -96.762042
+NUM_PARADA_GESCAR: 2127</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>41.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.005781</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.762042</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2127.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.762042,17.005781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Soledad</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 42<br>SENTIDO: IDA<br>LATITUD: 17.002783<br>LONGITUD: -96.759992<br>NUM_PARADA_GESCAR: 2128<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 42.0<br>SENTIDO: IDA<br>LATITUD: 17.002783<br>LONGITUD: -96.759992<br>NUM_PARADA_GESCAR: 2128.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 42
+SENTIDO: IDA
+LATITUD: 17.002783
+LONGITUD: -96.759992
+NUM_PARADA_GESCAR: 2128</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>42.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.002783</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.759992</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2128.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.759992,17.002783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sabino Crespo</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 43<br>SENTIDO: IDA<br>LATITUD: 16.999637<br>LONGITUD: -96.758564<br>NUM_PARADA_GESCAR: 2129<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 43.0<br>SENTIDO: IDA<br>LATITUD: 16.999637<br>LONGITUD: -96.758564<br>NUM_PARADA_GESCAR: 2129.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 43
+SENTIDO: IDA
+LATITUD: 16.999637
+LONGITUD: -96.758564
+NUM_PARADA_GESCAR: 2129</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>43.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>16.999637</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.758564</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2129.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.758564,16.999637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base CRIT</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 44<br>SENTIDO: IDA<br>LATITUD: 16.997046<br>LONGITUD: -96.756596<br>NUM_PARADA_GESCAR: 2130<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 44.0<br>SENTIDO: IDA<br>LATITUD: 16.997046<br>LONGITUD: -96.756596<br>NUM_PARADA_GESCAR: 2130.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 44
+SENTIDO: IDA
+LATITUD: 16.997046
+LONGITUD: -96.756596
+NUM_PARADA_GESCAR: 2130</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>44.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>16.997046</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.756596</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2130.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.756596,16.997046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Regreso</name>
+      <Placemark>
+        <name>RC13 RUTA REGRESO</name>
+        <description><![CDATA[Descripción: <br>RUTA: <br>SAE: <br>NUM_ PARADERO: <br>SENTIDO: <br>LATITUD: <br>LONGITUD: <br>NUM_PARADA_GESCAR: ]]></description>
+        <styleUrl>#line-7CB342-5650</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value/>
+          </Data>
+          <Data name="LATITUD">
+            <value/>
+          </Data>
+          <Data name="LONGITUD">
+            <value/>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.756596,16.997046,0
+            -96.754818,16.99699,0
+            -96.753051,16.99694,0
+            -96.752935,16.996971,0
+            -96.752935,16.997033,0
+            -96.755692,16.99714,0
+            -96.757173,16.997207,0
+            -96.757607,16.997207,0
+            -96.757908,16.997212,0
+            -96.758155,16.997422,0
+            -96.758326,16.998038,0
+            -96.758594,16.998836,0
+            -96.758599,16.999123,0
+            -96.758532,16.999438,0
+            -96.758513,16.999631,0
+            -96.758792,17.000308,0
+            -96.759016,17.000735,0
+            -96.759349,17.001335,0
+            -96.759574,17.001935,0
+            -96.759574,17.00232,0
+            -96.759655,17.002536,0
+            -96.759799,17.002657,0
+            -96.760202,17.003084,0
+            -96.761039,17.004316,0
+            -96.761361,17.004834,0
+            -96.76179,17.005696,0
+            -96.761941,17.005817,0
+            -96.762183,17.005843,0
+            -96.762923,17.005951,0
+            -96.764409,17.006484,0
+            -96.764956,17.006669,0
+            -96.765117,17.006705,0
+            -96.765332,17.006833,0
+            -96.76561,17.006868,0
+            -96.765825,17.006936,0
+            -96.766501,17.006925,0
+            -96.766754,17.006949,0
+            -96.767065,17.007016,0
+            -96.767838,17.007375,0
+            -96.768004,17.007457,0
+            -96.768331,17.007688,0
+            -96.768369,17.007746,0
+            -96.767787,17.008088,0
+            -96.767081,17.008539,0
+            -96.765161,17.009673,0
+            -96.76199,17.011607,0
+            -96.760178,17.012666,0
+            -96.756655,17.014777,0
+            -96.756194,17.015075,0
+            -96.75354,17.016669,0
+            -96.751706,17.017756,0
+            -96.750788,17.018341,0
+            -96.749592,17.019003,0
+            -96.749142,17.019224,0
+            -96.748031,17.019716,0
+            -96.747141,17.020039,0
+            -96.743661,17.021396,0
+            -96.741072,17.022405,0
+            -96.739946,17.022846,0
+            -96.738521,17.023422,0
+            -96.737745,17.023712,0
+            -96.736911,17.024027,0
+            -96.735755,17.024537,0
+            -96.735344,17.024676,0
+            -96.735083,17.024599,0
+            -96.732915,17.02381,0
+            -96.731771,17.023442,0
+            -96.730988,17.023201,0
+            -96.730677,17.023134,0
+            -96.730296,17.023099,0
+            -96.73014,17.023134,0
+            -96.729969,17.023145,0
+            -96.729915,17.023278,0
+            -96.729969,17.023406,0
+            -96.729494,17.026861,0
+            -96.728987,17.03092,0
+            -96.728378,17.036086,0
+            -96.728362,17.036512,0
+            -96.728292,17.03662,0
+            -96.728362,17.036799,0
+            -96.728384,17.037153,0
+            -96.728786,17.039482,0
+            -96.729107,17.041282,0
+            -96.729279,17.042,0
+            -96.729955,17.043621,0
+            -96.730534,17.044903,0
+            -96.730792,17.045734,0
+            -96.73091,17.046155,0
+            -96.730985,17.046832,0
+            -96.73121,17.048288,0
+            -96.731301,17.04875,0
+            -96.731189,17.04917,0
+            -96.730958,17.049376,0
+            -96.729885,17.04974,0
+            -96.729156,17.049919,0
+            -96.728844,17.050032,0
+            -96.728726,17.050073,0
+            -96.728608,17.050432,0
+            -96.728523,17.051037,0
+            -96.728771,17.051319,0
+            -96.728937,17.051693,0
+            -96.728964,17.051801,0
+            -96.728889,17.051914,0
+            -96.728878,17.052068,0
+            -96.72853,17.053196,0
+            -96.727791,17.05611,0
+            -96.727544,17.057259,0
+            -96.727169,17.059177,0
+            -96.726465,17.062308,0
+            -96.725868,17.065298,0
+            -96.725632,17.066776,0
+            -96.725224,17.068642,0
+            -96.72501,17.069586,0
+            -96.724774,17.070898,0
+            -96.724474,17.072129,0
+            -96.724425,17.07249,0
+            -96.723746,17.072385,0
+            -96.721775,17.072046,0
+            -96.72103,17.07184,0
+            -96.720649,17.071769,0
+            -96.720273,17.071753,0
+            -96.719935,17.071697,0
+            -96.719629,17.071625,0
+            -96.719447,17.071599,0
+            -96.719224,17.07154,0
+            -96.718951,17.071484,0
+            -96.718739,17.071438,0
+            -96.718626,17.071417,0
+            -96.718546,17.071502,0
+            -96.718508,17.071712,0
+            -96.718162,17.072039,0
+            -96.71772,17.07267,0
+            -96.717556,17.072987,0
+            -96.717471,17.073402,0
+            -96.717402,17.074299,0
+            -96.717294,17.075135,0
+            -96.716999,17.076983,0
+            -96.71673,17.079161,0
+            -96.716497,17.080781,0
+            -96.716442,17.081399,0
+            -96.71638,17.081955,0
+            -96.716416,17.082063,0
+            -96.716377,17.082423,0
+            -96.718408,17.082695,0
+            -96.718864,17.082761,0
+            -96.719145,17.082752,0
+            -96.719416,17.08286,0
+            -96.719733,17.082864,0
+            -96.719996,17.082961,0
+            -96.72035,17.083854,0
+            -96.720787,17.084075,0
+            -96.721133,17.084197,0
+            -96.721895,17.084484,0
+            -96.721975,17.084505,0
+            -96.722061,17.084156,0
+            -96.722174,17.083464,0
+            -96.722195,17.083202,0
+            -96.722898,17.083274,0
+            -96.723665,17.083382,0
+            -96.723735,17.082792,0
+            -96.722925,17.082648,0
+            -96.722077,17.082541,0
+            -96.721804,17.082546,0
+            -96.721702,17.082772,0
+            -96.721616,17.083002,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base CRIT</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 45<br>SENTIDO: REGRESO<br>LATITUD: 16.997046<br>LONGITUD: -96.756596<br>NUM_PARADA_GESCAR: 2130<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 45.0<br>SENTIDO: REGRESO<br>LATITUD: 16.997046<br>LONGITUD: -96.756596<br>NUM_PARADA_GESCAR: 2130.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 45
+SENTIDO: REGRESO
+LATITUD: 16.997046
+LONGITUD: -96.756596
+NUM_PARADA_GESCAR: 2130</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>45.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>16.997046</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.756596</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2130.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.756596,16.997046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anahuac</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 46<br>SENTIDO: REGRESO<br>LATITUD: 16.99694<br>LONGITUD: -96.753051<br>NUM_PARADA_GESCAR: 2131<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 46.0<br>SENTIDO: REGRESO<br>LATITUD: 16.99694<br>LONGITUD: -96.753051<br>NUM_PARADA_GESCAR: 2131.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 46
+SENTIDO: REGRESO
+LATITUD: 16.99694
+LONGITUD: -96.753051
+NUM_PARADA_GESCAR: 2131</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>46.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>16.99694</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.753051</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2131.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.753051,16.99694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CRIT</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 47<br>SENTIDO: REGRESO<br>LATITUD: 16.997168<br>LONGITUD: -96.755658<br>NUM_PARADA_GESCAR: 2090<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 47.0<br>SENTIDO: REGRESO<br>LATITUD: 16.997168<br>LONGITUD: -96.755658<br>NUM_PARADA_GESCAR: 2090.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 47
+SENTIDO: REGRESO
+LATITUD: 16.997168
+LONGITUD: -96.755658
+NUM_PARADA_GESCAR: 2090</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>47.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>16.997168</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.755658</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2090.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.755658,16.997168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tanque Elevado</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 48<br>SENTIDO: REGRESO<br>LATITUD: 16.999438<br>LONGITUD: -96.758532<br>NUM_PARADA_GESCAR: 2091<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 48.0<br>SENTIDO: REGRESO<br>LATITUD: 16.999438<br>LONGITUD: -96.758532<br>NUM_PARADA_GESCAR: 2091.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 48
+SENTIDO: REGRESO
+LATITUD: 16.999438
+LONGITUD: -96.758532
+NUM_PARADA_GESCAR: 2091</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>48.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>16.999438</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.758532</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2091.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.758532,16.999438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Soledad</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 49<br>SENTIDO: REGRESO<br>LATITUD: 17.002657<br>LONGITUD: -96.759799<br>NUM_PARADA_GESCAR: 2092<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 49.0<br>SENTIDO: REGRESO<br>LATITUD: 17.002657<br>LONGITUD: -96.759799<br>NUM_PARADA_GESCAR: 2092.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 49
+SENTIDO: REGRESO
+LATITUD: 17.002657
+LONGITUD: -96.759799
+NUM_PARADA_GESCAR: 2092</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>49.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.002657</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.759799</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2092.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.759799,17.002657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enrique Rebsamen</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 50<br>SENTIDO: REGRESO<br>LATITUD: 17.005696<br>LONGITUD: -96.76179<br>NUM_PARADA_GESCAR: 2093<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 50.0<br>SENTIDO: REGRESO<br>LATITUD: 17.005696<br>LONGITUD: -96.76179<br>NUM_PARADA_GESCAR: 2093.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 50
+SENTIDO: REGRESO
+LATITUD: 17.005696
+LONGITUD: -96.76179
+NUM_PARADA_GESCAR: 2093</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>50.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.005696</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.76179</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2093.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76179,17.005696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>23 de Abril</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 51<br>SENTIDO: REGRESO<br>LATITUD: 17.006914<br>LONGITUD: -96.766383<br>NUM_PARADA_GESCAR: 2094<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 51.0<br>SENTIDO: REGRESO<br>LATITUD: 17.006914<br>LONGITUD: -96.766383<br>NUM_PARADA_GESCAR: 2094.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 51
+SENTIDO: REGRESO
+LATITUD: 17.006914
+LONGITUD: -96.766383
+NUM_PARADA_GESCAR: 2094</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>51.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.006914</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.766383</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2094.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.766383,17.006914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carretera a Cuilapam</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 52<br>SENTIDO: REGRESO<br>LATITUD: 17.007944<br>LONGITUD: -96.768088<br>NUM_PARADA_GESCAR: 2095<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 52.0<br>SENTIDO: REGRESO<br>LATITUD: 17.007944<br>LONGITUD: -96.768088<br>NUM_PARADA_GESCAR: 2095.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 52
+SENTIDO: REGRESO
+LATITUD: 17.007944
+LONGITUD: -96.768088
+NUM_PARADA_GESCAR: 2095</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>52.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.007944</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.768088</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2095.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.768088,17.007944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Bajio</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 53<br>SENTIDO: REGRESO<br>LATITUD: 17.009679<br>LONGITUD: -96.765215<br>NUM_PARADA_GESCAR: 2096<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 53.0<br>SENTIDO: REGRESO<br>LATITUD: 17.009679<br>LONGITUD: -96.765215<br>NUM_PARADA_GESCAR: 2096.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 53
+SENTIDO: REGRESO
+LATITUD: 17.009679
+LONGITUD: -96.765215
+NUM_PARADA_GESCAR: 2096</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>53.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.009679</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.765215</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2096.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.765215,17.009679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cruz Blanca</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 54<br>SENTIDO: REGRESO<br>LATITUD: 17.011306<br>LONGITUD: -96.76251<br>NUM_PARADA_GESCAR: 2097<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 54.0<br>SENTIDO: REGRESO<br>LATITUD: 17.011306<br>LONGITUD: -96.76251<br>NUM_PARADA_GESCAR: 2097.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 54
+SENTIDO: REGRESO
+LATITUD: 17.011306
+LONGITUD: -96.76251
+NUM_PARADA_GESCAR: 2097</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>54.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.011306</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.76251</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2097.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76251,17.011306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rio Grijalva</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 55<br>SENTIDO: REGRESO<br>LATITUD: 17.012563<br>LONGITUD: -96.760316<br>NUM_PARADA_GESCAR: 2098<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 55.0<br>SENTIDO: REGRESO<br>LATITUD: 17.012563<br>LONGITUD: -96.760316<br>NUM_PARADA_GESCAR: 2098.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 55
+SENTIDO: REGRESO
+LATITUD: 17.012563
+LONGITUD: -96.760316
+NUM_PARADA_GESCAR: 2098</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>55.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.012563</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.760316</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2098.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.760316,17.012563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emiliano Zapata</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 56<br>SENTIDO: REGRESO<br>LATITUD: 17.014958<br>LONGITUD: -96.756421<br>NUM_PARADA_GESCAR: 2099<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 56.0<br>SENTIDO: REGRESO<br>LATITUD: 17.014958<br>LONGITUD: -96.756421<br>NUM_PARADA_GESCAR: 2099.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 56
+SENTIDO: REGRESO
+LATITUD: 17.014958
+LONGITUD: -96.756421
+NUM_PARADA_GESCAR: 2099</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>56.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.014958</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.756421</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2099.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.756421,17.014958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamos</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 57<br>SENTIDO: REGRESO<br>LATITUD: 17.016514<br>LONGITUD: -96.753844<br>NUM_PARADA_GESCAR: 2100<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 57.0<br>SENTIDO: REGRESO<br>LATITUD: 17.016514<br>LONGITUD: -96.753844<br>NUM_PARADA_GESCAR: 2100.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 57
+SENTIDO: REGRESO
+LATITUD: 17.016514
+LONGITUD: -96.753844
+NUM_PARADA_GESCAR: 2100</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>57.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.016514</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.753844</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2100.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.753844,17.016514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crucero de Arrazola</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 58<br>SENTIDO: REGRESO<br>LATITUD: 17.018849<br>LONGITUD: -96.749797<br>NUM_PARADA_GESCAR: 2101<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 58.0<br>SENTIDO: REGRESO<br>LATITUD: 17.018849<br>LONGITUD: -96.749797<br>NUM_PARADA_GESCAR: 2101.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 58
+SENTIDO: REGRESO
+LATITUD: 17.018849
+LONGITUD: -96.749797
+NUM_PARADA_GESCAR: 2101</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>58.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.018849</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.749797</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2101.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.749797,17.018849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Esquipulas</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 59<br>SENTIDO: REGRESO<br>LATITUD: 17.020091<br>LONGITUD: -96.747028<br>NUM_PARADA_GESCAR: 2024<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 59.0<br>SENTIDO: REGRESO<br>LATITUD: 17.020091<br>LONGITUD: -96.747028<br>NUM_PARADA_GESCAR: 2024.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 59
+SENTIDO: REGRESO
+LATITUD: 17.020091
+LONGITUD: -96.747028
+NUM_PARADA_GESCAR: 2024</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>59.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.020091</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.747028</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2024.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.747028,17.020091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Donaji</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 60<br>SENTIDO: REGRESO<br>LATITUD: 17.021319<br>LONGITUD: -96.743923<br>NUM_PARADA_GESCAR: 2025<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 60.0<br>SENTIDO: REGRESO<br>LATITUD: 17.021319<br>LONGITUD: -96.743923<br>NUM_PARADA_GESCAR: 2025.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 60
+SENTIDO: REGRESO
+LATITUD: 17.021319
+LONGITUD: -96.743923
+NUM_PARADA_GESCAR: 2025</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>60.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.021319</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.743923</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2025.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.743923,17.021319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mi Ranchito</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 61<br>SENTIDO: REGRESO<br>LATITUD: 17.022934<br>LONGITUD: -96.739779<br>NUM_PARADA_GESCAR: 2026<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 61.0<br>SENTIDO: REGRESO<br>LATITUD: 17.022934<br>LONGITUD: -96.739779<br>NUM_PARADA_GESCAR: 2026.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 61
+SENTIDO: REGRESO
+LATITUD: 17.022934
+LONGITUD: -96.739779
+NUM_PARADA_GESCAR: 2026</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>61.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.022934</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.739779</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2026.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.739779,17.022934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Insurgentes</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 62<br>SENTIDO: REGRESO<br>LATITUD: 17.024526<br>LONGITUD: -96.735844<br>NUM_PARADA_GESCAR: 2027<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 62.0<br>SENTIDO: REGRESO<br>LATITUD: 17.024526<br>LONGITUD: -96.735844<br>NUM_PARADA_GESCAR: 2027.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 62
+SENTIDO: REGRESO
+LATITUD: 17.024526
+LONGITUD: -96.735844
+NUM_PARADA_GESCAR: 2027</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>62.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.024526</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.735844</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2027.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.735844,17.024526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Real Progreso</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 63<br>SENTIDO: REGRESO<br>LATITUD: 17.023876<br>LONGITUD: -96.733187<br>NUM_PARADA_GESCAR: 2502<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 63.0<br>SENTIDO: REGRESO<br>LATITUD: 17.023876<br>LONGITUD: -96.733187<br>NUM_PARADA_GESCAR: 2502.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 63
+SENTIDO: REGRESO
+LATITUD: 17.023876
+LONGITUD: -96.733187
+NUM_PARADA_GESCAR: 2502</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>63.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.023876</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.733187</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2502.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.733187,17.023876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porfirio Diaz</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 64<br>SENTIDO: REGRESO<br>LATITUD: 17.023116<br>LONGITUD: -96.730249<br>NUM_PARADA_GESCAR: 2029<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 64.0<br>SENTIDO: REGRESO<br>LATITUD: 17.023116<br>LONGITUD: -96.730249<br>NUM_PARADA_GESCAR: 2029.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 64
+SENTIDO: REGRESO
+LATITUD: 17.023116
+LONGITUD: -96.730249
+NUM_PARADA_GESCAR: 2029</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>64.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.023116</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.730249</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2029.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.730249,17.023116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moctezuma</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 65<br>SENTIDO: REGRESO<br>LATITUD: 17.02653<br>LONGITUD: -96.72956<br>NUM_PARADA_GESCAR: 1297<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 65.0<br>SENTIDO: REGRESO<br>LATITUD: 17.02653<br>LONGITUD: -96.72956<br>NUM_PARADA_GESCAR: 1297.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 65
+SENTIDO: REGRESO
+LATITUD: 17.02653
+LONGITUD: -96.72956
+NUM_PARADA_GESCAR: 1297</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>65.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.02653</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72956</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1297.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72956,17.02653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornos</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 66<br>SENTIDO: REGRESO<br>LATITUD: 17.02908<br>LONGITUD: -96.72925<br>NUM_PARADA_GESCAR: 522<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 66.0<br>SENTIDO: REGRESO<br>LATITUD: 17.02908<br>LONGITUD: -96.72925<br>NUM_PARADA_GESCAR: 522.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 66
+SENTIDO: REGRESO
+LATITUD: 17.02908
+LONGITUD: -96.72925
+NUM_PARADA_GESCAR: 522</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>66.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.02908</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72925</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>522.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72925,17.02908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samaria</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 67<br>SENTIDO: REGRESO<br>LATITUD: 17.03162<br>LONGITUD: -96.72893<br>NUM_PARADA_GESCAR: 1300<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 67.0<br>SENTIDO: REGRESO<br>LATITUD: 17.03162<br>LONGITUD: -96.72893<br>NUM_PARADA_GESCAR: 1300.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 67
+SENTIDO: REGRESO
+LATITUD: 17.03162
+LONGITUD: -96.72893
+NUM_PARADA_GESCAR: 1300</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>67.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.03162</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72893</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1300.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72893,17.03162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rancho Escondido</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 68<br>SENTIDO: REGRESO<br>LATITUD: 17.03441<br>LONGITUD: -96.72856<br>NUM_PARADA_GESCAR: 1301<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 68.0<br>SENTIDO: REGRESO<br>LATITUD: 17.03441<br>LONGITUD: -96.72856<br>NUM_PARADA_GESCAR: 1301.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 68
+SENTIDO: REGRESO
+LATITUD: 17.03441
+LONGITUD: -96.72856
+NUM_PARADA_GESCAR: 1301</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>68.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.03441</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72856</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1301.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72856,17.03441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ex Garita</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 69<br>SENTIDO: REGRESO<br>LATITUD: 17.03625<br>LONGITUD: -96.72834<br>NUM_PARADA_GESCAR: 533<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 69.0<br>SENTIDO: REGRESO<br>LATITUD: 17.03625<br>LONGITUD: -96.72834<br>NUM_PARADA_GESCAR: 533.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 69
+SENTIDO: REGRESO
+LATITUD: 17.03625
+LONGITUD: -96.72834
+NUM_PARADA_GESCAR: 533</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>69.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.03625</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72834</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>533.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72834,17.03625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Elena</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 70<br>SENTIDO: REGRESO<br>LATITUD: 17.04149<br>LONGITUD: -96.72915<br>NUM_PARADA_GESCAR: 548<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 70.0<br>SENTIDO: REGRESO<br>LATITUD: 17.04149<br>LONGITUD: -96.72915<br>NUM_PARADA_GESCAR: 548.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 70
+SENTIDO: REGRESO
+LATITUD: 17.04149
+LONGITUD: -96.72915
+NUM_PARADA_GESCAR: 548</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>70.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.04149</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72915</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>548.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72915,17.04149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Anita</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 71<br>SENTIDO: REGRESO<br>LATITUD: 17.04529<br>LONGITUD: -96.73067<br>NUM_PARADA_GESCAR: 1304<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 71.0<br>SENTIDO: REGRESO<br>LATITUD: 17.04529<br>LONGITUD: -96.73067<br>NUM_PARADA_GESCAR: 1304.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 71
+SENTIDO: REGRESO
+LATITUD: 17.04529
+LONGITUD: -96.73067
+NUM_PARADA_GESCAR: 1304</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>71.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.04529</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73067</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1304.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73067,17.04529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Primavera Cho Ndoba</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 72<br>SENTIDO: REGRESO<br>LATITUD: 17.04838<br>LONGITUD: -96.73123<br>NUM_PARADA_GESCAR: 1895<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 72.0<br>SENTIDO: REGRESO<br>LATITUD: 17.04838<br>LONGITUD: -96.73123<br>NUM_PARADA_GESCAR: 1895.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 72
+SENTIDO: REGRESO
+LATITUD: 17.04838
+LONGITUD: -96.73123
+NUM_PARADA_GESCAR: 1895</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>72.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.04838</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73123</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1895.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73123,17.04838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Yuroo parque del amor  "Ladxido"]]></name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 73<br>SENTIDO: REGRESO<br>LATITUD: 17.050579<br>LONGITUD: -96.7286<br>NUM_PARADA_GESCAR: 1893<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 73.0<br>SENTIDO: REGRESO<br>LATITUD: 17.050579<br>LONGITUD: -96.7286<br>NUM_PARADA_GESCAR: 1893.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 73
+SENTIDO: REGRESO
+LATITUD: 17.050579
+LONGITUD: -96.7286
+NUM_PARADA_GESCAR: 1893</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>73.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.050579</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7286</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1893.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.7286,17.050579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Preparatoria  7</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 74<br>SENTIDO: REGRESO<br>LATITUD: 17.053318<br>LONGITUD: -96.728461<br>NUM_PARADA_GESCAR: 2103<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 74.0<br>SENTIDO: REGRESO<br>LATITUD: 17.053318<br>LONGITUD: -96.728461<br>NUM_PARADA_GESCAR: 2103.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 74
+SENTIDO: REGRESO
+LATITUD: 17.053318
+LONGITUD: -96.728461
+NUM_PARADA_GESCAR: 2103</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>74.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.053318</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.728461</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2103.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.728461,17.053318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nuño del Mercado</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 75<br>SENTIDO: REGRESO<br>LATITUD: 17.054696<br>LONGITUD: -96.728074<br>NUM_PARADA_GESCAR: 2104<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 75.0<br>SENTIDO: REGRESO<br>LATITUD: 17.054696<br>LONGITUD: -96.728074<br>NUM_PARADA_GESCAR: 2104.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 75
+SENTIDO: REGRESO
+LATITUD: 17.054696
+LONGITUD: -96.728074
+NUM_PARADA_GESCAR: 2104</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>75.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.054696</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.728074</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2104.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.728074,17.054696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ignacio Zaragoza</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 76<br>SENTIDO: REGRESO<br>LATITUD: 17.056654<br>LONGITUD: -96.727662<br>NUM_PARADA_GESCAR: 2105<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 76.0<br>SENTIDO: REGRESO<br>LATITUD: 17.056654<br>LONGITUD: -96.727662<br>NUM_PARADA_GESCAR: 2105.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 76
+SENTIDO: REGRESO
+LATITUD: 17.056654
+LONGITUD: -96.727662
+NUM_PARADA_GESCAR: 2105</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>76.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.056654</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.727662</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2105.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.727662,17.056654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado 20 de Noviembre</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 77<br>SENTIDO: REGRESO<br>LATITUD: 17.058414<br>LONGITUD: -96.727303<br>NUM_PARADA_GESCAR: 2106<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 77.0<br>SENTIDO: REGRESO<br>LATITUD: 17.058414<br>LONGITUD: -96.727303<br>NUM_PARADA_GESCAR: 2106.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 77
+SENTIDO: REGRESO
+LATITUD: 17.058414
+LONGITUD: -96.727303
+NUM_PARADA_GESCAR: 2106</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>77.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.058414</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.727303</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2106.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.727303,17.058414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miguel Hidalgo</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 78<br>SENTIDO: REGRESO<br>LATITUD: 17.061287<br>LONGITUD: -96.726692<br>NUM_PARADA_GESCAR: 2107<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 78.0<br>SENTIDO: REGRESO<br>LATITUD: 17.061287<br>LONGITUD: -96.726692<br>NUM_PARADA_GESCAR: 2107.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 78
+SENTIDO: REGRESO
+LATITUD: 17.061287
+LONGITUD: -96.726692
+NUM_PARADA_GESCAR: 2107</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>78.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061287</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726692</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2107.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726692,17.061287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morelos</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 79<br>SENTIDO: REGRESO<br>LATITUD: 17.063045<br>LONGITUD: -96.726346<br>NUM_PARADA_GESCAR: 1385<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 79.0<br>SENTIDO: REGRESO<br>LATITUD: 17.063045<br>LONGITUD: -96.726346<br>NUM_PARADA_GESCAR: 1385.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 79
+SENTIDO: REGRESO
+LATITUD: 17.063045
+LONGITUD: -96.726346
+NUM_PARADA_GESCAR: 1385</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>79.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.063045</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726346</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1385.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726346,17.063045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Allende</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 80<br>SENTIDO: REGRESO<br>LATITUD: 17.06591<br>LONGITUD: -96.725787<br>NUM_PARADA_GESCAR: 1386<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 80.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06591<br>LONGITUD: -96.725787<br>NUM_PARADA_GESCAR: 1386.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 80
+SENTIDO: REGRESO
+LATITUD: 17.06591
+LONGITUD: -96.725787
+NUM_PARADA_GESCAR: 1386</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>80.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06591</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725787</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1386.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725787,17.06591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quetzalcoatl</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 81<br>SENTIDO: REGRESO<br>LATITUD: 17.067883<br>LONGITUD: -96.725373<br>NUM_PARADA_GESCAR: 1390<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 81.0<br>SENTIDO: REGRESO<br>LATITUD: 17.067883<br>LONGITUD: -96.725373<br>NUM_PARADA_GESCAR: 1390.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 81
+SENTIDO: REGRESO
+LATITUD: 17.067883
+LONGITUD: -96.725373
+NUM_PARADA_GESCAR: 1390</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>81.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.067883</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725373</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1390.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725373,17.067883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marcos Perez</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 82<br>SENTIDO: REGRESO<br>LATITUD: 17.069736<br>LONGITUD: -96.725021<br>NUM_PARADA_GESCAR: 1394<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 82.0<br>SENTIDO: REGRESO<br>LATITUD: 17.069736<br>LONGITUD: -96.725021<br>NUM_PARADA_GESCAR: 1394.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 82
+SENTIDO: REGRESO
+LATITUD: 17.069736
+LONGITUD: -96.725021
+NUM_PARADA_GESCAR: 1394</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>82.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069736</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725021</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1394.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725021,17.069736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porfirio Diaz</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 83<br>SENTIDO: REGRESO<br>LATITUD: 17.072325<br>LONGITUD: -96.724448<br>NUM_PARADA_GESCAR: 2515<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 83.0<br>SENTIDO: REGRESO<br>LATITUD: 17.072325<br>LONGITUD: -96.724448<br>NUM_PARADA_GESCAR: 2515.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 83
+SENTIDO: REGRESO
+LATITUD: 17.072325
+LONGITUD: -96.724448
+NUM_PARADA_GESCAR: 2515</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>83.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.072325</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.724448</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2515.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.724448,17.072325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de la Reforma</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 84<br>SENTIDO: REGRESO<br>LATITUD: 17.071918<br>LONGITUD: -96.721456<br>NUM_PARADA_GESCAR: 115<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 84.0<br>SENTIDO: REGRESO<br>LATITUD: 17.071918<br>LONGITUD: -96.721456<br>NUM_PARADA_GESCAR: 115.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 84
+SENTIDO: REGRESO
+LATITUD: 17.071918
+LONGITUD: -96.721456
+NUM_PARADA_GESCAR: 115</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>84.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.071918</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.721456</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>115.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.721456,17.071918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de los Almendros</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 85<br>SENTIDO: REGRESO<br>LATITUD: 17.07267<br>LONGITUD: -96.71772<br>NUM_PARADA_GESCAR: 116<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 85.0<br>SENTIDO: REGRESO<br>LATITUD: 17.07267<br>LONGITUD: -96.71772<br>NUM_PARADA_GESCAR: 116.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 85
+SENTIDO: REGRESO
+LATITUD: 17.07267
+LONGITUD: -96.71772
+NUM_PARADA_GESCAR: 116</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>85.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07267</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71772</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>116.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71772,17.07267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belisario Dominguez</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 86<br>SENTIDO: REGRESO<br>LATITUD: 17.075271<br>LONGITUD: -96.71721<br>NUM_PARADA_GESCAR: 1646<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 86.0<br>SENTIDO: REGRESO<br>LATITUD: 17.075271<br>LONGITUD: -96.71721<br>NUM_PARADA_GESCAR: 1646.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 86
+SENTIDO: REGRESO
+LATITUD: 17.075271
+LONGITUD: -96.71721
+NUM_PARADA_GESCAR: 1646</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>86.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.075271</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71721</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1646.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71721,17.075271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heroica Escuela Naval Militar</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 87<br>SENTIDO: REGRESO<br>LATITUD: 17.07856<br>LONGITUD: -96.71678<br>NUM_PARADA_GESCAR: 118<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 87.0<br>SENTIDO: REGRESO<br>LATITUD: 17.07856<br>LONGITUD: -96.71678<br>NUM_PARADA_GESCAR: 118.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 87
+SENTIDO: REGRESO
+LATITUD: 17.07856
+LONGITUD: -96.71678
+NUM_PARADA_GESCAR: 118</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>87.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07856</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71678</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>118.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71678,17.07856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Fuerza Aerea Mexicana</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 88<br>SENTIDO: REGRESO<br>LATITUD: 17.080848<br>LONGITUD: -96.716551<br>NUM_PARADA_GESCAR: 119<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 88.0<br>SENTIDO: REGRESO<br>LATITUD: 17.080848<br>LONGITUD: -96.716551<br>NUM_PARADA_GESCAR: 119.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 88
+SENTIDO: REGRESO
+LATITUD: 17.080848
+LONGITUD: -96.716551
+NUM_PARADA_GESCAR: 119</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>88.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.080848</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.716551</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>119.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.716551,17.080848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital Civil</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 89<br>SENTIDO: REGRESO<br>LATITUD: 17.08273<br>LONGITUD: -96.71828<br>NUM_PARADA_GESCAR: 120<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 89.0<br>SENTIDO: REGRESO<br>LATITUD: 17.08273<br>LONGITUD: -96.71828<br>NUM_PARADA_GESCAR: 120.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 89
+SENTIDO: REGRESO
+LATITUD: 17.08273
+LONGITUD: -96.71828
+NUM_PARADA_GESCAR: 120</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>89.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.08273</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71828</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>120.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71828,17.08273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocio</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 90<br>SENTIDO: REGRESO<br>LATITUD: 17.084075<br>LONGITUD: -96.720787<br>NUM_PARADA_GESCAR: 1415<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 90.0<br>SENTIDO: REGRESO<br>LATITUD: 17.084075<br>LONGITUD: -96.720787<br>NUM_PARADA_GESCAR: 1415.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 90
+SENTIDO: REGRESO
+LATITUD: 17.084075
+LONGITUD: -96.720787
+NUM_PARADA_GESCAR: 1415</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>90.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.084075</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.720787</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1415.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.720787,17.084075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital ISSSTE</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 91<br>SENTIDO: REGRESO<br>LATITUD: 17.084414<br>LONGITUD: -96.722056<br>NUM_PARADA_GESCAR: 1417<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 91.0<br>SENTIDO: REGRESO<br>LATITUD: 17.084414<br>LONGITUD: -96.722056<br>NUM_PARADA_GESCAR: 1417.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 91
+SENTIDO: REGRESO
+LATITUD: 17.084414
+LONGITUD: -96.722056
+NUM_PARADA_GESCAR: 1417</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>91.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.084414</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.722056</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1417.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.722056,17.084414,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marcos Perez</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 92<br>SENTIDO: REGRESO<br>LATITUD: 17.083435<br>LONGITUD: -96.723495<br>NUM_PARADA_GESCAR: 1413<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 92.0<br>SENTIDO: REGRESO<br>LATITUD: 17.083435<br>LONGITUD: -96.723495<br>NUM_PARADA_GESCAR: 1413.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 92
+SENTIDO: REGRESO
+LATITUD: 17.083435
+LONGITUD: -96.723495
+NUM_PARADA_GESCAR: 1413</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>92.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.083435</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.723495</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>1413.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.723495,17.083435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ignacio Mariscal</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 93<br>SENTIDO: REGRESO<br>LATITUD: 17.082845<br>LONGITUD: -96.723742<br>NUM_PARADA_GESCAR: 2116<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 93.0<br>SENTIDO: REGRESO<br>LATITUD: 17.082845<br>LONGITUD: -96.723742<br>NUM_PARADA_GESCAR: 2116.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 93
+SENTIDO: REGRESO
+LATITUD: 17.082845
+LONGITUD: -96.723742
+NUM_PARADA_GESCAR: 2116</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>93.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.082845</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.723742</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2116.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.723742,17.082845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base ISSSTE</name>
+        <description><![CDATA[Descripción: RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 94<br>SENTIDO: REGRESO<br>LATITUD: 17.08297<br>LONGITUD: -96.72155<br>NUM_PARADA_GESCAR: 2463<br>RUTA: RC13<br>SAE: <br>NUM_ PARADERO: 94.0<br>SENTIDO: REGRESO<br>LATITUD: 17.08297<br>LONGITUD: -96.72155<br>NUM_PARADA_GESCAR: 2463.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RC13
+SAE: 
+NUM_ PARADERO: 94
+SENTIDO: REGRESO
+LATITUD: 17.08297
+LONGITUD: -96.72155
+NUM_PARADA_GESCAR: 2463</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RC13</value>
+          </Data>
+          <Data name="SAE">
+            <value/>
+          </Data>
+          <Data name="NUM_ PARADERO">
+            <value>94.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.08297</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72155</value>
+          </Data>
+          <Data name="NUM_PARADA_GESCAR">
+            <value>2463.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72155,17.08297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

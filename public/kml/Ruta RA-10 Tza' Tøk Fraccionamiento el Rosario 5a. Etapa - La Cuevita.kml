@@ -1,0 +1,5219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Ruta RA-10 Tza' Tøk: Fraccionamiento el Rosario 5a. Etapa - La Cuevita]]></name>
+    <description/>
+    <Style id="icon-1532-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5000-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5000-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5000-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5000-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>IDA</name>
+      <Placemark>
+        <name>IDA</name>
+        <description><![CDATA[Descripción: <br>RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: <br>LATITUD: <br>LONGITUD: <br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#line-0288D1-5000</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SECUENCIA">
+            <value/>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value/>
+          </Data>
+          <Data name="LATITUD">
+            <value/>
+          </Data>
+          <Data name="LONGITUD">
+            <value/>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.690426,17.036849,0
+            -96.690496,17.036856,0
+            -96.690591,17.03689,0
+            -96.690698,17.036948,0
+            -96.690774,17.037016,0
+            -96.690856,17.037128,0
+            -96.690956,17.037299,0
+            -96.690982,17.037359,0
+            -96.69101,17.037406,0
+            -96.691078,17.037538,0
+            -96.691237,17.037847,0
+            -96.691365,17.03809,0
+            -96.691401,17.038159,0
+            -96.691577,17.038489,0
+            -96.691734,17.038808,0
+            -96.691962,17.039234,0
+            -96.69198,17.039281,0
+            -96.692035,17.039286,0
+            -96.692625,17.038948,0
+            -96.692636,17.038945,0
+            -96.692697,17.039067,0
+            -96.692803,17.039282,0
+            -96.69287,17.039419,0
+            -96.692884,17.039574,0
+            -96.69287,17.039827,0
+            -96.692843,17.040173,0
+            -96.692792,17.040519,0
+            -96.692727,17.040981,0
+            -96.692635,17.041532,0
+            -96.692549,17.042086,0
+            -96.692512,17.042286,0
+            -96.692445,17.042776,0
+            -96.692386,17.043224,0
+            -96.691492,17.04275,0
+            -96.690328,17.042137,0
+            -96.689864,17.041878,0
+            -96.68939,17.041622,0
+            -96.689237,17.041547,0
+            -96.689164,17.041583,0
+            -96.688958,17.041914,0
+            -96.688826,17.042178,0
+            -96.6887,17.042412,0
+            -96.688673,17.042506,0
+            -96.68865,17.042639,0
+            -96.688695,17.042867,0
+            -96.688744,17.042985,0
+            -96.688804,17.043077,0
+            -96.688882,17.043176,0
+            -96.688945,17.043261,0
+            -96.689116,17.04354,0
+            -96.689304,17.043852,0
+            -96.68947,17.044088,0
+            -96.689598,17.044258,0
+            -96.68966,17.044376,0
+            -96.6897,17.044517,0
+            -96.689735,17.044866,0
+            -96.689783,17.045365,0
+            -96.689856,17.045974,0
+            -96.689899,17.046415,0
+            -96.689925,17.046942,0
+            -96.689928,17.047086,0
+            -96.689974,17.047116,0
+            -96.69035,17.047204,0
+            -96.691969,17.047588,0
+            -96.69345,17.047909,0
+            -96.693571,17.047947,0
+            -96.694089,17.048083,0
+            -96.694718,17.048224,0
+            -96.694891,17.048265,0
+            -96.694301,17.050499,0
+            -96.694166,17.051109,0
+            -96.693737,17.052808,0
+            -96.693305,17.05448,0
+            -96.693125,17.055067,0
+            -96.69301,17.055444,0
+            -96.692922,17.055589,0
+            -96.692814,17.05612,0
+            -96.692709,17.056583,0
+            -96.692597,17.057024,0
+            -96.6925,17.057454,0
+            -96.692326,17.058306,0
+            -96.6922,17.059003,0
+            -96.692109,17.059613,0
+            -96.69209,17.059767,0
+            -96.69206,17.05988,0
+            -96.692082,17.060024,0
+            -96.692082,17.060165,0
+            -96.691961,17.060652,0
+            -96.691875,17.060775,0
+            -96.691744,17.060867,0
+            -96.691653,17.060998,0
+            -96.691588,17.06118,0
+            -96.691468,17.061575,0
+            -96.691291,17.062099,0
+            -96.691132,17.062548,0
+            -96.690974,17.062924,0
+            -96.690888,17.063142,0
+            -96.690615,17.06366,0
+            -96.690357,17.064583,0
+            -96.691446,17.064696,0
+            -96.69243,17.064813,0
+            -96.693229,17.064915,0
+            -96.693486,17.064884,0
+            -96.693422,17.065141,0
+            -96.693036,17.066474,0
+            -96.693012,17.066564,0
+            -96.692309,17.067079,0
+            -96.691453,17.067743,0
+            -96.691285,17.067874,0
+            -96.691035,17.068026,0
+            -96.690826,17.068162,0
+            -96.690716,17.06823,0
+            -96.690667,17.068292,0
+            -96.690652,17.068321,0
+            -96.690488,17.068323,0
+            -96.690081,17.068285,0
+            -96.689737,17.068254,0
+            -96.689354,17.068182,0
+            -96.68933,17.068385,0
+            -96.689963,17.0685,0
+            -96.690655,17.06858,0
+            -96.691017,17.068603,0
+            -96.691532,17.068633,0
+            -96.69173,17.068644,0
+            -96.691891,17.068644,0
+            -96.692414,17.068692,0
+            -96.6929,17.068731,0
+            -96.693235,17.068764,0
+            -96.694096,17.068836,0
+            -96.694541,17.068869,0
+            -96.694855,17.068898,0
+            -96.695085,17.068968,0
+            -96.695945,17.068945,0
+            -96.69691,17.069012,0
+            -96.697366,17.069135,0
+            -96.699663,17.069347,0
+            -96.700294,17.069401,0
+            -96.701754,17.06953,0
+            -96.702703,17.069617,0
+            -96.703588,17.069694,0
+            -96.704589,17.069777,0
+            -96.705165,17.069801,0
+            -96.706099,17.069878,0
+            -96.706742,17.069935,0
+            -96.707499,17.070027,0
+            -96.708008,17.070063,0
+            -96.709312,17.07016,0
+            -96.710192,17.070237,0
+            -96.711165,17.070342,0
+            -96.71156,17.07034,0
+            -96.712869,17.070458,0
+            -96.713357,17.070494,0
+            -96.713544,17.070463,0
+            -96.714124,17.070478,0
+            -96.714666,17.070535,0
+            -96.714996,17.070624,0
+            -96.715583,17.070732,0
+            -96.715843,17.070791,0
+            -96.716229,17.070886,0
+            -96.71646,17.070955,0
+            -96.717166,17.071107,0
+            -96.71759,17.07122,0
+            -96.717825,17.071221,0
+            -96.71815,17.071252,0
+            -96.718611,17.071349,0
+            -96.718968,17.071418,0
+            -96.719217,17.071508,0
+            -96.719627,17.071536,0
+            -96.719853,17.071593,0
+            -96.720312,17.071731,0
+            -96.720545,17.071913,0
+            -96.721282,17.072075,0
+            -96.72173,17.072211,0
+            -96.72323,17.072441,0
+            -96.723798,17.072524,0
+            -96.724394,17.072606,0
+            -96.724726,17.072677,0
+            -96.72515,17.072749,0
+            -96.725612,17.072908,0
+            -96.72589,17.071631,0
+            -96.726202,17.070062,0
+            -96.726336,17.069231,0
+            -96.7264,17.06896,0
+            -96.72647,17.067888,0
+            -96.726502,17.067406,0
+            -96.726545,17.067103,0
+            -96.726658,17.066508,0
+            -96.7268,17.065782,0
+            -96.726977,17.064952,0
+            -96.727133,17.064208,0
+            -96.727235,17.063711,0
+            -96.727413,17.062856,0
+            -96.727512,17.06243,0
+            -96.727669,17.061564,0
+            -96.727873,17.060569,0
+            -96.728046,17.059719,0
+            -96.728936,17.059906,0
+            -96.730079,17.060117,0
+            -96.731506,17.060435,0
+            -96.732134,17.060558,0
+            -96.732956,17.060703,0
+            -96.73332,17.060749,0
+            -96.733471,17.060775,0
+            -96.733653,17.060831,0
+            -96.73412,17.060539,0
+            -96.73493,17.06,0
+            -96.735536,17.0596,0
+            -96.73596,17.059298,0
+            -96.736351,17.059046,0
+            -96.736491,17.058964,0
+            -96.736625,17.059175,0
+            -96.736866,17.059872,0
+            -96.736936,17.060682,0
+            -96.737092,17.061211,0
+            -96.73714,17.061611,0
+            -96.73784,17.061621,0
+            -96.73928,17.061621,0
+            -96.739454,17.061603,0
+            -96.73965,17.061549,0
+            -96.739852,17.061449,0
+            -96.739937,17.061344,0
+            -96.740232,17.061139,0
+            -96.740745,17.060675,0
+            -96.743024,17.058626,0
+            -96.745331,17.05659,0
+            -96.745608,17.056367,0
+            -96.745905,17.056108,0
+            -96.745964,17.05598,0
+            -96.745969,17.055836,0
+            -96.745862,17.055462,0
+            -96.745669,17.054856,0
+            -96.745438,17.054133,0
+            -96.745256,17.053441,0
+            -96.745154,17.053082,0
+            -96.74502,17.052666,0
+            -96.744931,17.05242,0
+            -96.744853,17.052246,0
+            -96.744679,17.051984,0
+            -96.744405,17.051554,0
+            -96.74426,17.051343,0
+            -96.744211,17.051208,0
+            -96.744158,17.051116,0
+            -96.744037,17.051057,0
+            -96.7436,17.051039,0
+            -96.743393,17.051046,0
+            -96.743179,17.050982,0
+            -96.742977,17.050874,0
+            -96.742857,17.050792,0
+            -96.742696,17.050587,0
+            -96.742599,17.050418,0
+            -96.742642,17.050213,0
+            -96.742739,17.049977,0
+            -96.742725,17.049913,0
+            -96.742551,17.049692,0
+            -96.742438,17.049564,0
+            -96.742378,17.049522,0
+            -96.742316,17.049511,0
+            -96.742225,17.049547,0
+            -96.742016,17.049668,0
+            -96.74182,17.049683,0
+            -96.741158,17.04964,0
+            -96.740777,17.04957,0
+            -96.740533,17.049491,0
+            -96.740345,17.049388,0
+            -96.740122,17.049311,0
+            -96.739259,17.049091,0
+            -96.738952,17.049019,0
+            -96.738826,17.048988,0
+            -96.738752,17.04901,0
+            -96.738612,17.049077,0
+            -96.738285,17.049172,0
+            -96.738008,17.049198,0
+            -96.737439,17.0492,0
+            -96.736793,17.049183,0
+            -96.736344,17.049187,0
+            -96.736072,17.049186,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base El Rosario Punta Vizcaya</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 1<br>NUMERO DE PARADAS: 1<br>SENTIDO: IDA<br>LATITUD: 17.0368056<br>LONGITUD: -96.6905131<br>CONEXIONES: <br>GESCAR: 1972<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 1.0<br>NUMERO DE PARADAS: 1.0<br>SENTIDO: IDA<br>LATITUD: 17.0368056<br>LONGITUD: -96.6905131<br>CONEXIONES: <br>GESCAR: 1972<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 1
+NUMERO DE PARADAS: 1
+SENTIDO: IDA
+LATITUD: 17.0368056
+LONGITUD: -96.6905131
+CONEXIONES: 
+GESCAR: 1972
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>1.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>1.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0368056</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6905131</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>1972</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.690513,17.036806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arantzazu</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 2<br>NUMERO DE PARADAS: 2<br>SENTIDO: IDA<br>LATITUD: 17.0381737<br>LONGITUD: -96.6913816<br>CONEXIONES: <br>GESCAR: <br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 2.0<br>NUMERO DE PARADAS: 2.0<br>SENTIDO: IDA<br>LATITUD: 17.0381737<br>LONGITUD: -96.6913816<br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 2
+NUMERO DE PARADAS: 2
+SENTIDO: IDA
+LATITUD: 17.0381737
+LONGITUD: -96.6913816
+CONEXIONES: 
+GESCAR: 
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>2.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>2.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0381737</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6913816</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.691382,17.038174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El ponton</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 3<br>NUMERO DE PARADAS: 3<br>SENTIDO: IDA<br>LATITUD: 17.039258<br>LONGITUD: -96.6919587<br>CONEXIONES: <br>GESCAR: <br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 3.0<br>NUMERO DE PARADAS: 3.0<br>SENTIDO: IDA<br>LATITUD: 17.039258<br>LONGITUD: -96.6919587<br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 3
+NUMERO DE PARADAS: 3
+SENTIDO: IDA
+LATITUD: 17.039258
+LONGITUD: -96.6919587
+CONEXIONES: 
+GESCAR: 
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>3.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>3.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.039258</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6919587</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.691959,17.039258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Luis Donaldo Colosio</name>
+        <description><![CDATA[Descripción: RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: IDA<br>LATITUD: 17.0389509<br>LONGITUD: -96.6926368<br>CONEXIONES: <br>GESCAR: <br>unnamed (1):<br>RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: IDA<br>LATITUD: 17.0389509<br>LONGITUD: -96.6926368<br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: 
+SECUENCIA: 
+NUMERO DE PARADAS: 
+SENTIDO: IDA
+LATITUD: 17.0389509
+LONGITUD: -96.6926368
+CONEXIONES: 
+GESCAR: 
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SECUENCIA">
+            <value/>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0389509</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6926368</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692637,17.038951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tejupam</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 5<br>NUMERO DE PARADAS: 5<br>SENTIDO: IDA<br>LATITUD: 17.041059<br>LONGITUD: -96.692681<br>CONEXIONES: <br>GESCAR: 1938<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 5.0<br>NUMERO DE PARADAS: 5.0<br>SENTIDO: IDA<br>LATITUD: 17.041059<br>LONGITUD: -96.692681<br>CONEXIONES: <br>GESCAR: 1938<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 5
+NUMERO DE PARADAS: 5
+SENTIDO: IDA
+LATITUD: 17.041059
+LONGITUD: -96.692681
+CONEXIONES: 
+GESCAR: 1938
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>5.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>5.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.041059</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.692681</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>1938</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692681,17.041059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tehuantepec</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 6<br>NUMERO DE PARADAS: 6<br>SENTIDO: IDA<br>LATITUD: 17.043077<br>LONGITUD: -96.692407<br>CONEXIONES: <br>GESCAR: 1941<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 6.0<br>NUMERO DE PARADAS: 6.0<br>SENTIDO: IDA<br>LATITUD: 17.043077<br>LONGITUD: -96.692407<br>CONEXIONES: <br>GESCAR: 1941<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 6
+NUMERO DE PARADAS: 6
+SENTIDO: IDA
+LATITUD: 17.043077
+LONGITUD: -96.692407
+CONEXIONES: 
+GESCAR: 1941
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>6.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>6.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.043077</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.692407</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>1941</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692407,17.043077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Etla 2</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 7<br>NUMERO DE PARADAS: 7<br>SENTIDO: IDA<br>LATITUD: 17.0427157<br>LONGITUD: -96.6915275<br>CONEXIONES: <br>GESCAR: 2489<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 7.0<br>NUMERO DE PARADAS: 7.0<br>SENTIDO: IDA<br>LATITUD: 17.0427157<br>LONGITUD: -96.6915275<br>CONEXIONES: <br>GESCAR: 2489<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 7
+NUMERO DE PARADAS: 7
+SENTIDO: IDA
+LATITUD: 17.0427157
+LONGITUD: -96.6915275
+CONEXIONES: 
+GESCAR: 2489
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>7.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>7.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0427157</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6915275</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2489</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.691528,17.042716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juchitán</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 8<br>NUMERO DE PARADAS: 8<br>SENTIDO: IDA<br>LATITUD: 17.0417044<br>LONGITUD: -96.6895922<br>CONEXIONES: <br>GESCAR: 552<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 8.0<br>NUMERO DE PARADAS: 8.0<br>SENTIDO: IDA<br>LATITUD: 17.0417044<br>LONGITUD: -96.6895922<br>CONEXIONES: <br>GESCAR: 552<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 8
+NUMERO DE PARADAS: 8
+SENTIDO: IDA
+LATITUD: 17.0417044
+LONGITUD: -96.6895922
+CONEXIONES: 
+GESCAR: 552
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>8.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>8.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0417044</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6895922</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>552</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.689592,17.041704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Circuito sur</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 9<br>NUMERO DE PARADAS: 9<br>SENTIDO: IDA<br>LATITUD: 17.0424209<br>LONGITUD: -96.6886558<br>CONEXIONES: <br>GESCAR: 2402<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 9.0<br>NUMERO DE PARADAS: 9.0<br>SENTIDO: IDA<br>LATITUD: 17.0424209<br>LONGITUD: -96.6886558<br>CONEXIONES: <br>GESCAR: 2402<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 9
+NUMERO DE PARADAS: 9
+SENTIDO: IDA
+LATITUD: 17.0424209
+LONGITUD: -96.6886558
+CONEXIONES: 
+GESCAR: 2402
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>9.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>9.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0424209</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6886558</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2402</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.688656,17.042421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siete</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 10<br>NUMERO DE PARADAS: 10<br>SENTIDO: IDA<br>LATITUD: 17.0432931<br>LONGITUD: -96.688952<br>CONEXIONES: <br>GESCAR: 2403<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 10.0<br>NUMERO DE PARADAS: 10.0<br>SENTIDO: IDA<br>LATITUD: 17.0432931<br>LONGITUD: -96.688952<br>CONEXIONES: <br>GESCAR: 2403<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 10
+NUMERO DE PARADAS: 10
+SENTIDO: IDA
+LATITUD: 17.0432931
+LONGITUD: -96.688952
+CONEXIONES: 
+GESCAR: 2403
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>10.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>10.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0432931</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.688952</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2403</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.688952,17.043293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cinco</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 11<br>NUMERO DE PARADAS: 11<br>SENTIDO: IDA<br>LATITUD: 17.045351<br>LONGITUD: -96.689741<br>CONEXIONES: <br>GESCAR: 2404<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 11.0<br>NUMERO DE PARADAS: 11.0<br>SENTIDO: IDA<br>LATITUD: 17.045351<br>LONGITUD: -96.689741<br>CONEXIONES: <br>GESCAR: 2404<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 11
+NUMERO DE PARADAS: 11
+SENTIDO: IDA
+LATITUD: 17.045351
+LONGITUD: -96.689741
+CONEXIONES: 
+GESCAR: 2404
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>11.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>11.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.045351</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.689741</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2404</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.689741,17.045351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crucero del Rosario</name>
+        <description><![CDATA[Descripción: RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: IDA<br>LATITUD: 17.0482436<br>LONGITUD: -96.694765<br>CONEXIONES: <br>GESCAR: <br>unnamed (1):<br>RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: IDA<br>LATITUD: 17.0482436<br>LONGITUD: -96.694765<br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: 
+SECUENCIA: 
+NUMERO DE PARADAS: 
+SENTIDO: IDA
+LATITUD: 17.0482436
+LONGITUD: -96.694765
+CONEXIONES: 
+GESCAR: 
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SECUENCIA">
+            <value/>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0482436</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.694765</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694765,17.048244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nardos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 14<br>NUMERO DE PARADAS: 14<br>SENTIDO: IDA<br>LATITUD: 17.0511329<br>LONGITUD: -96.6941406<br>CONEXIONES: <br>GESCAR: 2407<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 14.0<br>NUMERO DE PARADAS: 14.0<br>SENTIDO: IDA<br>LATITUD: 17.0511329<br>LONGITUD: -96.6941406<br>CONEXIONES: <br>GESCAR: 2407<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 14
+NUMERO DE PARADAS: 14
+SENTIDO: IDA
+LATITUD: 17.0511329
+LONGITUD: -96.6941406
+CONEXIONES: 
+GESCAR: 2407
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>14.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>14.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0511329</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6941406</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2407</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694141,17.051133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SAUCES</name>
+        <description><![CDATA[Descripción: RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: IDA<br>LATITUD: 17.0545026<br>LONGITUD: -96.6932705<br>CONEXIONES: <br>GESCAR: <br>unnamed (1):<br>RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: IDA<br>LATITUD: 17.0545026<br>LONGITUD: -96.6932705<br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: 
+SECUENCIA: 
+NUMERO DE PARADAS: 
+SENTIDO: IDA
+LATITUD: 17.0545026
+LONGITUD: -96.6932705
+CONEXIONES: 
+GESCAR: 
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SECUENCIA">
+            <value/>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0545026</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6932705</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.69327,17.054503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Progreso</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 16<br>NUMERO DE PARADAS: 16<br>SENTIDO: IDA<br>LATITUD: 17.056911<br>LONGITUD: -96.692674<br>CONEXIONES: <br>GESCAR: 2409<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 16.0<br>NUMERO DE PARADAS: 16.0<br>SENTIDO: IDA<br>LATITUD: 17.056911<br>LONGITUD: -96.692674<br>CONEXIONES: <br>GESCAR: 2409<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 16
+NUMERO DE PARADAS: 16
+SENTIDO: IDA
+LATITUD: 17.056911
+LONGITUD: -96.692674
+CONEXIONES: 
+GESCAR: 2409
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>16.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>16.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.056911</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.692674</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2409</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692674,17.056911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 17<br>NUMERO DE PARADAS: 17<br>SENTIDO: IDA<br>LATITUD: 17.059627<br>LONGITUD: -96.692149<br>CONEXIONES: <br>GESCAR: 2410<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 17.0<br>NUMERO DE PARADAS: 17.0<br>SENTIDO: IDA<br>LATITUD: 17.059627<br>LONGITUD: -96.692149<br>CONEXIONES: <br>GESCAR: 2410<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 17
+NUMERO DE PARADAS: 17
+SENTIDO: IDA
+LATITUD: 17.059627
+LONGITUD: -96.692149
+CONEXIONES: 
+GESCAR: 2410
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>17.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>17.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.059627</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.692149</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2410</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692149,17.059627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Del Trabajo</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 18<br>NUMERO DE PARADAS: 18<br>SENTIDO: IDA<br>LATITUD: 17.062531<br>LONGITUD: -96.691156<br>CONEXIONES: <br>GESCAR: 2411<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 18.0<br>NUMERO DE PARADAS: 18.0<br>SENTIDO: IDA<br>LATITUD: 17.062531<br>LONGITUD: -96.691156<br>CONEXIONES: <br>GESCAR: 2411<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 18
+NUMERO DE PARADAS: 18
+SENTIDO: IDA
+LATITUD: 17.062531
+LONGITUD: -96.691156
+CONEXIONES: 
+GESCAR: 2411
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>18.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>18.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.062531</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.691156</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2411</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.691156,17.062531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CBTis 123</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 19<br>NUMERO DE PARADAS: 19<br>SENTIDO: IDA<br>LATITUD: 17.06473<br>LONGITUD: -96.69146<br>CONEXIONES: RC14,RA04,RA15<br>GESCAR: 55<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 19.0<br>NUMERO DE PARADAS: 19.0<br>SENTIDO: IDA<br>LATITUD: 17.06473<br>LONGITUD: -96.69146<br>CONEXIONES: RC14,RA04,RA15<br>GESCAR: 55<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 19
+NUMERO DE PARADAS: 19
+SENTIDO: IDA
+LATITUD: 17.06473
+LONGITUD: -96.69146
+CONEXIONES: RC14,RA04,RA15
+GESCAR: 55
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>19.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>19.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06473</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.69146</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC14,RA04,RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>55</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.69146,17.06473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Juarez</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 20<br>NUMERO DE PARADAS: 20<br>SENTIDO: IDA<br>LATITUD: 17.066469<br>LONGITUD: -96.693003<br>CONEXIONES: RA04<br>GESCAR: 2199<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 20.0<br>NUMERO DE PARADAS: 20.0<br>SENTIDO: IDA<br>LATITUD: 17.066469<br>LONGITUD: -96.693003<br>CONEXIONES: RA04<br>GESCAR: 2199<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 20
+NUMERO DE PARADAS: 20
+SENTIDO: IDA
+LATITUD: 17.066469
+LONGITUD: -96.693003
+CONEXIONES: RA04
+GESCAR: 2199
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>20.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>20.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.066469</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.693003</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA04</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2199</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.693003,17.066469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siracuza</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 21<br>NUMERO DE PARADAS: 21<br>SENTIDO: IDA<br>LATITUD: 17.068302<br>LONGITUD: -96.690615<br>CONEXIONES: RA04<br>GESCAR: 2200<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 21.0<br>NUMERO DE PARADAS: 21.0<br>SENTIDO: IDA<br>LATITUD: 17.068302<br>LONGITUD: -96.690615<br>CONEXIONES: RA04<br>GESCAR: 2200<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 21
+NUMERO DE PARADAS: 21
+SENTIDO: IDA
+LATITUD: 17.068302
+LONGITUD: -96.690615
+CONEXIONES: RA04
+GESCAR: 2200
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>21.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>21.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068302</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.690615</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA04</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2200</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.690615,17.068302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carretera a San Agustín Yatareni</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 22<br>NUMERO DE PARADAS: 22<br>SENTIDO: IDA<br>LATITUD: 17.068582<br>LONGITUD: -96.690712<br>CONEXIONES: RC06,RA03,RA04<br>GESCAR: 1695<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 22.0<br>NUMERO DE PARADAS: 22.0<br>SENTIDO: IDA<br>LATITUD: 17.068582<br>LONGITUD: -96.690712<br>CONEXIONES: RC06,RA03,RA04<br>GESCAR: 1695<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 22
+NUMERO DE PARADAS: 22
+SENTIDO: IDA
+LATITUD: 17.068582
+LONGITUD: -96.690712
+CONEXIONES: RC06,RA03,RA04
+GESCAR: 1695
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>22.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>22.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068582</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.690712</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA03,RA04</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1695</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.690712,17.068582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Macroplaza</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 23<br>NUMERO DE PARADAS: 23<br>SENTIDO: IDA<br>LATITUD: 17.068885<br>LONGITUD: -96.694576<br>CONEXIONES: RC06, RA03, RA04<br>GESCAR: 1696<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 23.0<br>NUMERO DE PARADAS: 23.0<br>SENTIDO: IDA<br>LATITUD: 17.068885<br>LONGITUD: -96.694576<br>CONEXIONES: RC06, RA03, RA04<br>GESCAR: 1696<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 23
+NUMERO DE PARADAS: 23
+SENTIDO: IDA
+LATITUD: 17.068885
+LONGITUD: -96.694576
+CONEXIONES: RC06, RA03, RA04
+GESCAR: 1696
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>23.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>23.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068885</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.694576</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06, RA03, RA04</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1696</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694576,17.068885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28° Zona Militar</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 24<br>NUMERO DE PARADAS: 24<br>SENTIDO: IDA<br>LATITUD: 17.06936<br>LONGITUD: -96.699664<br>CONEXIONES: RA09<br>GESCAR: 1711<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 24.0<br>NUMERO DE PARADAS: 24.0<br>SENTIDO: IDA<br>LATITUD: 17.06936<br>LONGITUD: -96.699664<br>CONEXIONES: RA09<br>GESCAR: 1711<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 24
+NUMERO DE PARADAS: 24
+SENTIDO: IDA
+LATITUD: 17.06936
+LONGITUD: -96.699664
+CONEXIONES: RA09
+GESCAR: 1711
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>24.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>24.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06936</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.699664</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1711</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.699664,17.06936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Zonal  las Flores</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 25<br>NUMERO DE PARADAS: 25<br>SENTIDO: IDA<br>LATITUD: 17.069777<br>LONGITUD: -96.704589<br>CONEXIONES: RC06, RA03, RA04, RA09<br>GESCAR: 1697<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 25.0<br>NUMERO DE PARADAS: 25.0<br>SENTIDO: IDA<br>LATITUD: 17.069777<br>LONGITUD: -96.704589<br>CONEXIONES: RC06, RA03, RA04, RA09<br>GESCAR: 1697<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 25
+NUMERO DE PARADAS: 25
+SENTIDO: IDA
+LATITUD: 17.069777
+LONGITUD: -96.704589
+CONEXIONES: RC06, RA03, RA04, RA09
+GESCAR: 1697
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>25.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>25.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069777</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.704589</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06, RA03, RA04, RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1697</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.704589,17.069777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Columpio</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 26<br>NUMERO DE PARADAS: 26<br>SENTIDO: IDA<br>LATITUD: 17.070025<br>LONGITUD: -96.707677<br>CONEXIONES: RC06, RA03, RA04, RA09<br>GESCAR: 1698<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 26.0<br>NUMERO DE PARADAS: 26.0<br>SENTIDO: IDA<br>LATITUD: 17.070025<br>LONGITUD: -96.707677<br>CONEXIONES: RC06, RA03, RA04, RA09<br>GESCAR: 1698<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 26
+NUMERO DE PARADAS: 26
+SENTIDO: IDA
+LATITUD: 17.070025
+LONGITUD: -96.707677
+CONEXIONES: RC06, RA03, RA04, RA09
+GESCAR: 1698
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>26.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>26.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070025</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.707677</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06, RA03, RA04, RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1698</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.707677,17.070025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manuel Ruiz</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 27<br>NUMERO DE PARADAS: 27<br>SENTIDO: IDA<br>LATITUD: 17.070342<br>LONGITUD: -96.711165<br>CONEXIONES: RC06, RA03, RA04, RA09<br>GESCAR: 1699<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 27.0<br>NUMERO DE PARADAS: 27.0<br>SENTIDO: IDA<br>LATITUD: 17.070342<br>LONGITUD: -96.711165<br>CONEXIONES: RC06, RA03, RA04, RA09<br>GESCAR: 1699<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 27
+NUMERO DE PARADAS: 27
+SENTIDO: IDA
+LATITUD: 17.070342
+LONGITUD: -96.711165
+CONEXIONES: RC06, RA03, RA04, RA09
+GESCAR: 1699
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>27.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>27.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070342</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.711165</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06, RA03, RA04, RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1699</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.711165,17.070342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ADO</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 28<br>NUMERO DE PARADAS: 28<br>SENTIDO: IDA<br>LATITUD: 17.0709892<br>LONGITUD: -96.716547<br>CONEXIONES: RC01,RC02,RC06,RA04,RA09,RA12<br>GESCAR: 1782<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 28.0<br>NUMERO DE PARADAS: 28.0<br>SENTIDO: IDA<br>LATITUD: 17.0709892<br>LONGITUD: -96.716547<br>CONEXIONES: RC01,RC02,RC06,RA04,RA09,RA12<br>GESCAR: 1782<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 28
+NUMERO DE PARADAS: 28
+SENTIDO: IDA
+LATITUD: 17.0709892
+LONGITUD: -96.716547
+CONEXIONES: RC01,RC02,RC06,RA04,RA09,RA12
+GESCAR: 1782
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>28.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>28.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0709892</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.716547</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC02,RC06,RA04,RA09,RA12</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1782</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.716547,17.070989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barrio de Xochimilco</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 30<br>NUMERO DE PARADAS: 30<br>SENTIDO: IDA<br>LATITUD: 17.072595<br>LONGITUD: -96.724288<br>CONEXIONES: RC01,RC06,RA02,RA04,RA09,RA11<br>GESCAR: 1784<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 30.0<br>NUMERO DE PARADAS: 30.0<br>SENTIDO: IDA<br>LATITUD: 17.072595<br>LONGITUD: -96.724288<br>CONEXIONES: RC01,RC06,RA02,RA04,RA09,RA11<br>GESCAR: 1784<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 30
+NUMERO DE PARADAS: 30
+SENTIDO: IDA
+LATITUD: 17.072595
+LONGITUD: -96.724288
+CONEXIONES: RC01,RC06,RA02,RA04,RA09,RA11
+GESCAR: 1784
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>30.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>30.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.072595</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.724288</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC06,RA02,RA04,RA09,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1784</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.724288,17.072595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joaquin Amaro</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 31<br>NUMERO DE PARADAS: 31<br>SENTIDO: IDA<br>LATITUD: 17.072<br>LONGITUD: -96.725825<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11<br>GESCAR: 1785<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 31.0<br>NUMERO DE PARADAS: 31.0<br>SENTIDO: IDA<br>LATITUD: 17.072<br>LONGITUD: -96.725825<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11<br>GESCAR: 1785<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 31
+NUMERO DE PARADAS: 31
+SENTIDO: IDA
+LATITUD: 17.072
+LONGITUD: -96.725825
+CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11
+GESCAR: 1785
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>31.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>31.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.072</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725825</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC06,RA02,RA04,RA07,RA09,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1785</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725825,17.072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quetzalcoatl</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 32<br>NUMERO DE PARADAS: 32<br>SENTIDO: IDA<br>LATITUD: 17.068234<br>LONGITUD: -96.726453<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11<br>GESCAR: 1786<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 32.0<br>NUMERO DE PARADAS: 32.0<br>SENTIDO: IDA<br>LATITUD: 17.068234<br>LONGITUD: -96.726453<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11<br>GESCAR: 1786<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 32
+NUMERO DE PARADAS: 32
+SENTIDO: IDA
+LATITUD: 17.068234
+LONGITUD: -96.726453
+CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11
+GESCAR: 1786
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>32.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>32.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068234</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726453</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC06,RA02,RA04,RA07,RA09,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1786</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726453,17.068234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manuel Bravo</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 33<br>NUMERO DE PARADAS: 33<br>SENTIDO: IDA<br>LATITUD: 17.065371<br>LONGITUD: -96.726902<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11<br>GESCAR: 1787<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 33.0<br>NUMERO DE PARADAS: 33.0<br>SENTIDO: IDA<br>LATITUD: 17.065371<br>LONGITUD: -96.726902<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11<br>GESCAR: 1787<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 33
+NUMERO DE PARADAS: 33
+SENTIDO: IDA
+LATITUD: 17.065371
+LONGITUD: -96.726902
+CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA09,RA11
+GESCAR: 1787
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>33.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>33.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.065371</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726902</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC06,RA02,RA04,RA07,RA09,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1787</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726902,17.065371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Independencia</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 34<br>NUMERO DE PARADAS: 34<br>SENTIDO: IDA<br>LATITUD: 17.062657<br>LONGITUD: -96.72749<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA11<br>GESCAR: 1788<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 34.0<br>NUMERO DE PARADAS: 34.0<br>SENTIDO: IDA<br>LATITUD: 17.062657<br>LONGITUD: -96.72749<br>CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA11<br>GESCAR: 1788<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 34
+NUMERO DE PARADAS: 34
+SENTIDO: IDA
+LATITUD: 17.062657
+LONGITUD: -96.72749
+CONEXIONES: RC01,RC06,RA02,RA04,RA07,RA11
+GESCAR: 1788
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>34.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>34.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.062657</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72749</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC06,RA02,RA04,RA07,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1788</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72749,17.062657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valerio Trujano</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 35<br>NUMERO DE PARADAS: 35<br>SENTIDO: IDA<br>LATITUD: 17.0607<br>LONGITUD: -96.727835<br>CONEXIONES: RC06,RC09,RA02,RA04,RA07,RA11<br>GESCAR: 1789<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 35.0<br>NUMERO DE PARADAS: 35.0<br>SENTIDO: IDA<br>LATITUD: 17.0607<br>LONGITUD: -96.727835<br>CONEXIONES: RC06,RC09,RA02,RA04,RA07,RA11<br>GESCAR: 1789<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 35
+NUMERO DE PARADAS: 35
+SENTIDO: IDA
+LATITUD: 17.0607
+LONGITUD: -96.727835
+CONEXIONES: RC06,RC09,RA02,RA04,RA07,RA11
+GESCAR: 1789
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>35.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>35.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0607</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.727835</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RC09,RA02,RA04,RA07,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1789</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.727835,17.0607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diaz Ordaz</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 36<br>NUMERO DE PARADAS: 36<br>SENTIDO: IDA<br>LATITUD: 17.059934<br>LONGITUD: -96.728978<br>CONEXIONES: RC02,RC06,RA02,RA04,RA07,RA11,RA15<br>GESCAR: 2291<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 36.0<br>NUMERO DE PARADAS: 36.0<br>SENTIDO: IDA<br>LATITUD: 17.059934<br>LONGITUD: -96.728978<br>CONEXIONES: RC02,RC06,RA02,RA04,RA07,RA11,RA15<br>GESCAR: 2291<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 36
+NUMERO DE PARADAS: 36
+SENTIDO: IDA
+LATITUD: 17.059934
+LONGITUD: -96.728978
+CONEXIONES: RC02,RC06,RA02,RA04,RA07,RA11,RA15
+GESCAR: 2291
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>36.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>36.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.059934</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.728978</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC02,RC06,RA02,RA04,RA07,RA11,RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2291</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.728978,17.059934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guadalupe Victoria</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 37<br>NUMERO DE PARADAS: 37<br>SENTIDO: IDA<br>LATITUD: 17.060573<br>LONGITUD: -96.732024<br>CONEXIONES: RC06,RC09,RC10,RA02,RA04,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1791<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 37.0<br>NUMERO DE PARADAS: 37.0<br>SENTIDO: IDA<br>LATITUD: 17.060573<br>LONGITUD: -96.732024<br>CONEXIONES: RC06,RC09,RC10,RA02,RA04,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1791<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 37
+NUMERO DE PARADAS: 37
+SENTIDO: IDA
+LATITUD: 17.060573
+LONGITUD: -96.732024
+CONEXIONES: RC06,RC09,RC10,RA02,RA04,RA07,RA11,RA12,RA14,RA15,RA16
+GESCAR: 1791
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>37.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>37.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.060573</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.732024</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RC09,RC10,RA02,RA04,RA07,RA11,RA12,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1791</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.732024,17.060573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central de abastos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 38<br>NUMERO DE PARADAS: 38<br>SENTIDO: IDA<br>LATITUD: 17.059756<br>LONGITUD: -96.73533<br>CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1847<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 38.0<br>NUMERO DE PARADAS: 38.0<br>SENTIDO: IDA<br>LATITUD: 17.059756<br>LONGITUD: -96.73533<br>CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1847<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 38
+NUMERO DE PARADAS: 38
+SENTIDO: IDA
+LATITUD: 17.059756
+LONGITUD: -96.73533
+CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16
+GESCAR: 1847
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>38.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>38.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.059756</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73533</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1847</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73533,17.059756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Valerio</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 39<br>NUMERO DE PARADAS: 39<br>SENTIDO: IDA<br>LATITUD: 17.061515<br>LONGITUD: -96.737088<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1848<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 39.0<br>NUMERO DE PARADAS: 39.0<br>SENTIDO: IDA<br>LATITUD: 17.061515<br>LONGITUD: -96.737088<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1848<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 39
+NUMERO DE PARADAS: 39
+SENTIDO: IDA
+LATITUD: 17.061515
+LONGITUD: -96.737088
+CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16
+GESCAR: 1848
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>39.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>39.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061515</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.737088</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA02,RA06,RA07,RA11,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1848</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.737088,17.061515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sierra Juarez</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 40<br>NUMERO DE PARADAS: 40<br>SENTIDO: IDA<br>LATITUD: 17.061288<br>LONGITUD: -96.740072<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1849<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 40.0<br>NUMERO DE PARADAS: 40.0<br>SENTIDO: IDA<br>LATITUD: 17.061288<br>LONGITUD: -96.740072<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1849<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 40
+NUMERO DE PARADAS: 40
+SENTIDO: IDA
+LATITUD: 17.061288
+LONGITUD: -96.740072
+CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16
+GESCAR: 1849
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>40.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>40.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061288</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.740072</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA02,RA06,RA07,RA11,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1849</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.740072,17.061288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Mexicapam</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 41<br>NUMERO DE PARADAS: 41<br>SENTIDO: IDA<br>LATITUD: 17.058763<br>LONGITUD: -96.742905<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16, RA18<br>GESCAR: 327<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 41.0<br>NUMERO DE PARADAS: 41.0<br>SENTIDO: IDA<br>LATITUD: 17.058763<br>LONGITUD: -96.742905<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16, RA18<br>GESCAR: 327<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 41
+NUMERO DE PARADAS: 41
+SENTIDO: IDA
+LATITUD: 17.058763
+LONGITUD: -96.742905
+CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16, RA18
+GESCAR: 327
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>41.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>41.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.058763</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.742905</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA02,RA06,RA07,RA11,RA14,RA15,RA16, RA18</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>327</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.742905,17.058763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arrabio</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 42<br>NUMERO DE PARADAS: 42<br>SENTIDO: IDA<br>LATITUD: 17.056398<br>LONGITUD: -96.745539<br>CONEXIONES: RA15<br>GESCAR: 2259<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 42.0<br>NUMERO DE PARADAS: 42.0<br>SENTIDO: IDA<br>LATITUD: 17.056398<br>LONGITUD: -96.745539<br>CONEXIONES: RA15<br>GESCAR: 2259<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 42
+NUMERO DE PARADAS: 42
+SENTIDO: IDA
+LATITUD: 17.056398
+LONGITUD: -96.745539
+CONEXIONES: RA15
+GESCAR: 2259
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>42.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>42.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.056398</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.745539</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2259</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.745539,17.056398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El coquito_2</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 43<br>NUMERO DE PARADAS: 43<br>SENTIDO: IDA<br>LATITUD: 17.0524761<br>LONGITUD: -96.7449712<br>CONEXIONES: <br>GESCAR: 2490<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 43.0<br>NUMERO DE PARADAS: 43.0<br>SENTIDO: IDA<br>LATITUD: 17.0524761<br>LONGITUD: -96.7449712<br>CONEXIONES: <br>GESCAR: 2490<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 43
+NUMERO DE PARADAS: 43
+SENTIDO: IDA
+LATITUD: 17.0524761
+LONGITUD: -96.7449712
+CONEXIONES: 
+GESCAR: 2490
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>43.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>43.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0524761</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7449712</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2490</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.744971,17.052476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Cuevita</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 44<br>NUMERO DE PARADAS: 44<br>SENTIDO: IDA<br>LATITUD: 17.049528<br>LONGITUD: -96.742347<br>CONEXIONES: <br>GESCAR: 2415<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 44.0<br>NUMERO DE PARADAS: 44.0<br>SENTIDO: IDA<br>LATITUD: 17.049528<br>LONGITUD: -96.742347<br>CONEXIONES: <br>GESCAR: 2415<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 44
+NUMERO DE PARADAS: 44
+SENTIDO: IDA
+LATITUD: 17.049528
+LONGITUD: -96.742347
+CONEXIONES: 
+GESCAR: 2415
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>44.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>44.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.049528</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.742347</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2415</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.742347,17.049528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Josefa Ortiz de Dominguez</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 45<br>NUMERO DE PARADAS: 45<br>SENTIDO: IDA<br>LATITUD: 17.049038<br>LONGITUD: -96.739013<br>CONEXIONES: <br>GESCAR: 2416<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 45.0<br>NUMERO DE PARADAS: 45.0<br>SENTIDO: IDA<br>LATITUD: 17.049038<br>LONGITUD: -96.739013<br>CONEXIONES: <br>GESCAR: 2416<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 45
+NUMERO DE PARADAS: 45
+SENTIDO: IDA
+LATITUD: 17.049038
+LONGITUD: -96.739013
+CONEXIONES: 
+GESCAR: 2416
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>45.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>45.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.049038</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.739013</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2416</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.739013,17.049038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base La Cuevita</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 46<br>NUMERO DE PARADAS: 46<br>SENTIDO: IDA<br>LATITUD: 17.049185<br>LONGITUD: -96.736059<br>CONEXIONES: <br>GESCAR: 2381<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 46.0<br>NUMERO DE PARADAS: 46.0<br>SENTIDO: IDA<br>LATITUD: 17.049185<br>LONGITUD: -96.736059<br>CONEXIONES: <br>GESCAR: 2381<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 46
+NUMERO DE PARADAS: 46
+SENTIDO: IDA
+LATITUD: 17.049185
+LONGITUD: -96.736059
+CONEXIONES: 
+GESCAR: 2381
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>46.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>46.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.049185</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.736059</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2381</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.736059,17.049185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>REGRESO</name>
+      <Placemark>
+        <name>REGRESO</name>
+        <description><![CDATA[Descripción: <br>RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: <br>LATITUD: <br>LONGITUD: <br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#line-7CB342-5000</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SECUENCIA">
+            <value/>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value/>
+          </Data>
+          <Data name="LATITUD">
+            <value/>
+          </Data>
+          <Data name="LONGITUD">
+            <value/>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.736096,17.049208,0
+            -96.736549,17.04922,0
+            -96.737346,17.04923,0
+            -96.737741,17.049235,0
+            -96.738033,17.049232,0
+            -96.738303,17.049206,0
+            -96.73845,17.049172,0
+            -96.738568,17.049132,0
+            -96.738681,17.049095,0
+            -96.738786,17.049039,0
+            -96.738818,17.049026,0
+            -96.739123,17.049093,0
+            -96.739379,17.049159,0
+            -96.739607,17.049223,0
+            -96.739978,17.049316,0
+            -96.7403,17.049419,0
+            -96.740394,17.049454,0
+            -96.740532,17.049524,0
+            -96.740705,17.049598,0
+            -96.740909,17.049633,0
+            -96.741341,17.049697,0
+            -96.741817,17.049718,0
+            -96.741962,17.049718,0
+            -96.74203,17.049697,0
+            -96.74212,17.04965,0
+            -96.742298,17.049548,0
+            -96.742374,17.049572,0
+            -96.742538,17.049738,0
+            -96.742706,17.049954,0
+            -96.742703,17.049981,0
+            -96.742593,17.05026,0
+            -96.742574,17.05036,0
+            -96.742573,17.05043,0
+            -96.742613,17.050509,0
+            -96.742677,17.050612,0
+            -96.742764,17.050728,0
+            -96.742858,17.050832,0
+            -96.742971,17.050924,0
+            -96.743153,17.051008,0
+            -96.743259,17.051047,0
+            -96.743374,17.051082,0
+            -96.743623,17.051078,0
+            -96.744033,17.051105,0
+            -96.744108,17.051136,0
+            -96.744146,17.051174,0
+            -96.744568,17.051884,0
+            -96.744717,17.052095,0
+            -96.744813,17.052277,0
+            -96.74492,17.052517,0
+            -96.745097,17.053058,0
+            -96.745198,17.053398,0
+            -96.745389,17.0541,0
+            -96.745652,17.054976,0
+            -96.745881,17.055685,0
+            -96.745927,17.055846,0
+            -96.745914,17.055965,0
+            -96.745901,17.05602,0
+            -96.745834,17.056114,0
+            -96.745542,17.05635,0
+            -96.745141,17.056688,0
+            -96.744734,17.05704,0
+            -96.744291,17.057424,0
+            -96.743639,17.058012,0
+            -96.742664,17.058883,0
+            -96.741473,17.059947,0
+            -96.740783,17.060557,0
+            -96.740201,17.061094,0
+            -96.740026,17.061222,0
+            -96.739909,17.061311,0
+            -96.739822,17.061406,0
+            -96.739684,17.06147,0
+            -96.739513,17.061533,0
+            -96.73935,17.061569,0
+            -96.738989,17.061562,0
+            -96.738157,17.061563,0
+            -96.737397,17.061578,0
+            -96.737253,17.061506,0
+            -96.737172,17.061416,0
+            -96.737128,17.06136,0
+            -96.737125,17.061324,0
+            -96.737119,17.0612,0
+            -96.736975,17.060687,0
+            -96.736942,17.060509,0
+            -96.736888,17.059882,0
+            -96.736883,17.059786,0
+            -96.736692,17.059264,0
+            -96.73661,17.059074,0
+            -96.7365,17.058918,0
+            -96.736398,17.058912,0
+            -96.735891,17.059246,0
+            -96.735015,17.059796,0
+            -96.73467,17.060018,0
+            -96.7342,17.060349,0
+            -96.733672,17.060716,0
+            -96.733615,17.060751,0
+            -96.733549,17.060681,0
+            -96.733463,17.060732,0
+            -96.733495,17.060822,0
+            -96.733361,17.060932,0
+            -96.733248,17.061188,0
+            -96.732578,17.061219,0
+            -96.731926,17.061217,0
+            -96.731116,17.061207,0
+            -96.730695,17.061181,0
+            -96.730392,17.061128,0
+            -96.729783,17.061038,0
+            -96.72882,17.060846,0
+            -96.728683,17.061391,0
+            -96.728613,17.061786,0
+            -96.728559,17.06233,0
+            -96.72843,17.062714,0
+            -96.72822,17.063726,0
+            -96.728088,17.064534,0
+            -96.727955,17.065216,0
+            -96.727741,17.066236,0
+            -96.727681,17.06662,0
+            -96.727558,17.067215,0
+            -96.727504,17.067512,0
+            -96.727475,17.067836,0
+            -96.727534,17.068377,0
+            -96.727585,17.068595,0
+            -96.727616,17.068899,0
+            -96.727664,17.069366,0
+            -96.727679,17.069605,0
+            -96.727636,17.069954,0
+            -96.727582,17.070297,0
+            -96.727537,17.070474,0
+            -96.727427,17.07089,0
+            -96.727362,17.071297,0
+            -96.727198,17.072106,0
+            -96.727123,17.072598,0
+            -96.727064,17.072885,0
+            -96.727005,17.07309,0
+            -96.726903,17.073177,0
+            -96.726739,17.07315,0
+            -96.726232,17.072978,0
+            -96.725892,17.072852,0
+            -96.725551,17.072729,0
+            -96.725196,17.072607,0
+            -96.724577,17.072479,0
+            -96.724164,17.072422,0
+            -96.723383,17.072317,0
+            -96.722652,17.072174,0
+            -96.722247,17.072104,0
+            -96.721799,17.072015,0
+            -96.721408,17.071933,0
+            -96.720896,17.071812,0
+            -96.72055,17.071727,0
+            -96.720255,17.071773,0
+            -96.719646,17.071638,0
+            -96.719198,17.071558,0
+            -96.718581,17.071406,0
+            -96.718074,17.07133,0
+            -96.717981,17.071286,0
+            -96.717608,17.071076,0
+            -96.717395,17.07101,0
+            -96.716609,17.070848,0
+            -96.716226,17.070735,0
+            -96.715858,17.070615,0
+            -96.715652,17.070571,0
+            -96.715062,17.070476,0
+            -96.714772,17.070425,0
+            -96.714196,17.070384,0
+            -96.71375,17.070358,0
+            -96.713606,17.070348,0
+            -96.71352,17.070379,0
+            -96.713405,17.070397,0
+            -96.712823,17.070338,0
+            -96.712501,17.070313,0
+            -96.712324,17.070292,0
+            -96.712149,17.070259,0
+            -96.711884,17.070182,0
+            -96.711551,17.070154,0
+            -96.709532,17.069984,0
+            -96.708144,17.069803,0
+            -96.707093,17.069782,0
+            -96.705907,17.06969,0
+            -96.704941,17.069582,0
+            -96.703713,17.069485,0
+            -96.702104,17.069352,0
+            -96.699658,17.069131,0
+            -96.697966,17.069009,0
+            -96.697381,17.068952,0
+            -96.69627,17.068845,0
+            -96.695495,17.068765,0
+            -96.69472,17.068691,0
+            -96.694103,17.068652,0
+            -96.693172,17.068609,0
+            -96.692537,17.06857,0
+            -96.691968,17.068519,0
+            -96.691469,17.06845,0
+            -96.690773,17.068381,0
+            -96.690676,17.068339,0
+            -96.6907,17.068284,0
+            -96.690788,17.068221,0
+            -96.690991,17.068097,0
+            -96.691264,17.067928,0
+            -96.691356,17.067862,0
+            -96.691566,17.067703,0
+            -96.692378,17.067082,0
+            -96.692718,17.066824,0
+            -96.692954,17.066642,0
+            -96.693196,17.066482,0
+            -96.693567,17.066262,0
+            -96.693813,17.06607,0
+            -96.694044,17.065182,0
+            -96.69421,17.064652,0
+            -96.693793,17.064755,0
+            -96.693594,17.064809,0
+            -96.693208,17.064842,0
+            -96.692846,17.064793,0
+            -96.691861,17.064678,0
+            -96.690695,17.064534,0
+            -96.690418,17.064519,0
+            -96.690548,17.064075,0
+            -96.690725,17.063603,0
+            -96.690934,17.063146,0
+            -96.691122,17.062721,0
+            -96.691405,17.061911,0
+            -96.691662,17.061115,0
+            -96.691764,17.0609,0
+            -96.691941,17.060777,0
+            -96.692009,17.060679,0
+            -96.692124,17.060225,0
+            -96.6924,17.058667,0
+            -96.692571,17.057759,0
+            -96.692726,17.05706,0
+            -96.692878,17.056475,0
+            -96.693015,17.055767,0
+            -96.693068,17.05559,0
+            -96.693063,17.055439,0
+            -96.693312,17.054637,0
+            -96.693471,17.054078,0
+            -96.693562,17.053749,0
+            -96.693637,17.053431,0
+            -96.693761,17.052926,0
+            -96.693887,17.052408,0
+            -96.69401,17.051978,0
+            -96.694124,17.051526,0
+            -96.694237,17.051065,0
+            -96.694354,17.050518,0
+            -96.694477,17.050082,0
+            -96.694648,17.049384,0
+            -96.694966,17.048191,0
+            -96.69443,17.048063,0
+            -96.69377,17.047879,0
+            -96.693131,17.04775,0
+            -96.69238,17.047556,0
+            -96.690476,17.047094,0
+            -96.690004,17.047007,0
+            -96.689977,17.046951,0
+            -96.689855,17.045625,0
+            -96.689801,17.045105,0
+            -96.689749,17.044499,0
+            -96.689653,17.044281,0
+            -96.689578,17.044158,0
+            -96.689189,17.04358,0
+            -96.688969,17.043242,0
+            -96.688813,17.043011,0
+            -96.688722,17.042809,0
+            -96.688692,17.04267,0
+            -96.688719,17.042511,0
+            -96.689119,17.041737,0
+            -96.68922,17.041582,0
+            -96.68933,17.041636,0
+            -96.689813,17.04189,0
+            -96.690683,17.041778,0
+            -96.691233,17.041699,0
+            -96.692598,17.041578,0
+            -96.692678,17.04156,0
+            -96.692775,17.040952,0
+            -96.692901,17.040178,0
+            -96.692926,17.039435,0
+            -96.692744,17.03904,0
+            -96.692642,17.038881,0
+            -96.69202,17.03922,0
+            -96.6918,17.03885,0
+            -96.691379,17.038034,0
+            -96.69102,17.037351,0
+            -96.690832,17.037028,0
+            -96.690714,17.036918,0
+            -96.690598,17.03686,0
+            -96.690475,17.036823,0
+            -96.69043,17.03681,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base la Cuevita</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 47<br>NUMERO DE PARADAS: 1<br>SENTIDO: REGRESO<br>LATITUD: 17.049185<br>LONGITUD: -96.736059<br>CONEXIONES: <br>GESCAR: 2381<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 47.0<br>NUMERO DE PARADAS: 1.0<br>SENTIDO: REGRESO<br>LATITUD: 17.049185<br>LONGITUD: -96.736059<br>CONEXIONES: <br>GESCAR: 2381<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 47
+NUMERO DE PARADAS: 1
+SENTIDO: REGRESO
+LATITUD: 17.049185
+LONGITUD: -96.736059
+CONEXIONES: 
+GESCAR: 2381
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>47.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>1.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.049185</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.736059</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2381</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.736059,17.049185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Josefa Ortiz</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 48<br>NUMERO DE PARADAS: 2<br>SENTIDO: REGRESO<br>LATITUD: 17.049097<br>LONGITUD: -96.738594<br>CONEXIONES: <br>GESCAR: 2382<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 48.0<br>NUMERO DE PARADAS: 2.0<br>SENTIDO: REGRESO<br>LATITUD: 17.049097<br>LONGITUD: -96.738594<br>CONEXIONES: <br>GESCAR: 2382<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 48
+NUMERO DE PARADAS: 2
+SENTIDO: REGRESO
+LATITUD: 17.049097
+LONGITUD: -96.738594
+CONEXIONES: 
+GESCAR: 2382
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>48.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>2.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.049097</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.738594</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2382</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.738594,17.049097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Cuevita</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 49<br>NUMERO DE PARADAS: 3<br>SENTIDO: REGRESO<br>LATITUD: 17.049587<br>LONGITUD: -96.742174<br>CONEXIONES: <br>GESCAR: 2383<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 49.0<br>NUMERO DE PARADAS: 3.0<br>SENTIDO: REGRESO<br>LATITUD: 17.049587<br>LONGITUD: -96.742174<br>CONEXIONES: <br>GESCAR: 2383<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 49
+NUMERO DE PARADAS: 3
+SENTIDO: REGRESO
+LATITUD: 17.049587
+LONGITUD: -96.742174
+CONEXIONES: 
+GESCAR: 2383
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>49.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>3.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.049587</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.742174</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2383</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.742174,17.049587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Coquito</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 50<br>NUMERO DE PARADAS: 4<br>SENTIDO: REGRESO<br>LATITUD: 17.05259408<br>LONGITUD: -96.744956<br>CONEXIONES: <br>GESCAR: 2384<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 50.0<br>NUMERO DE PARADAS: 4.0<br>SENTIDO: REGRESO<br>LATITUD: 17.05259408<br>LONGITUD: -96.744956<br>CONEXIONES: <br>GESCAR: 2384<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 50
+NUMERO DE PARADAS: 4
+SENTIDO: REGRESO
+LATITUD: 17.05259408
+LONGITUD: -96.744956
+CONEXIONES: 
+GESCAR: 2384
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>50.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>4.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.05259408</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.744956</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2384</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.744956,17.052594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hierro</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 51<br>NUMERO DE PARADAS: 5<br>SENTIDO: REGRESO<br>LATITUD: 17.0562462<br>LONGITUD: 	-96.745656<br>CONEXIONES: RA15<br>GESCAR: 2244<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 51.0<br>NUMERO DE PARADAS: 5.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0562462<br>LONGITUD: -96.745656<br>CONEXIONES: RA15<br>GESCAR: 2244<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 51
+NUMERO DE PARADAS: 5
+SENTIDO: REGRESO
+LATITUD: 17.0562462
+LONGITUD: 	-96.745656
+CONEXIONES: RA15
+GESCAR: 2244
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>51.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>5.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0562462</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.745656</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2244</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.745656,17.056246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sierra Juárez</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 53<br>NUMERO DE PARADAS: 7<br>SENTIDO: REGRESO<br>LATITUD: 17.061022<br>LONGITUD: -96.740254<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1838<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 53.0<br>NUMERO DE PARADAS: 7.0<br>SENTIDO: REGRESO<br>LATITUD: 17.061022<br>LONGITUD: -96.740254<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1838<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 53
+NUMERO DE PARADAS: 7
+SENTIDO: REGRESO
+LATITUD: 17.061022
+LONGITUD: -96.740254
+CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16
+GESCAR: 1838
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>53.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>7.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061022</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.740254</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA02,RA06,RA07,RA11,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1838</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.740254,17.061022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Valerio</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 54<br>NUMERO DE PARADAS: 8<br>SENTIDO: REGRESO<br>LATITUD: 17.061361<br>LONGITUD: -96.737137<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1839<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 54.0<br>NUMERO DE PARADAS: 8.0<br>SENTIDO: REGRESO<br>LATITUD: 17.061361<br>LONGITUD: -96.737137<br>CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16<br>GESCAR: 1839<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 54
+NUMERO DE PARADAS: 8
+SENTIDO: REGRESO
+LATITUD: 17.061361
+LONGITUD: -96.737137
+CONEXIONES: RA02,RA06,RA07,RA11,RA14,RA15,RA16
+GESCAR: 1839
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>54.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>8.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061361</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.737137</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA02,RA06,RA07,RA11,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1839</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.737137,17.061361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>De Mercaderes</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 55<br>NUMERO DE PARADAS: 9<br>SENTIDO: REGRESO<br>LATITUD: 17.059233<br>LONGITUD: -96.735852<br>CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1840<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 55.0<br>NUMERO DE PARADAS: 9.0<br>SENTIDO: REGRESO<br>LATITUD: 17.059233<br>LONGITUD: -96.735852<br>CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1840<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 55
+NUMERO DE PARADAS: 9
+SENTIDO: REGRESO
+LATITUD: 17.059233
+LONGITUD: -96.735852
+CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16
+GESCAR: 1840
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>55.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>9.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.059233</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.735852</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1840</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.735852,17.059233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central de Abastos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 56<br>NUMERO DE PARADAS: 10<br>SENTIDO: REGRESO<br>LATITUD: 17.0605447<br>LONGITUD: -96.7339124<br>CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1841<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 56.0<br>NUMERO DE PARADAS: 10.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0605447<br>LONGITUD: -96.7339124<br>CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16<br>GESCAR: 1841<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 56
+NUMERO DE PARADAS: 10
+SENTIDO: REGRESO
+LATITUD: 17.0605447
+LONGITUD: -96.7339124
+CONEXIONES: RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16
+GESCAR: 1841
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>56.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>10.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0605447</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7339124</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA01,RA02,RA06,RA07,RA11,RA12,RA14,RA15,RA16</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1841</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.733912,17.060545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guadalupe Victoria</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 57<br>NUMERO DE PARADAS: 11<br>SENTIDO: REGRESO<br>LATITUD: 17.061195<br>LONGITUD: -96.732167<br>CONEXIONES: RC06,RA02,RA07,RA11,RA12,RA14,RA15<br>GESCAR: 1778<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 57.0<br>NUMERO DE PARADAS: 11.0<br>SENTIDO: REGRESO<br>LATITUD: 17.061195<br>LONGITUD: -96.732167<br>CONEXIONES: RC06,RA02,RA07,RA11,RA12,RA14,RA15<br>GESCAR: 1778<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 57
+NUMERO DE PARADAS: 11
+SENTIDO: REGRESO
+LATITUD: 17.061195
+LONGITUD: -96.732167
+CONEXIONES: RC06,RA02,RA07,RA11,RA12,RA14,RA15
+GESCAR: 1778
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>57.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>11.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061195</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.732167</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA02,RA07,RA11,RA12,RA14,RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1778</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.732167,17.061195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mier y Teran</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 58<br>NUMERO DE PARADAS: 12<br>SENTIDO: REGRESO<br>LATITUD: 17.061057<br>LONGITUD: -96.729965<br>CONEXIONES: RC06,RA02,RA07,RA11,RA12,RA14,RA15<br>GESCAR: 1779<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 58.0<br>NUMERO DE PARADAS: 12.0<br>SENTIDO: REGRESO<br>LATITUD: 17.061057<br>LONGITUD: -96.729965<br>CONEXIONES: RC06,RA02,RA07,RA11,RA12,RA14,RA15<br>GESCAR: 1779<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 58
+NUMERO DE PARADAS: 12
+SENTIDO: REGRESO
+LATITUD: 17.061057
+LONGITUD: -96.729965
+CONEXIONES: RC06,RA02,RA07,RA11,RA12,RA14,RA15
+GESCAR: 1779
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>58.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>12.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061057</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.729965</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA02,RA07,RA11,RA12,RA14,RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1779</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.729965,17.061057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miguel Hidalgo</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 59<br>NUMERO DE PARADAS: 13<br>SENTIDO: REGRESO<br>LATITUD: 17.061624<br>LONGITUD: -96.728678<br>CONEXIONES: RC02,RC06,RA07,RA08,RA11,RA15<br>GESCAR: 1842<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 59.0<br>NUMERO DE PARADAS: 13.0<br>SENTIDO: REGRESO<br>LATITUD: 17.061624<br>LONGITUD: -96.728678<br>CONEXIONES: RC02,RC06,RA07,RA08,RA11,RA15<br>GESCAR: 1842<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 59
+NUMERO DE PARADAS: 13
+SENTIDO: REGRESO
+LATITUD: 17.061624
+LONGITUD: -96.728678
+CONEXIONES: RC02,RC06,RA07,RA08,RA11,RA15
+GESCAR: 1842
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>59.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>13.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061624</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.728678</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC02,RC06,RA07,RA08,RA11,RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1842</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.728678,17.061624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morelos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 60<br>NUMERO DE PARADAS: 14<br>SENTIDO: REGRESO<br>LATITUD: 17.06356<br>LONGITUD: -96.72821<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09,RA11<br>GESCAR: 109<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 60.0<br>NUMERO DE PARADAS: 14.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06356<br>LONGITUD: -96.72821<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09,RA11<br>GESCAR: 109<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 60
+NUMERO DE PARADAS: 14
+SENTIDO: REGRESO
+LATITUD: 17.06356
+LONGITUD: -96.72821
+CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09,RA11
+GESCAR: 109
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>60.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>14.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06356</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72821</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC15,RA04,RA07,RA08,RA09,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>109</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72821,17.06356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asilo los Tamayo</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 61<br>NUMERO DE PARADAS: 15<br>SENTIDO: REGRESO<br>LATITUD: 17.06664<br>LONGITUD: -96.72763<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09<br>GESCAR: 111<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 61.0<br>NUMERO DE PARADAS: 15.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06664<br>LONGITUD: -96.72763<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09<br>GESCAR: 111<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 61
+NUMERO DE PARADAS: 15
+SENTIDO: REGRESO
+LATITUD: 17.06664
+LONGITUD: -96.72763
+CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09
+GESCAR: 111
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>61.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>15.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06664</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72763</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC15,RA04,RA07,RA08,RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>111</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72763,17.06664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faustino G. Olivera</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 62<br>NUMERO DE PARADAS: 16<br>SENTIDO: REGRESO<br>LATITUD: 17.0701<br>LONGITUD: -96.72755<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09<br>GESCAR: 112<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 62.0<br>NUMERO DE PARADAS: 16.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0701<br>LONGITUD: -96.72755<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09<br>GESCAR: 112<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 62
+NUMERO DE PARADAS: 16
+SENTIDO: REGRESO
+LATITUD: 17.0701
+LONGITUD: -96.72755
+CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09
+GESCAR: 112
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>62.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>16.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0701</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72755</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC15,RA04,RA07,RA08,RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>112</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72755,17.0701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niños Heroes de Chapultepec</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 63<br>NUMERO DE PARADAS: 17<br>SENTIDO: REGRESO<br>LATITUD: 17.07221<br>LONGITUD: -96.72715<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09,RA11<br>GESCAR: 1978<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 63.0<br>NUMERO DE PARADAS: 17.0<br>SENTIDO: REGRESO<br>LATITUD: 17.07221<br>LONGITUD: -96.72715<br>CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09,RA11<br>GESCAR: 1978<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 63
+NUMERO DE PARADAS: 17
+SENTIDO: REGRESO
+LATITUD: 17.07221
+LONGITUD: -96.72715
+CONEXIONES: RC01,RC15,RA04,RA07,RA08,RA09,RA11
+GESCAR: 1978
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>63.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>17.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07221</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72715</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC15,RA04,RA07,RA08,RA09,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1978</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72715,17.07221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de la Reforma</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 65<br>NUMERO DE PARADAS: 19<br>SENTIDO: REGRESO<br>LATITUD: 17.07187<br>LONGITUD: -96.72132<br>CONEXIONES: RC01,RC02,RC06,RC13,RC15,RA04,RA08,RA09,RA11<br>GESCAR: 115<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 65.0<br>NUMERO DE PARADAS: 19.0<br>SENTIDO: REGRESO<br>LATITUD: 17.07187<br>LONGITUD: -96.72132<br>CONEXIONES: RC01,RC02,RC06,RC13,RC15,RA04,RA08,RA09,RA11<br>GESCAR: 115<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 65
+NUMERO DE PARADAS: 19
+SENTIDO: REGRESO
+LATITUD: 17.07187
+LONGITUD: -96.72132
+CONEXIONES: RC01,RC02,RC06,RC13,RC15,RA04,RA08,RA09,RA11
+GESCAR: 115
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>65.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>19.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07187</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72132</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC02,RC06,RC13,RC15,RA04,RA08,RA09,RA11</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>115</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72132,17.07187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ADO</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 66<br>NUMERO DE PARADAS: 20<br>SENTIDO: REGRESO<br>LATITUD: 17.070778<br>LONGITUD: -96.716503<br>CONEXIONES: RC01,RC06,RC11,RA04,RA09,RA10,RA12<br>GESCAR: 1781<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 66.0<br>NUMERO DE PARADAS: 20.0<br>SENTIDO: REGRESO<br>LATITUD: 17.070778<br>LONGITUD: -96.716503<br>CONEXIONES: RC01,RC06,RC11,RA04,RA09,RA10,RA12<br>GESCAR: 1781<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 66
+NUMERO DE PARADAS: 20
+SENTIDO: REGRESO
+LATITUD: 17.070778
+LONGITUD: -96.716503
+CONEXIONES: RC01,RC06,RC11,RA04,RA09,RA10,RA12
+GESCAR: 1781
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>66.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>20.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070778</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.716503</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC01,RC06,RC11,RA04,RA09,RA10,RA12</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1781</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.716503,17.070778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manuel Ruiz</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 67<br>NUMERO DE PARADAS: 21<br>SENTIDO: REGRESO<br>LATITUD: 17.070164<br>LONGITUD: -96.71167<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1674<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 67.0<br>NUMERO DE PARADAS: 21.0<br>SENTIDO: REGRESO<br>LATITUD: 17.070164<br>LONGITUD: -96.71167<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1674<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 67
+NUMERO DE PARADAS: 21
+SENTIDO: REGRESO
+LATITUD: 17.070164
+LONGITUD: -96.71167
+CONEXIONES: RC06,RA03,RA04,RA09
+GESCAR: 1674
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>67.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>21.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070164</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71167</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA03,RA04,RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1674</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71167,17.070164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peru</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 68<br>NUMERO DE PARADAS: 22<br>SENTIDO: REGRESO<br>LATITUD: 17.069756<br>LONGITUD: -96.707911<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1675<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 68.0<br>NUMERO DE PARADAS: 22.0<br>SENTIDO: REGRESO<br>LATITUD: 17.069756<br>LONGITUD: -96.707911<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1675<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 68
+NUMERO DE PARADAS: 22
+SENTIDO: REGRESO
+LATITUD: 17.069756
+LONGITUD: -96.707911
+CONEXIONES: RC06,RA03,RA04,RA09
+GESCAR: 1675
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>68.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>22.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069756</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.707911</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA03,RA04,RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1675</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.707911,17.069756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cd. de las Canteras</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 69<br>NUMERO DE PARADAS: 23<br>SENTIDO: REGRESO<br>LATITUD: 17.069578<br>LONGITUD: -96.70507<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1676<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 69.0<br>NUMERO DE PARADAS: 23.0<br>SENTIDO: REGRESO<br>LATITUD: 17.069578<br>LONGITUD: -96.70507<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1676<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 69
+NUMERO DE PARADAS: 23
+SENTIDO: REGRESO
+LATITUD: 17.069578
+LONGITUD: -96.70507
+CONEXIONES: RC06,RA03,RA04,RA09
+GESCAR: 1676
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>69.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>23.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069578</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.70507</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA03,RA04,RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1676</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.70507,17.069578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28° Zona Militar</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 70<br>NUMERO DE PARADAS: 24<br>SENTIDO: REGRESO<br>LATITUD: 17.06914<br>LONGITUD: -96.70017<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1678<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 70.0<br>NUMERO DE PARADAS: 24.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06914<br>LONGITUD: -96.70017<br>CONEXIONES: RC06,RA03,RA04,RA09<br>GESCAR: 1678<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 70
+NUMERO DE PARADAS: 24
+SENTIDO: REGRESO
+LATITUD: 17.06914
+LONGITUD: -96.70017
+CONEXIONES: RC06,RA03,RA04,RA09
+GESCAR: 1678
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>70.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>24.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06914</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.70017</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA03,RA04,RA09</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1678</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.70017,17.06914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Macroplaza Oaxaca</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 71<br>NUMERO DE PARADAS: 25<br>SENTIDO: REGRESO<br>LATITUD: 17.068664<br>LONGITUD: -96.694662<br>CONEXIONES: RC06,RA03,RA04<br>GESCAR: 1679<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 71.0<br>NUMERO DE PARADAS: 25.0<br>SENTIDO: REGRESO<br>LATITUD: 17.068664<br>LONGITUD: -96.694662<br>CONEXIONES: RC06,RA03,RA04<br>GESCAR: 1679<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 71
+NUMERO DE PARADAS: 25
+SENTIDO: REGRESO
+LATITUD: 17.068664
+LONGITUD: -96.694662
+CONEXIONES: RC06,RA03,RA04
+GESCAR: 1679
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>71.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>25.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068664</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.694662</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA03,RA04</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1679</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694662,17.068664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siracuza</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 72<br>NUMERO DE PARADAS: 26<br>SENTIDO: REGRESO<br>LATITUD: 17.068365<br>LONGITUD: -96.69093<br>CONEXIONES: RC06,RA03,RA04<br>GESCAR: 1680<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 72.0<br>NUMERO DE PARADAS: 26.0<br>SENTIDO: REGRESO<br>LATITUD: 17.068365<br>LONGITUD: -96.69093<br>CONEXIONES: RC06,RA03,RA04<br>GESCAR: 1680<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 72
+NUMERO DE PARADAS: 26
+SENTIDO: REGRESO
+LATITUD: 17.068365
+LONGITUD: -96.69093
+CONEXIONES: RC06,RA03,RA04
+GESCAR: 1680
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>72.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>26.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068365</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.69093</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC06,RA03,RA04</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1680</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.69093,17.068365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Juarez</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 73<br>NUMERO DE PARADAS: 27<br>SENTIDO: REGRESO<br>LATITUD: 17.066351<br>LONGITUD: -96.693416<br>CONEXIONES: RA04<br>GESCAR: 2163<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 73.0<br>NUMERO DE PARADAS: 27.0<br>SENTIDO: REGRESO<br>LATITUD: 17.066351<br>LONGITUD: -96.693416<br>CONEXIONES: RA04<br>GESCAR: 2163<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 73
+NUMERO DE PARADAS: 27
+SENTIDO: REGRESO
+LATITUD: 17.066351
+LONGITUD: -96.693416
+CONEXIONES: RA04
+GESCAR: 2163
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>73.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>27.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.066351</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.693416</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA04</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2163</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.693416,17.066351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Juarez</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 74<br>NUMERO DE PARADAS: 28<br>SENTIDO: REGRESO<br>LATITUD: 17.06477<br>LONGITUD: -96.69376<br>CONEXIONES: RC14,RA04,RA15<br>GESCAR: 46<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 74.0<br>NUMERO DE PARADAS: 28.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06477<br>LONGITUD: -96.69376<br>CONEXIONES: RC14,RA04,RA15<br>GESCAR: 46<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 74
+NUMERO DE PARADAS: 28
+SENTIDO: REGRESO
+LATITUD: 17.06477
+LONGITUD: -96.69376
+CONEXIONES: RC14,RA04,RA15
+GESCAR: 46
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>74.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>28.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06477</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.69376</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC14,RA04,RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>46</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.69376,17.06477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Diego de los Hornos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 75<br>NUMERO DE PARADAS: 29<br>SENTIDO: REGRESO<br>LATITUD: 17.06454<br>LONGITUD: -96.6906<br>CONEXIONES: RC14,RA04,RA15<br>GESCAR: 2165<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 75.0<br>NUMERO DE PARADAS: 29.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06454<br>LONGITUD: -96.6906<br>CONEXIONES: RC14,RA04,RA15<br>GESCAR: 2165<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 75
+NUMERO DE PARADAS: 29
+SENTIDO: REGRESO
+LATITUD: 17.06454
+LONGITUD: -96.6906
+CONEXIONES: RC14,RA04,RA15
+GESCAR: 2165
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>75.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>29.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06454</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6906</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC14,RA04,RA15</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2165</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.6906,17.06454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emilio Carranza</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 76<br>NUMERO DE PARADAS: 30<br>SENTIDO: REGRESO<br>LATITUD: 17.062049<br>LONGITUD: -96.691321<br>CONEXIONES: <br>GESCAR: 2385<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 76.0<br>NUMERO DE PARADAS: 30.0<br>SENTIDO: REGRESO<br>LATITUD: 17.062049<br>LONGITUD: -96.691321<br>CONEXIONES: <br>GESCAR: 2385<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 76
+NUMERO DE PARADAS: 30
+SENTIDO: REGRESO
+LATITUD: 17.062049
+LONGITUD: -96.691321
+CONEXIONES: 
+GESCAR: 2385
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>76.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>30.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.062049</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.691321</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2385</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.691321,17.062049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crucero de Hornos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 77<br>NUMERO DE PARADAS: 31<br>SENTIDO: REGRESO<br>LATITUD: 17.060368<br>LONGITUD: -96.692042<br>CONEXIONES: <br>GESCAR: 2386<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 77.0<br>NUMERO DE PARADAS: 31.0<br>SENTIDO: REGRESO<br>LATITUD: 17.060368<br>LONGITUD: -96.692042<br>CONEXIONES: <br>GESCAR: 2386<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 77
+NUMERO DE PARADAS: 31
+SENTIDO: REGRESO
+LATITUD: 17.060368
+LONGITUD: -96.692042
+CONEXIONES: 
+GESCAR: 2386
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>77.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>31.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.060368</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.692042</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2386</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692042,17.060368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Progreso</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 78<br>NUMERO DE PARADAS: 32<br>SENTIDO: REGRESO<br>LATITUD: 17.057205<br>LONGITUD: -96.692661<br>CONEXIONES: <br>GESCAR: 2387<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 78.0<br>NUMERO DE PARADAS: 32.0<br>SENTIDO: REGRESO<br>LATITUD: 17.057205<br>LONGITUD: -96.692661<br>CONEXIONES: <br>GESCAR: 2387<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 78
+NUMERO DE PARADAS: 32
+SENTIDO: REGRESO
+LATITUD: 17.057205
+LONGITUD: -96.692661
+CONEXIONES: 
+GESCAR: 2387
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>78.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>32.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.057205</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.692661</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2387</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692661,17.057205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sauces</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 79<br>NUMERO DE PARADAS: 33<br>SENTIDO: REGRESO<br>LATITUD: 17.0543947<br>LONGITUD: -96.6934253<br>CONEXIONES: <br>GESCAR: 2388<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 79.0<br>NUMERO DE PARADAS: 33.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0543947<br>LONGITUD: -96.6934253<br>CONEXIONES: <br>GESCAR: 2388<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 79
+NUMERO DE PARADAS: 33
+SENTIDO: REGRESO
+LATITUD: 17.0543947
+LONGITUD: -96.6934253
+CONEXIONES: 
+GESCAR: 2388
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>79.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>33.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0543947</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6934253</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2388</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.693425,17.054395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nardos</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 80<br>NUMERO DE PARADAS: 34<br>SENTIDO: REGRESO<br>LATITUD: 17.0511387<br>LONGITUD: -96.6942382<br>CONEXIONES: <br>GESCAR: 2389<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 80.0<br>NUMERO DE PARADAS: 34.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0511387<br>LONGITUD: -96.6942382<br>CONEXIONES: <br>GESCAR: 2389<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 80
+NUMERO DE PARADAS: 34
+SENTIDO: REGRESO
+LATITUD: 17.0511387
+LONGITUD: -96.6942382
+CONEXIONES: 
+GESCAR: 2389
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>80.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>34.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0511387</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6942382</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2389</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694238,17.051139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Del Rosario</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 81<br>NUMERO DE PARADAS: 35<br>SENTIDO: REGRESO<br>LATITUD: 17.0480649<br>LONGITUD: -96.6947167<br>CONEXIONES: RC09, RA14<br>GESCAR: 1930<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 81.0<br>NUMERO DE PARADAS: 35.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0480649<br>LONGITUD: -96.6947167<br>CONEXIONES: RC09, RA14<br>GESCAR: 1930<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 81
+NUMERO DE PARADAS: 35
+SENTIDO: REGRESO
+LATITUD: 17.0480649
+LONGITUD: -96.6947167
+CONEXIONES: RC09, RA14
+GESCAR: 1930
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>81.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>35.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0480649</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6947167</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC09, RA14</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1930</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694717,17.048065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nueve</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 82<br>NUMERO DE PARADAS: 36<br>SENTIDO: REGRESO<br>LATITUD: 17.04756<br>LONGITUD: -96.6928089<br>CONEXIONES: RA14<br>GESCAR: 2390<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 82.0<br>NUMERO DE PARADAS: 36.0<br>SENTIDO: REGRESO<br>LATITUD: 17.04756<br>LONGITUD: -96.6928089<br>CONEXIONES: RA14<br>GESCAR: 2390<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 82
+NUMERO DE PARADAS: 36
+SENTIDO: REGRESO
+LATITUD: 17.04756
+LONGITUD: -96.6928089
+CONEXIONES: RA14
+GESCAR: 2390
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>82.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>36.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.04756</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6928089</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA14</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2390</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692809,17.04756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Circuito Norte 1</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 83<br>NUMERO DE PARADAS: 37<br>SENTIDO: REGRESO<br>LATITUD: 17.0470373<br>LONGITUD: -96.6902291<br>CONEXIONES: <br>GESCAR: 2391<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 83.0<br>NUMERO DE PARADAS: 37.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0470373<br>LONGITUD: -96.6902291<br>CONEXIONES: <br>GESCAR: 2391<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 83
+NUMERO DE PARADAS: 37
+SENTIDO: REGRESO
+LATITUD: 17.0470373
+LONGITUD: -96.6902291
+CONEXIONES: 
+GESCAR: 2391
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>83.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>37.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0470373</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6902291</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2391</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.690229,17.047037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cinco</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 84<br>NUMERO DE PARADAS: 38<br>SENTIDO: REGRESO<br>LATITUD: 17.0454912<br>LONGITUD: -96.689886<br>CONEXIONES: <br>GESCAR: 2392<br>unnamed (1): corregir coordenada<br>RUTA: RA10<br>SECUENCIA: 84.0<br>NUMERO DE PARADAS: 38.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0454912<br>LONGITUD: -96.689886<br>CONEXIONES: <br>GESCAR: 2392<br>unnamed (1): corregir coordenada]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 84
+NUMERO DE PARADAS: 38
+SENTIDO: REGRESO
+LATITUD: 17.0454912
+LONGITUD: -96.689886
+CONEXIONES: 
+GESCAR: 2392
+unnamed (1): corregir coordenada</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>84.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>38.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0454912</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.689886</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2392</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>corregir coordenada</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.689886,17.045491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siete</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 85<br>NUMERO DE PARADAS: 39<br>SENTIDO: REGRESO<br>LATITUD: 17.0434859<br>LONGITUD: -96.6891878<br>CONEXIONES: <br>GESCAR: 2393<br>unnamed (1): corregir coordenada<br>RUTA: RA10<br>SECUENCIA: 85.0<br>NUMERO DE PARADAS: 39.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0434859<br>LONGITUD: -96.6891878<br>CONEXIONES: <br>GESCAR: 2393<br>unnamed (1): corregir coordenada]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 85
+NUMERO DE PARADAS: 39
+SENTIDO: REGRESO
+LATITUD: 17.0434859
+LONGITUD: -96.6891878
+CONEXIONES: 
+GESCAR: 2393
+unnamed (1): corregir coordenada</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>85.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>39.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0434859</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6891878</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2393</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>corregir coordenada</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.689188,17.043486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Circuito Sur</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 86<br>NUMERO DE PARADAS: 40<br>SENTIDO: REGRESO<br>LATITUD: 17.042403<br>LONGITUD: -96.6887952<br>CONEXIONES: RA14<br>GESCAR: 1970<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 86.0<br>NUMERO DE PARADAS: 40.0<br>SENTIDO: REGRESO<br>LATITUD: 17.042403<br>LONGITUD: -96.6887952<br>CONEXIONES: RA14<br>GESCAR: 1970<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 86
+NUMERO DE PARADAS: 40
+SENTIDO: REGRESO
+LATITUD: 17.042403
+LONGITUD: -96.6887952
+CONEXIONES: RA14
+GESCAR: 1970
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>86.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>40.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.042403</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6887952</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA14</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1970</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.688795,17.042403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ixtepec</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 87<br>NUMERO DE PARADAS: 41<br>SENTIDO: REGRESO<br>LATITUD: 17.0417087<br>LONGITUD: -96.6893947<br>CONEXIONES: <br>GESCAR: 2394<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 87.0<br>NUMERO DE PARADAS: 41.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0417087<br>LONGITUD: -96.6893947<br>CONEXIONES: <br>GESCAR: 2394<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 87
+NUMERO DE PARADAS: 41
+SENTIDO: REGRESO
+LATITUD: 17.0417087
+LONGITUD: -96.6893947
+CONEXIONES: 
+GESCAR: 2394
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>87.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>41.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0417087</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6893947</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>2394</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.689395,17.041709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santo Domingo</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 88<br>NUMERO DE PARADAS: 42<br>SENTIDO: REGRESO<br>LATITUD: 17.0416696<br>LONGITUD: -96.691767<br>CONEXIONES: RA14<br>GESCAR: 2397<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 88.0<br>NUMERO DE PARADAS: 42.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0416696<br>LONGITUD: -96.691767<br>CONEXIONES: RA14<br>GESCAR: 2397<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 88
+NUMERO DE PARADAS: 42
+SENTIDO: REGRESO
+LATITUD: 17.0416696
+LONGITUD: -96.691767
+CONEXIONES: RA14
+GESCAR: 2397
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>88.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>42.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0416696</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.691767</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RA14</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>2397</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.691767,17.04167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tejupam</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 89<br>NUMERO DE PARADAS: 43<br>SENTIDO: REGRESO<br>LATITUD: 17.0410833<br>LONGITUD: -96.6927884<br>CONEXIONES: <br>GESCAR: 1970<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 89.0<br>NUMERO DE PARADAS: 43.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0410833<br>LONGITUD: -96.6927884<br>CONEXIONES: <br>GESCAR: 1970<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 89
+NUMERO DE PARADAS: 43
+SENTIDO: REGRESO
+LATITUD: 17.0410833
+LONGITUD: -96.6927884
+CONEXIONES: 
+GESCAR: 1970
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>89.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>43.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0410833</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6927884</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>1970</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692788,17.041083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Municipal Luis Donaldo Colosio</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 90<br>NUMERO DE PARADAS: 44<br>SENTIDO: REGRESO<br>LATITUD: 17.0389509<br>LONGITUD: -96.6927036<br>CONEXIONES: RC09,RA14<br>GESCAR: 1936<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 90.0<br>NUMERO DE PARADAS: 44.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0389509<br>LONGITUD: -96.6927036<br>CONEXIONES: RC09,RA14<br>GESCAR: 1936<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 90
+NUMERO DE PARADAS: 44
+SENTIDO: REGRESO
+LATITUD: 17.0389509
+LONGITUD: -96.6927036
+CONEXIONES: RC09,RA14
+GESCAR: 1936
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>90.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>44.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0389509</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6927036</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value>RC09,RA14</value>
+          </Data>
+          <Data name="GESCAR">
+            <value>1936</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692704,17.038951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Poton</name>
+        <description><![CDATA[Descripción: RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: REGRESO<br>LATITUD: 17.0391794<br>LONGITUD: -96.692071<br>CONEXIONES: <br>GESCAR: <br>unnamed (1):<br>RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: REGRESO<br>LATITUD: 17.0391794<br>LONGITUD: -96.692071<br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: 
+SECUENCIA: 
+NUMERO DE PARADAS: 
+SENTIDO: REGRESO
+LATITUD: 17.0391794
+LONGITUD: -96.692071
+CONEXIONES: 
+GESCAR: 
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SECUENCIA">
+            <value/>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0391794</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.692071</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.692071,17.039179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arantzazu</name>
+        <description><![CDATA[Descripción: RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: REGRESO<br>LATITUD: 17.0381984<br>LONGITUD: -96.6914892<br>CONEXIONES: <br>GESCAR: <br>unnamed (1):<br>RUTA: <br>SECUENCIA: <br>NUMERO DE PARADAS: <br>SENTIDO: REGRESO<br>LATITUD: 17.0381984<br>LONGITUD: -96.6914892<br>CONEXIONES: <br>GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: 
+SECUENCIA: 
+NUMERO DE PARADAS: 
+SENTIDO: REGRESO
+LATITUD: 17.0381984
+LONGITUD: -96.6914892
+CONEXIONES: 
+GESCAR: 
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value/>
+          </Data>
+          <Data name="SECUENCIA">
+            <value/>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0381984</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6914892</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.691489,17.038198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base El Rosario Punta Vizcaya</name>
+        <description><![CDATA[Descripción: RUTA: RA10<br>SECUENCIA: 93<br>NUMERO DE PARADAS: 47<br>SENTIDO: REGRESO<br>LATITUD: 17.0368056<br>LONGITUD: -96.6905131<br>CONEXIONES: <br>GESCAR: 1972<br>unnamed (1):<br>RUTA: RA10<br>SECUENCIA: 93.0<br>NUMERO DE PARADAS: 47.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0368056<br>LONGITUD: -96.6905131<br>CONEXIONES: <br>GESCAR: 1972<br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>RUTA: RA10
+SECUENCIA: 93
+NUMERO DE PARADAS: 47
+SENTIDO: REGRESO
+LATITUD: 17.0368056
+LONGITUD: -96.6905131
+CONEXIONES: 
+GESCAR: 1972
+unnamed (1):</value>
+          </Data>
+          <Data name="RUTA">
+            <value>RA10</value>
+          </Data>
+          <Data name="SECUENCIA">
+            <value>93.0</value>
+          </Data>
+          <Data name="NUMERO DE PARADAS">
+            <value>47.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0368056</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6905131</value>
+          </Data>
+          <Data name="CONEXIONES">
+            <value/>
+          </Data>
+          <Data name="GESCAR">
+            <value>1972</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.690513,17.036806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

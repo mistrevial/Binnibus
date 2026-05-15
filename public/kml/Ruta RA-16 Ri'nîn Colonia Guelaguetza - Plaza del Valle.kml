@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Ruta RA-16 Ri'nîn: Colonia Guelaguetza - Plaza del Valle]]></name>
+    <description/>
+    <Style id="icon-1532-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1532-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1532-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1532-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1532-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-7CB342-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Ida</name>
+      <Placemark>
+        <name>IDA</name>
+        <styleUrl>#line-0288D1-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.76945,17.083344,0
+            -96.769608,17.083936,0
+            -96.769368,17.083945,0
+            -96.769202,17.083946,0
+            -96.769036,17.08391,0
+            -96.768941,17.08388,0
+            -96.76886,17.083878,0
+            -96.768882,17.084019,0
+            -96.769075,17.084768,0
+            -96.769201,17.085227,0
+            -96.769279,17.085476,0
+            -96.768247,17.085796,0
+            -96.768598,17.087268,0
+            -96.768571,17.087311,0
+            -96.768236,17.087468,0
+            -96.767544,17.087793,0
+            -96.766656,17.088139,0
+            -96.764996,17.088847,0
+            -96.763748,17.086642,0
+            -96.762796,17.084947,0
+            -96.761799,17.083148,0
+            -96.76083,17.081389,0
+            -96.760152,17.08014,0
+            -96.75902,17.078156,0
+            -96.757928,17.076189,0
+            -96.757169,17.074802,0
+            -96.75671,17.074012,0
+            -96.756327,17.073335,0
+            -96.755632,17.072197,0
+            -96.754991,17.071218,0
+            -96.753701,17.069451,0
+            -96.753312,17.068876,0
+            -96.753189,17.06863,0
+            -96.753009,17.067984,0
+            -96.752786,17.06721,0
+            -96.752709,17.067061,0
+            -96.75255,17.066902,0
+            -96.752247,17.066684,0
+            -96.751542,17.066323,0
+            -96.751434,17.066228,0
+            -96.75111,17.065356,0
+            -96.751008,17.065046,0
+            -96.750941,17.064923,0
+            -96.750812,17.06481,0
+            -96.750415,17.064597,0
+            -96.749983,17.064266,0
+            -96.749729,17.064092,0
+            -96.749479,17.063989,0
+            -96.749171,17.064012,0
+            -96.748141,17.064051,0
+            -96.74773,17.064128,0
+            -96.74758,17.064097,0
+            -96.747473,17.063989,0
+            -96.746553,17.062541,0
+            -96.746432,17.06241,0
+            -96.746016,17.061946,0
+            -96.745778,17.061671,0
+            -96.744884,17.060358,0
+            -96.744748,17.060158,0
+            -96.744423,17.060074,0
+            -96.744238,17.059961,0
+            -96.743892,17.059584,0
+            -96.743023,17.058582,0
+            -96.742774,17.058805,0
+            -96.742267,17.059264,0
+            -96.741234,17.060182,0
+            -96.740207,17.061097,0
+            -96.739912,17.06133,0
+            -96.739845,17.06142,0
+            -96.739603,17.061528,0
+            -96.739335,17.061602,0
+            -96.737315,17.061589,0
+            -96.737106,17.061382,0
+            -96.737101,17.061251,0
+            -96.737066,17.061056,0
+            -96.736959,17.060646,0
+            -96.736873,17.0599,0
+            -96.736824,17.059671,0
+            -96.736602,17.059071,0
+            -96.736521,17.058984,0
+            -96.736489,17.058882,0
+            -96.736272,17.059007,0
+            -96.735636,17.059412,0
+            -96.734636,17.060035,0
+            -96.734129,17.060418,0
+            -96.733634,17.060737,0
+            -96.733158,17.060066,0
+            -96.73271,17.059374,0
+            -96.732112,17.058522,0
+            -96.73146,17.05762,0
+            -96.731272,17.057476,0
+            -96.730599,17.056425,0
+            -96.730438,17.056171,0
+            -96.730132,17.055145,0
+            -96.730095,17.05485,0
+            -96.729939,17.05441,0
+            -96.729794,17.053876,0
+            -96.729483,17.052897,0
+            -96.729381,17.052517,0
+            -96.729298,17.05175,0
+            -96.729215,17.051594,0
+            -96.72903,17.05125,0
+            -96.728738,17.050994,0
+            -96.728499,17.050784,0
+            -96.727987,17.05054,0
+            -96.727608,17.050491,0
+            -96.727201,17.050478,0
+            -96.726509,17.050671,0
+            -96.726367,17.050599,0
+            -96.726176,17.050458,0
+            -96.726064,17.050325,0
+            -96.725613,17.049578,0
+            -96.725095,17.048906,0
+            -96.72454,17.048148,0
+            -96.724285,17.04777,0
+            -96.723944,17.047265,0
+            -96.723985,17.046493,0
+            -96.723322,17.046416,0
+            -96.723187,17.046413,0
+            -96.723116,17.046417,0
+            -96.723106,17.046465,0
+            -96.723179,17.046552,0
+            -96.72317,17.04662,0
+            -96.723073,17.046628,0
+            -96.722875,17.046623,0
+            -96.722316,17.046556,0
+            -96.721448,17.046438,0
+            -96.720883,17.046363,0
+            -96.720403,17.046301,0
+            -96.719658,17.04619,0
+            -96.719002,17.046109,0
+            -96.718803,17.046083,0
+            -96.718545,17.046073,0
+            -96.718149,17.046063,0
+            -96.717171,17.045914,0
+            -96.71714,17.045878,0
+            -96.717095,17.04575,0
+            -96.717,17.045602,0
+            -96.71666,17.045275,0
+            -96.716231,17.044897,0
+            -96.715672,17.044405,0
+            -96.715063,17.043876,0
+            -96.714768,17.043594,0
+            -96.71434,17.043174,0
+            -96.714224,17.04308,0
+            -96.71403,17.043056,0
+            -96.713813,17.042786,0
+            -96.713176,17.041911,0
+            -96.712582,17.041236,0
+            -96.711815,17.040239,0
+            -96.711154,17.039372,0
+            -96.711004,17.03918,0
+            -96.710882,17.038946,0
+            -96.7108,17.038664,0
+            -96.710796,17.038285,0
+            -96.710836,17.038187,0
+            -96.710859,17.038077,0
+            -96.710883,17.037986,0
+            -96.710898,17.037873,0
+            -96.71077,17.037803,0
+            -96.710204,17.037649,0
+            -96.708594,17.037296,0
+            -96.70763,17.03705,0
+            -96.706397,17.036758,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base Colonia Guelaguetza</name>
+        <styleUrl>#icon-1532-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76948,17.083277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Alta</name>
+        <styleUrl>#icon-1532-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.768875,17.084003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canadá</name>
+        <description>17.0853432,-96.7692119</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.769212,17.085343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de la Cañada</name>
+        <description>17.08579868 -96.76827925</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.768279,17.085799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pochutla</name>
+        <description>17.08725746 -96.7685644</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.768564,17.087257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Candelaria Loxicha</name>
+        <description>17.0879912 -96.76703274</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.767033,17.087991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Libertad</name>
+        <description>17.08880138 -96.76509499</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.765095,17.088801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samaria</name>
+        <description>17.0866806 -96.7638311</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.763831,17.086681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niños Héroes</name>
+        <description>17.08402575 -96.76240656</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.762407,17.084026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miahutlán</name>
+        <description>17.0814019 -96.76086825</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.760868,17.081402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ixtepec</name>
+        <description>17.0796874 -96.75990859</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.759909,17.079687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza bella Cinemex</name>
+        <description>17.0771213,-96.7584005</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7584,17.077121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza Bella</name>
+        <description>17.07478538 -96.75721254</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.757213,17.074785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Agencia Montoya</name>
+        <description>17.0730242,-96.7561613</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.756216,17.073029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benito Juárez</name>
+        <description>17.07133043 -96.75509937</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.755099,17.07133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. del Panteón</name>
+        <description>17.06908324 -96.7534665</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.753466,17.069083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Macedonio Alcalá</name>
+        <description>17.06634996 -96.75164503</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.751645,17.06635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itandehui</name>
+        <description>17.06440039 -96.75019036</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.75019,17.0644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plutarco Elías Calles</name>
+        <description>17.06401227 -96.7487172</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.748717,17.064012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mixcoatl</name>
+        <description>17.06262279 -96.74666252</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.746663,17.062623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monte Albán</name>
+        <description>17.06031338 -96.74488855</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.744889,17.060313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Mexicapam </name>
+        <description>17.05864401 -96.74310817</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.743108,17.058644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sierra Juárez</name>
+        <description>17.06102157 -96.74025379</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.740254,17.061022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valerio Trujano</name>
+        <description>17.06136056 -96.73713727</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.737137,17.061361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>De Mercaderes</name>
+        <description>17.05923332 -96.73585241</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.735852,17.059233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central del Abastos</name>
+        <description>17.0605729,-96.7339204</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73392,17.060573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez María Sabina</name>
+        <description>17.0572 -96.73092</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73092,17.0572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Periférico </name>
+        <description>17.05146381 -96.72920886</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729209,17.051464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lázaro Cárdenas</name>
+        <description>17.04826326 -96.72469311</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.724693,17.048263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Presidente General Eulalio Gutiérrez</name>
+        <description>17.04640219 -96.72343134</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.723431,17.046402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puerto Ensenada</name>
+        <description>17.04633193 -96.72045193</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.720452,17.046332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mártires de Tacubaya</name>
+        <description>17.04594218 -96.7173433</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.717343,17.045942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza Oaxaca</name>
+        <description>17.04375866 -96.71499024</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.71499,17.043759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del Valle</name>
+        <description>17.04037825 -96.7119947</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.711995,17.040378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Campiña</name>
+        <description>17.03774416 -96.71052765</description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -96.710528,17.037744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Regreso</name>
+      <Placemark>
+        <name>REGRESO</name>
+        <styleUrl>#line-7CB342-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.706386,17.036903,0
+            -96.710431,17.037826,0
+            -96.710726,17.037916,0
+            -96.710736,17.037975,0
+            -96.710632,17.038288,0
+            -96.710651,17.038688,0
+            -96.710761,17.039039,0
+            -96.710916,17.039342,0
+            -96.711391,17.039957,0
+            -96.711691,17.040319,0
+            -96.712327,17.041163,0
+            -96.712756,17.041716,0
+            -96.71307,17.04205,0
+            -96.7138,17.043024,0
+            -96.71403,17.043056,0
+            -96.714188,17.043252,0
+            -96.714357,17.043335,0
+            -96.714524,17.043473,0
+            -96.714733,17.043648,0
+            -96.714872,17.043781,0
+            -96.715366,17.04426,0
+            -96.715621,17.044458,0
+            -96.715739,17.044427,0
+            -96.716602,17.044545,0
+            -96.717394,17.044689,0
+            -96.717748,17.044753,0
+            -96.7187,17.044873,0
+            -96.720612,17.045232,0
+            -96.722412,17.045584,0
+            -96.723327,17.046871,0
+            -96.724016,17.04783,0
+            -96.72448,17.048507,0
+            -96.724598,17.048594,0
+            -96.725016,17.049122,0
+            -96.725612,17.049815,0
+            -96.72624,17.05072,0
+            -96.726355,17.050912,0
+            -96.726974,17.05073,0
+            -96.727272,17.050664,0
+            -96.727613,17.050646,0
+            -96.727983,17.050712,0
+            -96.728259,17.050805,0
+            -96.728487,17.050989,0
+            -96.728761,17.051264,0
+            -96.728954,17.051712,0
+            -96.729077,17.051982,0
+            -96.729238,17.052633,0
+            -96.729678,17.054074,0
+            -96.73003,17.055174,0
+            -96.729866,17.055797,0
+            -96.729734,17.056349,0
+            -96.729595,17.057046,0
+            -96.729423,17.058008,0
+            -96.73036,17.05818,0
+            -96.73136,17.05832,0
+            -96.730829,17.060298,0
+            -96.732132,17.060559,0
+            -96.733511,17.060795,0
+            -96.733696,17.06081,0
+            -96.73474,17.06011,0
+            -96.736424,17.059003,0
+            -96.736478,17.058973,0
+            -96.736585,17.059072,0
+            -96.736762,17.059523,0
+            -96.736875,17.059864,0
+            -96.736908,17.060406,0
+            -96.736958,17.060694,0
+            -96.737089,17.061196,0
+            -96.737105,17.061576,0
+            -96.737151,17.061609,0
+            -96.737782,17.061618,0
+            -96.739069,17.0616,0
+            -96.739448,17.061587,0
+            -96.739844,17.061439,0
+            -96.739958,17.061323,0
+            -96.740281,17.061068,0
+            -96.74085,17.060551,0
+            -96.741116,17.060308,0
+            -96.741477,17.059995,0
+            -96.742264,17.05929,0
+            -96.743017,17.05862,0
+            -96.743383,17.05903,0
+            -96.743678,17.059385,0
+            -96.744282,17.060009,0
+            -96.744744,17.060187,0
+            -96.745287,17.060989,0
+            -96.745628,17.061471,0
+            -96.745792,17.061709,0
+            -96.746458,17.062467,0
+            -96.746584,17.062619,0
+            -96.746895,17.063134,0
+            -96.747386,17.06391,0
+            -96.747552,17.064103,0
+            -96.7477,17.064146,0
+            -96.748142,17.064078,0
+            -96.748759,17.064053,0
+            -96.74947,17.064014,0
+            -96.749669,17.06408,0
+            -96.749854,17.064198,0
+            -96.750362,17.06458,0
+            -96.750814,17.06483,0
+            -96.750925,17.064962,0
+            -96.75098,17.065027,0
+            -96.751101,17.0654,0
+            -96.75141,17.066234,0
+            -96.751501,17.066324,0
+            -96.751725,17.066437,0
+            -96.752366,17.066786,0
+            -96.752646,17.067019,0
+            -96.752742,17.067154,0
+            -96.752886,17.067607,0
+            -96.753142,17.068519,0
+            -96.753217,17.068731,0
+            -96.753561,17.069292,0
+            -96.753822,17.069627,0
+            -96.754143,17.070085,0
+            -96.754856,17.071056,0
+            -96.755257,17.07163,0
+            -96.755834,17.072542,0
+            -96.756311,17.073345,0
+            -96.756994,17.074531,0
+            -96.757596,17.075614,0
+            -96.757962,17.076279,0
+            -96.75835,17.076966,0
+            -96.759314,17.078697,0
+            -96.759888,17.079725,0
+            -96.760666,17.081125,0
+            -96.76209,17.083648,0
+            -96.763115,17.085458,0
+            -96.764265,17.087581,0
+            -96.764996,17.088847,0
+            -96.766929,17.088027,0
+            -96.768236,17.087468,0
+            -96.768616,17.087286,0
+            -96.768246,17.085827,0
+            -96.768736,17.085656,0
+            -96.769279,17.085476,0
+            -96.768989,17.084374,0
+            -96.768882,17.084112,0
+            -96.768801,17.083815,0
+            -96.768616,17.083104,0
+            -96.768282,17.081849,0
+            -96.768859,17.081509,0
+            -96.768914,17.081692,0
+            -96.769373,17.083133,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base Plaza del Valle</name>
+        <description>17.03679222 -96.70631791</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.706318,17.036792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del Valle Contrafrente</name>
+        <description>17.03856183 -96.71058391</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.710584,17.038562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del Valle 1</name>
+        <description>17.04010474 -96.71144919</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.711449,17.040105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza Oaxaca</name>
+        <description>17.04433614 -96.71536472</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.715365,17.044336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Luz</name>
+        <description>17.04487691 -96.71862756</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.718628,17.044877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puerto Cortes</name>
+        <description>17.04524409 -96.72062307</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.720623,17.045244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puerto Márquez</name>
+        <description>17.04553449 -96.72235704</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.722357,17.045534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puerto Cd. del Carmen </name>
+        <description>17.04701325 -96.72336705</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.723367,17.047013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Periférico</name>
+        <description>17.05065848 -96.72609898</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.726099,17.050658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miguel Cabrera</name>
+        <description>17.0506444 -96.7276826</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.727683,17.050644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nuño del Mercado</name>
+        <description>17.05484049 -96.72986414</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729864,17.05484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Díaz Ordaz</name>
+        <description>17.05752757 -96.72944485</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.729445,17.057528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mina</name>
+        <description>17.05833452 -96.7312319</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.731232,17.058335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guadalupe Vcitoria</name>
+        <description>17.06057352 -96.73202386</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.732024,17.060574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juárez Maza</name>
+        <description>17.05975636 -96.73532958</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.73533,17.059756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valerio Trujano</name>
+        <description>17.06151516 -96.73708766</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.737088,17.061515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sierra Juárez</name>
+        <description>17.06128849 -96.74007226</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.740072,17.061288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Mexicapan </name>
+        <description>17.05876255 -96.74290511</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.742905,17.058763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monte Albán </name>
+        <description>17.05957388 -96.74382324</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.743823,17.059574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mixcoatl</name>
+        <description>17.06268196 -96.74655339</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.746553,17.062682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juventino Rosas</name>
+        <description>17.06412645 -96.74750753</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.747508,17.064126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itandehui </name>
+        <description>17.06442916 -96.75005602</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.750056,17.064429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Adolfo López Mateos</name>
+        <description>17.06610738 -96.75129985</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7513,17.066107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Artículo 100</name>
+        <description>17.0689079 -96.75324498</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.753245,17.068908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21 de Marzo</name>
+        <description>17.07137451 -96.75503278</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.755033,17.071375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino Real</name>
+        <description>17.0734612 -96.75635385</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.756354,17.073461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antonio de León</name>
+        <description>17.07965919 -96.75982254</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.759823,17.079659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valerio Trujano </name>
+        <description>17.08180269 -96.7609895</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76099,17.081803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niños Héroes</name>
+        <description>17.08387289 -96.76214968</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76215,17.083873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samaria</name>
+        <description>17.08663525 -96.76370038</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7637,17.086635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oyamel</name>
+        <description>17.08885621 -96.76493324</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.764933,17.088856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juchitán</name>
+        <description>17.08797525 -96.76723012</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.76723,17.087975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pochutla</name>
+        <description>17.08732756 -96.76862686</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.768627,17.087328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de la Cañada</name>
+        <description>17.08590395 -96.76828396</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.768284,17.085904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canadá</name>
+        <description>17.0853432,-96.7692119</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.769212,17.085343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huajuapam</name>
+        <description>17.084049,-96.7688669</description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -96.768867,17.084049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7 Regiones</name>
+        <styleUrl>#icon-1532-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.768294,17.081949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base Colonia Guelaguetza</name>
+        <styleUrl>#icon-1532-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.769474,17.083278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

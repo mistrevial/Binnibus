@@ -1,0 +1,4998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta RC-04 Atlantekomatl: Fracc. Benito Juárez/Esmeralda - Plaza del Valle</name>
+    <description/>
+    <Style id="icon-1532-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5844-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.844</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5844-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.766</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5844">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5844-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5844-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-4000-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-4000-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-4000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-4000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-4000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>IDA</name>
+      <Placemark>
+        <name>IDA</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#line-0288D1-5844</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.76748,17.14335,0
+            -96.76751,17.14334,0
+            -96.76753,17.14333,0
+            -96.76754,17.14332,0
+            -96.76754,17.1433,0
+            -96.76754,17.14327,0
+            -96.76739,17.14286,0
+            -96.76725,17.14246,0
+            -96.76724,17.14241,0
+            -96.76712,17.14206,0
+            -96.76697,17.14166,0
+            -96.76682,17.14121,0
+            -96.76703,17.14112,0
+            -96.76714,17.14109,0
+            -96.76718,17.14108,0
+            -96.7673,17.14105,0
+            -96.76743,17.14103,0
+            -96.76756,17.14101,0
+            -96.76777,17.14098,0
+            -96.76779,17.14097,0
+            -96.76796,17.14095,0
+            -96.76803,17.14093,0
+            -96.76811,17.14091,0
+            -96.76827,17.14087,0
+            -96.76836,17.14084,0
+            -96.76845,17.1408,0
+            -96.76858,17.14075,0
+            -96.76873,17.14068,0
+            -96.76906,17.14052,0
+            -96.76977,17.14016,0
+            -96.77027,17.13993,0
+            -96.77116,17.13958,0
+            -96.77167,17.13938,0
+            -96.77175,17.13935,0
+            -96.77203,17.13924,0
+            -96.7722,17.13918,0
+            -96.77255,17.13904,0
+            -96.7726,17.13903,0
+            -96.77356,17.13866,0
+            -96.77453,17.13829,0
+            -96.77438,17.13779,0
+            -96.7741,17.13698,0
+            -96.77483,17.13645,0
+            -96.77491,17.1364,0
+            -96.77502,17.13634,0
+            -96.77506,17.13645,0
+            -96.77508,17.13652,0
+            -96.7752,17.13648,0
+            -96.77556,17.13639,0
+            -96.77591,17.1363,0
+            -96.77643,17.13617,0
+            -96.77654,17.13615,0
+            -96.7769,17.13606,0
+            -96.77693,17.13605,0
+            -96.77896,17.13557,0
+            -96.77922,17.13551,0
+            -96.78031,17.13526,0
+            -96.78053,17.13521,0
+            -96.78072,17.13515,0
+            -96.7807,17.13511,0
+            -96.78005,17.13397,0
+            -96.77973,17.1335,0
+            -96.77966,17.13341,0
+            -96.77948,17.13314,0
+            -96.77934,17.13297,0
+            -96.7792,17.13279,0
+            -96.77887,17.13239,0
+            -96.77877,17.13229,0
+            -96.77799,17.13145,0
+            -96.77792,17.13137,0
+            -96.77739,17.13081,0
+            -96.77686,17.13028,0
+            -96.77652,17.12993,0
+            -96.77625,17.12966,0
+            -96.77585,17.12925,0
+            -96.77561,17.129,0
+            -96.77547,17.12884,0
+            -96.77494,17.12828,0
+            -96.7745,17.12782,0
+            -96.77439,17.1277,0
+            -96.77405,17.12733,0
+            -96.7738,17.12706,0
+            -96.77376,17.12702,0
+            -96.77365,17.1269,0
+            -96.77336,17.12657,0
+            -96.77331,17.12652,0
+            -96.77321,17.12644,0
+            -96.77317,17.12639,0
+            -96.77256,17.1257,0
+            -96.7724,17.12553,0
+            -96.77227,17.1254,0
+            -96.77199,17.12509,0
+            -96.77173,17.12479,0
+            -96.77149,17.12455,0
+            -96.77126,17.12431,0
+            -96.77084,17.12388,0
+            -96.77068,17.12371,0
+            -96.77054,17.12356,0
+            -96.77042,17.12344,0
+            -96.76987,17.12283,0
+            -96.76967,17.1226,0
+            -96.76966,17.12259,0
+            -96.76957,17.12249,0
+            -96.76946,17.12238,0
+            -96.76905,17.12198,0
+            -96.76901,17.12194,0
+            -96.76893,17.12186,0
+            -96.76882,17.12175,0
+            -96.76871,17.12163,0
+            -96.76861,17.1215,0
+            -96.76835,17.12121,0
+            -96.7682,17.12105,0
+            -96.76809,17.12093,0
+            -96.76794,17.12078,0
+            -96.76781,17.12065,0
+            -96.76778,17.12061,0
+            -96.76773,17.12056,0
+            -96.76763,17.12048,0
+            -96.76758,17.12043,0
+            -96.76753,17.12038,0
+            -96.76744,17.12027,0
+            -96.76723,17.12,0
+            -96.76708,17.12013,0
+            -96.76628,17.12077,0
+            -96.76579,17.12119,0
+            -96.76551,17.12143,0
+            -96.76535,17.12156,0
+            -96.76511,17.12175,0
+            -96.76499,17.1218,0
+            -96.76439,17.12227,0
+            -96.76439,17.12226,0
+            -96.76438,17.12226,0
+            -96.76437,17.12226,0
+            -96.76436,17.12225,0
+            -96.76435,17.12225,0
+            -96.76434,17.12224,0
+            -96.76433,17.12224,0
+            -96.76368,17.12147,0
+            -96.7634,17.12115,0
+            -96.76323,17.12096,0
+            -96.76309,17.1208,0
+            -96.76266,17.12029,0
+            -96.76229,17.11988,0
+            -96.76207,17.11965,0
+            -96.76202,17.11958,0
+            -96.76185,17.11936,0
+            -96.76109,17.11841,0
+            -96.76105,17.11836,0
+            -96.76066,17.11785,0
+            -96.76026,17.11736,0
+            -96.76,17.11706,0
+            -96.75911,17.11595,0
+            -96.75897,17.1158,0
+            -96.75885,17.11567,0
+            -96.7586,17.1154,0
+            -96.75838,17.11513,0
+            -96.75774,17.1143,0
+            -96.7574,17.11385,0
+            -96.75716,17.11349,0
+            -96.75699,17.11322,0
+            -96.75682,17.11293,0
+            -96.75665,17.11263,0
+            -96.75664,17.11261,0
+            -96.7566,17.11252,0
+            -96.75655,17.11242,0
+            -96.75649,17.11231,0
+            -96.75648,17.11229,0
+            -96.75621,17.11175,0
+            -96.7562,17.11174,0
+            -96.7558,17.1108,0
+            -96.75565,17.11037,0
+            -96.75549,17.10999,0
+            -96.75528,17.1095,0
+            -96.75524,17.10941,0
+            -96.7551,17.1091,0
+            -96.7549,17.10865,0
+            -96.75451,17.10771,0
+            -96.75432,17.10728,0
+            -96.75366,17.10573,0
+            -96.75359,17.10557,0
+            -96.75302,17.10423,0
+            -96.75292,17.10398,0
+            -96.7527,17.10347,0
+            -96.75206,17.102,0
+            -96.75195,17.10175,0
+            -96.75173,17.1013,0
+            -96.75172,17.10127,0
+            -96.7517,17.10122,0
+            -96.75155,17.10084,0
+            -96.7512,17.09998,0
+            -96.75095,17.09941,0
+            -96.75084,17.09915,0
+            -96.75074,17.09892,0
+            -96.75009,17.09731,0
+            -96.74999,17.09721,0
+            -96.74989,17.09704,0
+            -96.74946,17.096,0
+            -96.74924,17.09543,0
+            -96.74878,17.09432,0
+            -96.74843,17.09356,0
+            -96.74832,17.09338,0
+            -96.74826,17.09328,0
+            -96.74821,17.09316,0
+            -96.74805,17.09278,0
+            -96.748,17.09255,0
+            -96.74797,17.09245,0
+            -96.7478,17.09211,0
+            -96.74774,17.09192,0
+            -96.74771,17.09184,0
+            -96.74765,17.09171,0
+            -96.74745,17.09124,0
+            -96.74739,17.09111,0
+            -96.74737,17.09105,0
+            -96.74733,17.09099,0
+            -96.74732,17.09094,0
+            -96.74726,17.09082,0
+            -96.74699,17.09019,0
+            -96.74667,17.08943,0
+            -96.74664,17.08936,0
+            -96.74641,17.0889,0
+            -96.74587,17.08768,0
+            -96.74514,17.08603,0
+            -96.74511,17.08592,0
+            -96.74475,17.08511,0
+            -96.74421,17.08377,0
+            -96.74419,17.08372,0
+            -96.74414,17.08362,0
+            -96.74395,17.08321,0
+            -96.7438,17.08283,0
+            -96.74376,17.08274,0
+            -96.74359,17.08245,0
+            -96.7436,17.08243,0
+            -96.74362,17.08241,0
+            -96.74362,17.0824,0
+            -96.74362,17.08237,0
+            -96.74362,17.08234,0
+            -96.74361,17.08231,0
+            -96.74359,17.08222,0
+            -96.74358,17.08206,0
+            -96.74358,17.08175,0
+            -96.74358,17.08165,0
+            -96.74358,17.08149,0
+            -96.74358,17.08133,0
+            -96.74357,17.08096,0
+            -96.74355,17.08077,0
+            -96.74355,17.08075,0
+            -96.74354,17.08061,0
+            -96.74353,17.08056,0
+            -96.74352,17.08045,0
+            -96.74348,17.08018,0
+            -96.74345,17.0801,0
+            -96.74339,17.07997,0
+            -96.74337,17.07992,0
+            -96.74325,17.07969,0
+            -96.74315,17.0795,0
+            -96.74308,17.07936,0
+            -96.74297,17.07919,0
+            -96.74296,17.07916,0
+            -96.7429,17.07907,0
+            -96.7429,17.07899,0
+            -96.74289,17.07895,0
+            -96.74288,17.07892,0
+            -96.74286,17.07889,0
+            -96.74285,17.07887,0
+            -96.74279,17.07874,0
+            -96.74259,17.07844,0
+            -96.74246,17.07823,0
+            -96.7424,17.07812,0
+            -96.74231,17.07797,0
+            -96.74207,17.07754,0
+            -96.74203,17.07746,0
+            -96.74198,17.07737,0
+            -96.74175,17.07698,0
+            -96.74127,17.07611,0
+            -96.74125,17.07604,0
+            -96.74124,17.07602,0
+            -96.74124,17.07597,0
+            -96.74123,17.07592,0
+            -96.74121,17.07586,0
+            -96.74119,17.07583,0
+            -96.74116,17.07579,0
+            -96.74113,17.07574,0
+            -96.74109,17.07569,0
+            -96.741,17.07562,0
+            -96.74095,17.07557,0
+            -96.74092,17.07555,0
+            -96.74083,17.0755,0
+            -96.74071,17.07531,0
+            -96.74027,17.07466,0
+            -96.73996,17.07424,0
+            -96.73987,17.07413,0
+            -96.7396,17.07378,0
+            -96.73932,17.0734,0
+            -96.73918,17.07323,0
+            -96.73901,17.073,0
+            -96.73886,17.0728,0
+            -96.73874,17.07263,0
+            -96.73862,17.07245,0
+            -96.73843,17.07221,0
+            -96.73835,17.07202,0
+            -96.73831,17.07196,0
+            -96.7383,17.07194,0
+            -96.73826,17.07187,0
+            -96.73786,17.07105,0
+            -96.73782,17.07096,0
+            -96.73762,17.07041,0
+            -96.7375,17.07008,0
+            -96.7374,17.06982,0
+            -96.73718,17.06931,0
+            -96.73712,17.06923,0
+            -96.73675,17.06861,0
+            -96.73633,17.06792,0
+            -96.7362,17.06772,0
+            -96.73602,17.06741,0
+            -96.73582,17.06708,0
+            -96.73593,17.06678,0
+            -96.73596,17.06654,0
+            -96.73598,17.06641,0
+            -96.73614,17.06614,0
+            -96.73619,17.06604,0
+            -96.73621,17.06599,0
+            -96.73625,17.06588,0
+            -96.73634,17.06555,0
+            -96.73634,17.06535,0
+            -96.73634,17.06533,0
+            -96.73626,17.06495,0
+            -96.73619,17.06474,0
+            -96.73594,17.06418,0
+            -96.73584,17.06399,0
+            -96.73578,17.06389,0
+            -96.73563,17.06363,0
+            -96.7355,17.06339,0
+            -96.73537,17.0632,0
+            -96.73527,17.06306,0
+            -96.73508,17.06276,0
+            -96.73476,17.06234,0
+            -96.73461,17.06215,0
+            -96.73445,17.06192,0
+            -96.7344,17.06183,0
+            -96.73416,17.06148,0
+            -96.73389,17.06112,0
+            -96.73375,17.06093,0
+            -96.73368,17.06082,0
+            -96.73362,17.06075,0
+            -96.73357,17.06068,0
+            -96.73347,17.06053,0
+            -96.73323,17.06019,0
+            -96.73318,17.06013,0
+            -96.73315,17.06007,0
+            -96.73314,17.06005,0
+            -96.73307,17.05995,0
+            -96.73289,17.05967,0
+            -96.73241,17.05896,0
+            -96.73238,17.05892,0
+            -96.73215,17.05859,0
+            -96.73198,17.05836,0
+            -96.73162,17.05785,0
+            -96.73147,17.05764,0
+            -96.73127,17.05747,0
+            -96.73112,17.05725,0
+            -96.73099,17.05705,0
+            -96.73059,17.05644,0
+            -96.73051,17.0563,0
+            -96.73046,17.05622,0
+            -96.73042,17.05611,0
+            -96.73028,17.05565,0
+            -96.73012,17.05508,0
+            -96.73012,17.05502,0
+            -96.73009,17.05486,0
+            -96.73002,17.05469,0
+            -96.72997,17.05449,0
+            -96.72996,17.05447,0
+            -96.72989,17.0542,0
+            -96.72983,17.054,0
+            -96.72976,17.05375,0
+            -96.72952,17.05299,0
+            -96.7294,17.05263,0
+            -96.72937,17.05242,0
+            -96.72936,17.05238,0
+            -96.72934,17.05221,0
+            -96.72933,17.05203,0
+            -96.72931,17.05176,0
+            -96.72925,17.05164,0
+            -96.7292,17.05156,0
+            -96.7291,17.0514,0
+            -96.72901,17.05125,0
+            -96.72891,17.05114,0
+            -96.72881,17.05105,0
+            -96.72852,17.05081,0
+            -96.72824,17.05064,0
+            -96.72805,17.05055,0
+            -96.7279,17.05051,0
+            -96.72775,17.0505,0
+            -96.72772,17.0505,0
+            -96.72763,17.05049,0
+            -96.72739,17.0505,0
+            -96.7272,17.05049,0
+            -96.72713,17.05051,0
+            -96.72696,17.05056,0
+            -96.72689,17.05058,0
+            -96.72655,17.05068,0
+            -96.72624,17.05074,0
+            -96.72592,17.05081,0
+            -96.72571,17.05086,0
+            -96.72515,17.05103,0
+            -96.72451,17.05121,0
+            -96.72407,17.05132,0
+            -96.72362,17.05143,0
+            -96.72355,17.05145,0
+            -96.72348,17.05147,0
+            -96.72339,17.05149,0
+            -96.72315,17.05155,0
+            -96.72297,17.0516,0
+            -96.72278,17.05164,0
+            -96.72269,17.05166,0
+            -96.72259,17.05169,0
+            -96.72082,17.05214,0
+            -96.72078,17.05215,0
+            -96.72066,17.05218,0
+            -96.72052,17.05222,0
+            -96.72043,17.05224,0
+            -96.72031,17.05227,0
+            -96.71958,17.05246,0
+            -96.71953,17.05247,0
+            -96.71852,17.05271,0
+            -96.71818,17.05282,0
+            -96.71783,17.0529,0
+            -96.7178,17.05291,0
+            -96.71631,17.05324,0
+            -96.71627,17.05313,0
+            -96.71616,17.05314,0
+            -96.71585,17.05321,0
+            -96.71547,17.05331,0
+            -96.71511,17.0534,0
+            -96.71461,17.05354,0
+            -96.71456,17.05352,0
+            -96.71409,17.05344,0
+            -96.71395,17.05342,0
+            -96.71369,17.05338,0
+            -96.71365,17.05337,0
+            -96.71316,17.0533,0
+            -96.71313,17.05329,0
+            -96.71319,17.05284,0
+            -96.71321,17.0527,0
+            -96.71325,17.05242,0
+            -96.71326,17.05237,0
+            -96.71329,17.05213,0
+            -96.71333,17.05186,0
+            -96.71341,17.05142,0
+            -96.71355,17.05062,0
+            -96.71362,17.05014,0
+            -96.71377,17.04921,0
+            -96.71384,17.04868,0
+            -96.7139,17.04832,0
+            -96.71398,17.04789,0
+            -96.71401,17.04768,0
+            -96.71404,17.04745,0
+            -96.71408,17.04718,0
+            -96.71412,17.04688,0
+            -96.71414,17.04673,0
+            -96.71416,17.04654,0
+            -96.71418,17.04636,0
+            -96.7142,17.0462,0
+            -96.71422,17.04603,0
+            -96.71424,17.0459,0
+            -96.71427,17.04573,0
+            -96.71429,17.04561,0
+            -96.71436,17.04529,0
+            -96.71444,17.04483,0
+            -96.71451,17.04429,0
+            -96.71451,17.04396,0
+            -96.7145,17.04393,0
+            -96.71436,17.04353,0
+            -96.71422,17.04329,0
+            -96.71413,17.0432,0
+            -96.71402,17.04306,0
+            -96.71392,17.04292,0
+            -96.71371,17.04261,0
+            -96.71322,17.04196,0
+            -96.71312,17.04185,0
+            -96.71288,17.0416,0
+            -96.71272,17.04139,0
+            -96.71269,17.04136,0
+            -96.71241,17.041,0
+            -96.71228,17.04083,0
+            -96.71204,17.04052,0
+            -96.71174,17.04014,0
+            -96.71148,17.0398,0
+            -96.71102,17.03919,0
+            -96.71095,17.03909,0
+            -96.71091,17.03901,0
+            -96.71086,17.03891,0
+            -96.71081,17.03869,0
+            -96.71079,17.03861,0
+            -96.71079,17.03846,0
+            -96.71078,17.03835,0
+            -96.7108,17.03824,0
+            -96.71086,17.03806,0
+            -96.71089,17.03795,0
+            -96.710908,17.037881,0
+            -96.71101,17.037741,0
+            -96.711244,17.037332,0
+            -96.711521,17.036964,0
+            -96.712109,17.036205,0
+            -96.71243,17.03571,0
+            -96.712984,17.034909,0
+            -96.713044,17.034761,0
+            -96.713112,17.0346,0
+            -96.713179,17.034456,0
+            -96.713235,17.034386,0
+            -96.7133,17.03429,0
+            -96.713419,17.034112,0
+            -96.71363,17.033831,0
+            -96.713695,17.033703,0
+            -96.713769,17.033506,0
+            -96.713786,17.033413,0
+            -96.713786,17.033315,0
+            -96.713741,17.033205,0
+            -96.712731,17.031794,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base Benito juarez</name>
+        <description><![CDATA[Descripción: SECUENCIA: 1<br>NUM: 1<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1433494<br>LONGITUD: -96.7675071<br>COL5B1FAE1267022B02: 1.0<br>COL5B1FAE1267D6B977: 1.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1433494<br>COL5B1FAE12671EF427: -96.7675071]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 1
+NUM: 1
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1433494
+LONGITUD: -96.7675071</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>1.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>1.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1433494</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7675071</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.767507,17.143349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universidad</name>
+        <description><![CDATA[Descripción: SECUENCIA: 2<br>NUM: 2<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1413444<br>LONGITUD: -96.7669222<br>COL5B1FAE1267022B02: 2.0<br>COL5B1FAE1267D6B977: 2.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1413444<br>COL5B1FAE12671EF427: -96.7669222]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 2
+NUM: 2
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1413444
+LONGITUD: -96.7669222</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>2.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>2.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1413444</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7669222</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.766922,17.141344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coplasur</name>
+        <description><![CDATA[Descripción: SECUENCIA: 3<br>NUM: 3<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1407121<br>LONGITUD: -96.7687075<br>COL5B1FAE1267022B02: 3.0<br>COL5B1FAE1267D6B977: 3.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1407121<br>COL5B1FAE12671EF427: -96.7687075]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 3
+NUM: 3
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1407121
+LONGITUD: -96.7687075</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>3.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>3.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1407121</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7687075</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.768708,17.140712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidalgo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 4<br>NUM: 4<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1396665<br>LONGITUD: -96.7710593<br>COL5B1FAE1267022B02: 4.0<br>COL5B1FAE1267D6B977: 4.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1396665<br>COL5B1FAE12671EF427: -96.7710593]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 4
+NUM: 4
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1396665
+LONGITUD: -96.7710593</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>4.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>4.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1396665</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7710593</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.771059,17.139666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ignacio Zaragoza</name>
+        <description><![CDATA[Descripción: SECUENCIA: 5<br>NUM: 5<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1384431<br>LONGITUD: -96.7742168<br>COL5B1FAE1267022B02: 5.0<br>COL5B1FAE1267D6B977: 5.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1384431<br>COL5B1FAE12671EF427: -96.7742168]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 5
+NUM: 5
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1384431
+LONGITUD: -96.7742168</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>5.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>5.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1384431</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7742168</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.774217,17.138443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Primero de Mayo</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.774149,17.137019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perla</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.77489,17.136457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crucero de Hacienda Blanca</name>
+        <description><![CDATA[Descripción: SECUENCIA: 6<br>NUM: 6<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1364385<br>LONGITUD: -96.7754873<br>COL5B1FAE1267022B02: 6.0<br>COL5B1FAE1267D6B977: 6.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1364385<br>COL5B1FAE12671EF427: -96.7754873]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 6
+NUM: 6
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1364385
+LONGITUD: -96.7754873</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>6.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>6.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1364385</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7754873</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.775589,17.136438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Lorenzo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 7<br>NUM: 7<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.135247<br>LONGITUD: -96.780415<br>COL5B1FAE1267022B02: 7.0<br>COL5B1FAE1267D6B977: 7.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.135247<br>COL5B1FAE12671EF427: -96.780415]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 7
+NUM: 7
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.135247
+LONGITUD: -96.780415</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>7.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>7.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.135247</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.780415</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.780415,17.135247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidalgo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 8<br>NUM: 8<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.132585<br>LONGITUD: -96.7790164<br>COL5B1FAE1267022B02: 8.0<br>COL5B1FAE1267D6B977: 8.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.132585<br>COL5B1FAE12671EF427: -96.7790164]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 8
+NUM: 8
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.132585
+LONGITUD: -96.7790164</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>8.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>8.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.132585</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7790164</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.779016,17.132585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rio Grijalva</name>
+        <description><![CDATA[Descripción: SECUENCIA: 9<br>NUM: 9<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1305912<br>LONGITUD: -96.7771549<br>COL5B1FAE1267022B02: 9.0<br>COL5B1FAE1267D6B977: 9.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1305912<br>COL5B1FAE12671EF427: -96.7771549]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 9
+NUM: 9
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1305912
+LONGITUD: -96.7771549</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>9.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>9.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1305912</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7771549</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.777155,17.130591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fraccionamiento Esmeralda</name>
+        <description><![CDATA[Descripción: SECUENCIA: 10<br>NUM: 10<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1265402<br>LONGITUD: -96.7732782<br>COL5B1FAE1267022B02: 10.0<br>COL5B1FAE1267D6B977: 10.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1265402<br>COL5B1FAE12671EF427: -96.7732782]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 10
+NUM: 10
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1265402
+LONGITUD: -96.7732782</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>10.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>10.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1265402</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7732782</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.773278,17.12654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crespo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 11<br>NUM: 11<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1244149<br>LONGITUD: -96.7713297<br>COL5B1FAE1267022B02: 11.0<br>COL5B1FAE1267D6B977: 11.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1244149<br>COL5B1FAE12671EF427: -96.7713297]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 11
+NUM: 11
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1244149
+LONGITUD: -96.7713297</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>11.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>11.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1244149</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7713297</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.77133,17.124415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La paz</name>
+        <description><![CDATA[Descripción: SECUENCIA: 12<br>NUM: 12<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1220323<br>LONGITUD: -96.7691016<br>COL5B1FAE1267022B02: 12.0<br>COL5B1FAE1267D6B977: 12.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1220323<br>COL5B1FAE12671EF427: -96.7691016]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 12
+NUM: 12
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1220323
+LONGITUD: -96.7691016</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>12.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>12.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1220323</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7691016</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.769102,17.122032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Libramiento</name>
+        <description><![CDATA[Descripción: SECUENCIA: 13<br>NUM: 13<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1202354<br>LONGITUD: -96.7673804<br>COL5B1FAE1267022B02: 13.0<br>COL5B1FAE1267D6B977: 13.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1202354<br>COL5B1FAE12671EF427: -96.7673804]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 13
+NUM: 13
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1202354
+LONGITUD: -96.7673804</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>13.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>13.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1202354</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7673804</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76738,17.120235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pinos</name>
+        <description><![CDATA[Descripción: SECUENCIA: 14<br>NUM: 14<br>SENTIDO: IDA<br>CONEXIÓN: <br>LATITUD: 17.1213348<br>LONGITUD: -96.7655994<br>COL5B1FAE1267022B02: 14.0<br>COL5B1FAE1267D6B977: 14.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1213348<br>COL5B1FAE12671EF427: -96.7655994]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 14
+NUM: 14
+SENTIDO: IDA
+CONEXIÓN: 
+LATITUD: 17.1213348
+LONGITUD: -96.7655994</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>14.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>14.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1213348</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7655994</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.765599,17.121335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotonda Benito Juárez</name>
+        <description><![CDATA[Descripción: SECUENCIA: 15<br>NUM: 15<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18<br>LATITUD: 17.12184<br>LONGITUD: -96.76401<br>COL5B1FAE1267022B02: 15.0<br>COL5B1FAE1267D6B977: 15.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18<br>COL5B1FAE1267ADC938: 17.12184<br>COL5B1FAE12671EF427: -96.76401]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 15
+NUM: 15
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18
+LATITUD: 17.12184
+LONGITUD: -96.76401</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>15.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>15.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.12184</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.76401</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76401,17.12184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cobao 01</name>
+        <description><![CDATA[Descripción: SECUENCIA: 16<br>NUM: 16<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18<br>LATITUD: 17.11844<br>LONGITUD: -96.76114<br>COL5B1FAE1267022B02: 16.0<br>COL5B1FAE1267D6B977: 16.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18<br>COL5B1FAE1267ADC938: 17.11844<br>COL5B1FAE12671EF427: -96.76114]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 16
+NUM: 16
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18
+LATITUD: 17.11844
+LONGITUD: -96.76114</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>16.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>16.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.11844</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.76114</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76114,17.11844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plutarco Elias Calles</name>
+        <description><![CDATA[Descripción: SECUENCIA: 17<br>NUM: 17<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18<br>LATITUD: 17.11558<br>LONGITUD: -96.75879<br>COL5B1FAE1267022B02: 17.0<br>COL5B1FAE1267D6B977: 17.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18<br>COL5B1FAE1267ADC938: 17.11558<br>COL5B1FAE12671EF427: -96.75879]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 17
+NUM: 17
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18
+LATITUD: 17.11558
+LONGITUD: -96.75879</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>17.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>17.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.11558</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.75879</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.75879,17.11558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicente Guerrero</name>
+        <description><![CDATA[Descripción: SECUENCIA: 18<br>NUM: 18<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01<br>LATITUD: 17.1123728<br>LONGITUD: -96.7566524<br>COL5B1FAE1267022B02: 18.0<br>COL5B1FAE1267D6B977: 18.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01<br>COL5B1FAE1267ADC938: 17.1123728<br>COL5B1FAE12671EF427: -96.7566524]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 18
+NUM: 18
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01
+LATITUD: 17.1123728
+LONGITUD: -96.7566524</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>18.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>18.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1123728</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7566524</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.756652,17.112373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emiliano Zapata</name>
+        <description><![CDATA[Descripción: SECUENCIA: 19<br>NUM: 19<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01<br>LATITUD: 17.1082585<br>LONGITUD: -96.7548229<br>COL5B1FAE1267022B02: 19.0<br>COL5B1FAE1267D6B977: 19.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01<br>COL5B1FAE1267ADC938: 17.1082585<br>COL5B1FAE12671EF427: -96.7548229]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 19
+NUM: 19
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01
+LATITUD: 17.1082585
+LONGITUD: -96.7548229</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>19.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>19.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1082585</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7548229</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.754823,17.108258,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brenamiel</name>
+        <description><![CDATA[Descripción: SECUENCIA: 20<br>NUM: 20<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01<br>LATITUD: 17.103608<br>LONGITUD: -96.7528944<br>COL5B1FAE1267022B02: 20.0<br>COL5B1FAE1267D6B977: 20.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01<br>COL5B1FAE1267ADC938: 17.103608<br>COL5B1FAE12671EF427: -96.7528944]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 20
+NUM: 20
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01
+LATITUD: 17.103608
+LONGITUD: -96.7528944</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>20.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>20.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.103608</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7528944</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.752894,17.103608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colonia del Maestro</name>
+        <description><![CDATA[Descripción: SECUENCIA: 21<br>NUM: 21<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01<br>LATITUD: 17.1015239<br>LONGITUD: -96.7519215<br>COL5B1FAE1267022B02: 21.0<br>COL5B1FAE1267D6B977: 21.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01<br>COL5B1FAE1267ADC938: 17.1015239<br>COL5B1FAE12671EF427: -96.7519215]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 21
+NUM: 21
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01
+LATITUD: 17.1015239
+LONGITUD: -96.7519215</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>21.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>21.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1015239</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7519215</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.751922,17.101524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugambilias</name>
+        <description><![CDATA[Descripción: SECUENCIA: 22<br>NUM: 22<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01,RC06<br>LATITUD: 17.09765<br>LONGITUD: -96.75026<br>COL5B1FAE1267022B02: 22.0<br>COL5B1FAE1267D6B977: 22.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01,RC06<br>COL5B1FAE1267ADC938: 17.09765<br>COL5B1FAE12671EF427: -96.75026]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 22
+NUM: 22
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01,RC06
+LATITUD: 17.09765
+LONGITUD: -96.75026</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>22.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>22.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01,RC06</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.09765</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.75026</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.75026,17.09765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zonal Santa Rosa</name>
+        <description><![CDATA[Descripción: SECUENCIA: 23<br>NUM: 23<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10<br>LATITUD: 17.0939<br>LONGITUD: -96.74862<br>COL5B1FAE1267022B02: 23.0<br>COL5B1FAE1267D6B977: 23.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01,RC06,RC10<br>COL5B1FAE1267ADC938: 17.0939<br>COL5B1FAE12671EF427: -96.74862]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 23
+NUM: 23
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10
+LATITUD: 17.0939
+LONGITUD: -96.74862</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>23.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>23.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01,RC06,RC10</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0939</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.74862</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74862,17.0939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ex Hacienda Santa Rosa</name>
+        <description><![CDATA[Descripción: SECUENCIA: 24<br>NUM: 24<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10<br>LATITUD: 17.09121<br>LONGITUD: -96.74747<br>COL5B1FAE1267022B02: 24.0<br>COL5B1FAE1267D6B977: 24.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01,RC06,RC10<br>COL5B1FAE1267ADC938: 17.09121<br>COL5B1FAE12671EF427: -96.74747]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 24
+NUM: 24
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10
+LATITUD: 17.09121
+LONGITUD: -96.74747</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>24.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>24.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01,RC06,RC10</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.09121</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.74747</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74747,17.09121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagá Nda</name>
+        <description><![CDATA[Descripción: SECUENCIA: 25<br>NUM: 25<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10<br>LATITUD: 17.08601<br>LONGITUD: -96.74516<br>COL5B1FAE1267022B02: 25.0<br>COL5B1FAE1267D6B977: 25.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01,RC06,RC10<br>COL5B1FAE1267ADC938: 17.08601<br>COL5B1FAE12671EF427: -96.74516]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 25
+NUM: 25
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10
+LATITUD: 17.08601
+LONGITUD: -96.74516</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>25.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>25.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01,RC06,RC10</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.08601</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.74516</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74516,17.08601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuauhtémoc</name>
+        <description><![CDATA[Descripción: SECUENCIA: 26<br>NUM: 26<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10<br>LATITUD: 17.08311<br>LONGITUD: -96.74395<br>COL5B1FAE1267022B02: 26.0<br>COL5B1FAE1267D6B977: 26.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01,RC06,RC10<br>COL5B1FAE1267ADC938: 17.08311<br>COL5B1FAE12671EF427: -96.74395]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 26
+NUM: 26
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10
+LATITUD: 17.08311
+LONGITUD: -96.74395</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>26.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>26.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01,RC06,RC10</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.08311</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.74395</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74395,17.08311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tecnológico</name>
+        <description><![CDATA[Descripción: SECUENCIA: 27<br>NUM: 27<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10,RA04<br>LATITUD: 17.07929<br>LONGITUD: -96.7431<br>COL5B1FAE1267022B02: 27.0<br>COL5B1FAE1267D6B977: 27.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC14,RA18,RC01,RC06,RC10,RA04<br>COL5B1FAE1267ADC938: 17.07929<br>COL5B1FAE12671EF427: -96.7431]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 27
+NUM: 27
+SENTIDO: IDA
+CONEXIÓN: RT01,RC14,RA18,RC01,RC06,RC10,RA04
+LATITUD: 17.07929
+LONGITUD: -96.7431</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>27.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>27.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14,RA18,RC01,RC06,RC10,RA04</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.07929</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7431</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.7431,17.07929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glorieta de los Niños Héroes</name>
+        <description><![CDATA[Descripción: SECUENCIA: 28<br>NUM: 28<br>SENTIDO: IDA<br>CONEXIÓN: RC01,RC06,RC09<br>LATITUD: 17.0755677<br>LONGITUD: -96.7410547<br>COL5B1FAE1267022B02: 28.0<br>COL5B1FAE1267D6B977: 28.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC01,RC06,RC09<br>COL5B1FAE1267ADC938: 17.0755677<br>COL5B1FAE12671EF427: -96.7410547]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 28
+NUM: 28
+SENTIDO: IDA
+CONEXIÓN: RC01,RC06,RC09
+LATITUD: 17.0755677
+LONGITUD: -96.7410547</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>28.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>28.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC01,RC06,RC09</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0755677</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7410547</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.741055,17.075568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicente Suárez</name>
+        <description><![CDATA[Descripción: SECUENCIA: 29<br>NUM: 29<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC01,RC10,RC14,RA04<br>LATITUD: 17.0722197<br>LONGITUD: -96.7385122<br>COL5B1FAE1267022B02: 29.0<br>COL5B1FAE1267D6B977: 29.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC01,RC10,RC14,RA04<br>COL5B1FAE1267ADC938: 17.0722197<br>COL5B1FAE12671EF427: -96.7385122]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 29
+NUM: 29
+SENTIDO: IDA
+CONEXIÓN: RT01,RC01,RC10,RC14,RA04
+LATITUD: 17.0722197
+LONGITUD: -96.7385122</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>29.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>29.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC10,RC14,RA04</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0722197</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7385122</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.738512,17.07222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo del Ferrocarril</name>
+        <description><![CDATA[Descripción: SECUENCIA: 30<br>NUM: 30<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC01,RC10,RC14,RA04<br>LATITUD: 17.0683382<br>LONGITUD: -96.7366868<br>COL5B1FAE1267022B02: 30.0<br>COL5B1FAE1267D6B977: 30.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC01,RC10,RC14,RA04<br>COL5B1FAE1267ADC938: 17.0683382<br>COL5B1FAE12671EF427: -96.7366868]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 30
+NUM: 30
+SENTIDO: IDA
+CONEXIÓN: RT01,RC01,RC10,RC14,RA04
+LATITUD: 17.0683382
+LONGITUD: -96.7366868</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>30.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>30.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC10,RC14,RA04</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0683382</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7366868</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.736687,17.068338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez Juana Cata</name>
+        <description><![CDATA[Descripción: SECUENCIA: 31<br>NUM: 31<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC06,RC10<br>LATITUD: 17.06245<br>LONGITUD: -96.73474<br>COL5B1FAE1267022B02: 31.0<br>COL5B1FAE1267D6B977: 31.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC06,RC10<br>COL5B1FAE1267ADC938: 17.06245<br>COL5B1FAE12671EF427: -96.73474]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 31
+NUM: 31
+SENTIDO: IDA
+CONEXIÓN: RT01,RC06,RC10
+LATITUD: 17.06245
+LONGITUD: -96.73474</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>31.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>31.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC06,RC10</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.06245</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73474</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73474,17.06245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez Maria Sabina</name>
+        <description><![CDATA[Descripción: SECUENCIA: 32<br>NUM: 32<br>SENTIDO: IDA<br>CONEXIÓN: RT01,RC10,RA01,RA06,RA16<br>LATITUD: 17.0572<br>LONGITUD: -96.73092<br>COL5B1FAE1267022B02: 32.0<br>COL5B1FAE1267D6B977: 32.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RT01,RC10,RA01,RA06,RA16<br>COL5B1FAE1267ADC938: 17.0572<br>COL5B1FAE12671EF427: -96.73092]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 32
+NUM: 32
+SENTIDO: IDA
+CONEXIÓN: RT01,RC10,RA01,RA06,RA16
+LATITUD: 17.0572
+LONGITUD: -96.73092</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>32.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>32.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC10,RA01,RA06,RA16</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0572</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73092</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73092,17.0572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Periférico</name>
+        <description><![CDATA[Descripción: SECUENCIA: 33<br>NUM: 33<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RA06,RA16<br>LATITUD: 17.05146381<br>LONGITUD: -96.72920886<br>COL5B1FAE1267022B02: 33.0<br>COL5B1FAE1267D6B977: 33.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RA06,RA16<br>COL5B1FAE1267ADC938: 17.05146381<br>COL5B1FAE12671EF427: -96.72920886]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 33
+NUM: 33
+SENTIDO: IDA
+CONEXIÓN: RC10,RA06,RA16
+LATITUD: 17.05146381
+LONGITUD: -96.72920886</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>33.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>33.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RA06,RA16</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05146381</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.72920886</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.729209,17.051464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CFE Periferico</name>
+        <description><![CDATA[Descripción: SECUENCIA: 34<br>NUM: 34<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC12.RA06,RA17<br>LATITUD: 17.05102<br>LONGITUD: -96.72512<br>COL5B1FAE1267022B02: 34.0<br>COL5B1FAE1267D6B977: 34.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC12.RA06,RA17<br>COL5B1FAE1267ADC938: 17.05102<br>COL5B1FAE12671EF427: -96.72512]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 34
+NUM: 34
+SENTIDO: IDA
+CONEXIÓN: RC10,RC12.RA06,RA17
+LATITUD: 17.05102
+LONGITUD: -96.72512</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>34.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>34.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC12.RA06,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05102</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.72512</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72512,17.05102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Xicoténcatl</name>
+        <description><![CDATA[Descripción: SECUENCIA: 35<br>NUM: 35<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC12,RA06,RA13,RA17<br>LATITUD: 17.05156<br>LONGITUD: -96.72276<br>COL5B1FAE1267022B02: 35.0<br>COL5B1FAE1267D6B977: 35.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC12,RA06,RA13,RA17<br>COL5B1FAE1267ADC938: 17.05156<br>COL5B1FAE12671EF427: -96.72276]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 35
+NUM: 35
+SENTIDO: IDA
+CONEXIÓN: RC10,RC12,RA06,RA13,RA17
+LATITUD: 17.05156
+LONGITUD: -96.72276</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>35.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>35.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC12,RA06,RA13,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05156</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.72276</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72276,17.05156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eduardo Mata</name>
+        <description><![CDATA[Descripción: SECUENCIA: 36<br>NUM: 36<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC12,RA06,RA13,RA17<br>LATITUD: 17.05227<br>LONGITUD: -96.72005<br>COL5B1FAE1267022B02: 36.0<br>COL5B1FAE1267D6B977: 36.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC12,RA06,RA13,RA17<br>COL5B1FAE1267ADC938: 17.05227<br>COL5B1FAE12671EF427: -96.72005]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 36
+NUM: 36
+SENTIDO: IDA
+CONEXIÓN: RC10,RC12,RA06,RA13,RA17
+LATITUD: 17.05227
+LONGITUD: -96.72005</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>36.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>36.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC12,RA06,RA13,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05227</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.72005</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72005,17.05227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chedraui Periférico</name>
+        <description><![CDATA[Descripción: SECUENCIA: 37<br>NUM: 37<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC12,RA06,RA13,RA17<br>LATITUD: 17.05303<br>LONGITUD: -96.71696<br>COL5B1FAE1267022B02: 37.0<br>COL5B1FAE1267D6B977: 37.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC12,RA06,RA13,RA17<br>COL5B1FAE1267ADC938: 17.05303<br>COL5B1FAE12671EF427: -96.71696]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 37
+NUM: 37
+SENTIDO: IDA
+CONEXIÓN: RC10,RC12,RA06,RA13,RA17
+LATITUD: 17.05303
+LONGITUD: -96.71696</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>37.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>37.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC12,RA06,RA13,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05303</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71696</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71696,17.05303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El rosario</name>
+        <description><![CDATA[Descripción: SECUENCIA: 38<br>NUM: 38<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC12,RA06,RA13,RA17<br>LATITUD: 17.05293<br>LONGITUD: -96.71325<br>COL5B1FAE1267022B02: 38.0<br>COL5B1FAE1267D6B977: 38.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC12,RA06,RA13,RA17<br>COL5B1FAE1267ADC938: 17.05293<br>COL5B1FAE12671EF427: -96.71325]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 38
+NUM: 38
+SENTIDO: IDA
+CONEXIÓN: RC10,RC12,RA06,RA13,RA17
+LATITUD: 17.05293
+LONGITUD: -96.71325</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>38.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>38.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC12,RA06,RA13,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05293</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71325</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71325,17.05293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rectoria CU</name>
+        <description><![CDATA[Descripción: SECUENCIA: 39<br>NUM: 39<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC12,RA06,RA13,RA17<br>LATITUD: 17.05033<br>LONGITUD: -96.71357<br>COL5B1FAE1267022B02: 39.0<br>COL5B1FAE1267D6B977: 39.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC12,RA06,RA13,RA17<br>COL5B1FAE1267ADC938: 17.05033<br>COL5B1FAE12671EF427: -96.71357]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 39
+NUM: 39
+SENTIDO: IDA
+CONEXIÓN: RC10,RC12,RA06,RA13,RA17
+LATITUD: 17.05033
+LONGITUD: -96.71357</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>39.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>39.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC12,RA06,RA13,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05033</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71357</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71357,17.05033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Facultad de enfermeria</name>
+        <description><![CDATA[Descripción: SECUENCIA: 40<br>NUM: 40<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.04866<br>LONGITUD: -96.71391<br>COL5B1FAE1267022B02: 40.0<br>COL5B1FAE1267D6B977: 40.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.04866<br>COL5B1FAE12671EF427: -96.71391]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 40
+NUM: 40
+SENTIDO: IDA
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.04866
+LONGITUD: -96.71391</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>40.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>40.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.04866</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71391</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71391,17.04866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GYM Universitario</name>
+        <description><![CDATA[Descripción: SECUENCIA: 41<br>NUM: 41<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.047<br>LONGITUD: -96.71415<br>COL5B1FAE1267022B02: 41.0<br>COL5B1FAE1267D6B977: 41.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.047<br>COL5B1FAE12671EF427: -96.71415]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 41
+NUM: 41
+SENTIDO: IDA
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.047
+LONGITUD: -96.71415</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>41.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>41.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.047</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71415</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71415,17.047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corpus Cristi</name>
+        <description><![CDATA[Descripción: SECUENCIA: 42<br>NUM: 42<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RA17<br>LATITUD: 17.04547<br>LONGITUD: -96.71432<br>COL5B1FAE1267022B02: 42.0<br>COL5B1FAE1267D6B977: 42.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RA17<br>COL5B1FAE1267ADC938: 17.04547<br>COL5B1FAE12671EF427: -96.71432]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 42
+NUM: 42
+SENTIDO: IDA
+CONEXIÓN: RC10,RA17
+LATITUD: 17.04547
+LONGITUD: -96.71432</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>42.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>42.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.04547</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71432</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71432,17.04547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza oaxaca</name>
+        <description><![CDATA[Descripción: SECUENCIA: 43<br>NUM: 43<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.04367<br>LONGITUD: -96.71448<br>COL5B1FAE1267022B02: 43.0<br>COL5B1FAE1267D6B977: 43.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.04367<br>COL5B1FAE12671EF427: -96.71448]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 43
+NUM: 43
+SENTIDO: IDA
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.04367
+LONGITUD: -96.71448</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>43.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>43.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.04367</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71448</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71448,17.04367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del valle</name>
+        <description><![CDATA[Descripción: SECUENCIA: 44<br>NUM: 44<br>SENTIDO: IDA<br>CONEXIÓN: RC10,RC11,RA05,RA16,RA17<br>LATITUD: 17.04037<br>LONGITUD: -96.71199<br>COL5B1FAE1267022B02: 44.0<br>COL5B1FAE1267D6B977: 44.0<br>COL5B1FAE12676D40D2: IDA<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA16,RA17<br>COL5B1FAE1267ADC938: 17.04037<br>COL5B1FAE12671EF427: -96.71199]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 44
+NUM: 44
+SENTIDO: IDA
+CONEXIÓN: RC10,RC11,RA05,RA16,RA17
+LATITUD: 17.04037
+LONGITUD: -96.71199</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>44.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>44.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>IDA</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA16,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.04037</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71199</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71199,17.04037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fresnito</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71243,17.03571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Símbolos Patrios</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71283,17.03174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faisan</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71158,17.037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>VUELTA</name>
+      <Placemark>
+        <name>VUELTA</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#line-7CB342-4000</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.712731,17.031794,0
+            -96.712125,17.030973,0
+            -96.71208,17.030954,0
+            -96.712037,17.030956,0
+            -96.712008,17.030991,0
+            -96.712004,17.031023,0
+            -96.712137,17.031188,0
+            -96.712657,17.031912,0
+            -96.713498,17.033103,0
+            -96.713609,17.033274,0
+            -96.713666,17.033403,0
+            -96.713678,17.033487,0
+            -96.713669,17.033581,0
+            -96.713639,17.03368,0
+            -96.713136,17.034426,0
+            -96.712434,17.035516,0
+            -96.711377,17.037001,0
+            -96.711108,17.037338,0
+            -96.710881,17.0377,0
+            -96.710718,17.037919,0
+            -96.71065,17.03825,0
+            -96.71064,17.03841,0
+            -96.71064,17.03852,0
+            -96.71065,17.03867,0
+            -96.71067,17.03878,0
+            -96.71069,17.03887,0
+            -96.71074,17.03901,0
+            -96.71079,17.03912,0
+            -96.71086,17.03925,0
+            -96.71092,17.03934,0
+            -96.71106,17.03953,0
+            -96.71134,17.03989,0
+            -96.71142,17.03999,0
+            -96.71149,17.04008,0
+            -96.71153,17.04014,0
+            -96.71161,17.04022,0
+            -96.71183,17.0405,0
+            -96.71193,17.04062,0
+            -96.71207,17.04081,0
+            -96.71219,17.04095,0
+            -96.71224,17.04102,0
+            -96.71254,17.04144,0
+            -96.71263,17.04156,0
+            -96.71283,17.04181,0
+            -96.71308,17.04205,0
+            -96.71337,17.04249,0
+            -96.7136,17.04277,0
+            -96.71363,17.04282,0
+            -96.71379,17.04301,0
+            -96.71388,17.04316,0
+            -96.71399,17.04331,0
+            -96.71403,17.04338,0
+            -96.71406,17.04346,0
+            -96.71412,17.04359,0
+            -96.71416,17.0437,0
+            -96.71422,17.04386,0
+            -96.71425,17.04402,0
+            -96.71427,17.04419,0
+            -96.71428,17.04432,0
+            -96.71427,17.0444,0
+            -96.71425,17.04452,0
+            -96.71422,17.04491,0
+            -96.71415,17.04525,0
+            -96.71413,17.04536,0
+            -96.71408,17.04558,0
+            -96.71406,17.04571,0
+            -96.71404,17.04587,0
+            -96.71401,17.04601,0
+            -96.714,17.0461,0
+            -96.71398,17.04625,0
+            -96.71397,17.04634,0
+            -96.71392,17.04669,0
+            -96.71389,17.04698,0
+            -96.71383,17.04741,0
+            -96.71377,17.04782,0
+            -96.71373,17.04818,0
+            -96.71371,17.04827,0
+            -96.71365,17.04878,0
+            -96.71357,17.04927,0
+            -96.71336,17.05063,0
+            -96.71332,17.05089,0
+            -96.71331,17.05091,0
+            -96.71326,17.05124,0
+            -96.71323,17.05139,0
+            -96.71319,17.05174,0
+            -96.71318,17.05183,0
+            -96.71318,17.05184,0
+            -96.71317,17.05192,0
+            -96.71315,17.05202,0
+            -96.71311,17.0522,0
+            -96.71307,17.05236,0
+            -96.71294,17.05301,0
+            -96.71289,17.05338,0
+            -96.71284,17.05347,0
+            -96.71283,17.05357,0
+            -96.71284,17.05367,0
+            -96.71285,17.05377,0
+            -96.71289,17.05384,0
+            -96.71289,17.05388,0
+            -96.71291,17.05395,0
+            -96.71291,17.05396,0
+            -96.71293,17.05407,0
+            -96.71296,17.05419,0
+            -96.712973,17.054315,0
+            -96.712979,17.05436,0
+            -96.713009,17.054392,0
+            -96.713045,17.054382,0
+            -96.71308,17.05436,0
+            -96.71316,17.05432,0
+            -96.71322,17.05429,0
+            -96.71333,17.05425,0
+            -96.7136,17.05414,0
+            -96.71369,17.0541,0
+            -96.71386,17.05404,0
+            -96.71397,17.054,0
+            -96.71404,17.05398,0
+            -96.7141,17.05396,0
+            -96.71422,17.05393,0
+            -96.71427,17.05392,0
+            -96.71464,17.05382,0
+            -96.71477,17.05379,0
+            -96.71558,17.05358,0
+            -96.71625,17.05341,0
+            -96.71636,17.05338,0
+            -96.7164,17.05338,0
+            -96.71785,17.05305,0
+            -96.71821,17.05296,0
+            -96.71949,17.05263,0
+            -96.71955,17.05262,0
+            -96.72029,17.05243,0
+            -96.7205,17.05238,0
+            -96.72094,17.05228,0
+            -96.72162,17.05209,0
+            -96.72211,17.05197,0
+            -96.72252,17.05186,0
+            -96.72256,17.05185,0
+            -96.72292,17.05174,0
+            -96.72293,17.05173,0
+            -96.7231,17.05169,0
+            -96.72337,17.05162,0
+            -96.72346,17.0516,0
+            -96.72354,17.05158,0
+            -96.72406,17.05145,0
+            -96.72451,17.05134,0
+            -96.72496,17.05123,0
+            -96.72533,17.05116,0
+            -96.72583,17.05107,0
+            -96.72617,17.05099,0
+            -96.72636,17.05092,0
+            -96.72681,17.05077,0
+            -96.7269,17.05074,0
+            -96.72703,17.0507,0
+            -96.72708,17.05068,0
+            -96.72721,17.05067,0
+            -96.72733,17.05066,0
+            -96.72747,17.05065,0
+            -96.72764,17.05066,0
+            -96.72778,17.05067,0
+            -96.72796,17.05071,0
+            -96.72819,17.05078,0
+            -96.72823,17.05079,0
+            -96.72828,17.05081,0
+            -96.72834,17.05085,0
+            -96.72848,17.05098,0
+            -96.72872,17.05123,0
+            -96.72876,17.05128,0
+            -96.72881,17.05135,0
+            -96.72885,17.05142,0
+            -96.72898,17.05176,0
+            -96.72908,17.05198,0
+            -96.7291,17.0521,0
+            -96.72915,17.0523,0
+            -96.72953,17.05358,0
+            -96.72967,17.05403,0
+            -96.72999,17.05506,0
+            -96.73,17.05509,0
+            -96.73004,17.05524,0
+            -96.73004,17.05529,0
+            -96.73015,17.05569,0
+            -96.73023,17.05596,0
+            -96.73031,17.05619,0
+            -96.73034,17.05627,0
+            -96.73041,17.05641,0
+            -96.73049,17.05654,0
+            -96.73051,17.05658,0
+            -96.73052,17.05659,0
+            -96.73055,17.05664,0
+            -96.73084,17.05705,0
+            -96.73101,17.05726,0
+            -96.73129,17.05764,0
+            -96.73135,17.05773,0
+            -96.73145,17.05789,0
+            -96.73163,17.0581,0
+            -96.73183,17.05841,0
+            -96.732,17.05865,0
+            -96.7324,17.05922,0
+            -96.73279,17.05976,0
+            -96.73295,17.05999,0
+            -96.73301,17.06007,0
+            -96.73305,17.06012,0
+            -96.73309,17.06021,0
+            -96.73322,17.06038,0
+            -96.73344,17.06069,0
+            -96.73347,17.06073,0
+            -96.73352,17.0608,0
+            -96.73358,17.06088,0
+            -96.73376,17.06115,0
+            -96.73419,17.06174,0
+            -96.73427,17.06183,0
+            -96.73436,17.06193,0
+            -96.73454,17.0622,0
+            -96.73475,17.06251,0
+            -96.73498,17.06282,0
+            -96.73511,17.06306,0
+            -96.73538,17.06344,0
+            -96.73553,17.06365,0
+            -96.73558,17.06375,0
+            -96.73567,17.06392,0
+            -96.73596,17.06447,0
+            -96.73608,17.06478,0
+            -96.73615,17.06496,0
+            -96.73618,17.06509,0
+            -96.73623,17.06523,0
+            -96.73627,17.06535,0
+            -96.73629,17.06544,0
+            -96.73628,17.06556,0
+            -96.73627,17.06562,0
+            -96.73625,17.06571,0
+            -96.73619,17.06583,0
+            -96.7361,17.06595,0
+            -96.73605,17.06598,0
+            -96.73595,17.06607,0
+            -96.73585,17.06615,0
+            -96.73583,17.06614,0
+            -96.73582,17.06613,0
+            -96.73575,17.06611,0
+            -96.73558,17.06613,0
+            -96.73548,17.06621,0
+            -96.73543,17.06625,0
+            -96.73536,17.06634,0
+            -96.7353,17.06643,0
+            -96.73527,17.06646,0
+            -96.73525,17.06648,0
+            -96.73521,17.0665,0
+            -96.73511,17.06653,0
+            -96.735,17.06657,0
+            -96.73485,17.06663,0
+            -96.7345,17.06674,0
+            -96.734437,17.066756,0
+            -96.73442,17.066779,0
+            -96.734429,17.066801,0
+            -96.734455,17.066827,0
+            -96.73452,17.06689,0
+            -96.73479,17.06716,0
+            -96.73501,17.06742,0
+            -96.73523,17.06771,0
+            -96.73541,17.06797,0
+            -96.73552,17.06814,0
+            -96.73558,17.06827,0
+            -96.73571,17.06849,0
+            -96.73598,17.06901,0
+            -96.73607,17.06924,0
+            -96.73615,17.06945,0
+            -96.73621,17.06961,0
+            -96.73623,17.06966,0
+            -96.73629,17.0698,0
+            -96.73635,17.06997,0
+            -96.73643,17.07016,0
+            -96.73647,17.0703,0
+            -96.7365,17.0704,0
+            -96.73652,17.07051,0
+            -96.73664,17.0709,0
+            -96.73668,17.07098,0
+            -96.73684,17.07129,0
+            -96.73697,17.07153,0
+            -96.7373,17.07215,0
+            -96.73742,17.0724,0
+            -96.73748,17.07247,0
+            -96.73767,17.07282,0
+            -96.73781,17.07305,0
+            -96.73792,17.07324,0
+            -96.73802,17.0734,0
+            -96.73826,17.07382,0
+            -96.73839,17.07405,0
+            -96.73851,17.07426,0
+            -96.7386,17.0744,0
+            -96.73898,17.07497,0
+            -96.7392,17.07521,0
+            -96.73945,17.07552,0
+            -96.73964,17.07576,0
+            -96.73972,17.0759,0
+            -96.7399,17.07632,0
+            -96.73992,17.07635,0
+            -96.74005,17.07664,0
+            -96.74015,17.07689,0
+            -96.74016,17.0769,0
+            -96.74022,17.07701,0
+            -96.74035,17.0773,0
+            -96.74056,17.07778,0
+            -96.74061,17.07792,0
+            -96.74066,17.07802,0
+            -96.74071,17.07813,0
+            -96.74089,17.07849,0
+            -96.74091,17.07852,0
+            -96.74102,17.07873,0
+            -96.74103,17.07876,0
+            -96.74116,17.07903,0
+            -96.74128,17.07929,0
+            -96.74132,17.07938,0
+            -96.7415,17.07978,0
+            -96.74155,17.0799,0
+            -96.74152,17.07991,0
+            -96.74148,17.07992,0
+            -96.74145,17.07993,0
+            -96.74143,17.07994,0
+            -96.7414,17.07996,0
+            -96.741367,17.08,0
+            -96.741355,17.080038,0
+            -96.74137,17.080069,0
+            -96.74141,17.08009,0
+            -96.74188,17.08035,0
+            -96.74227,17.08059,0
+            -96.7424,17.08068,0
+            -96.74252,17.08077,0
+            -96.74274,17.08098,0
+            -96.74286,17.0811,0
+            -96.74292,17.08119,0
+            -96.74299,17.0813,0
+            -96.74305,17.0814,0
+            -96.74313,17.08156,0
+            -96.74316,17.08164,0
+            -96.7432,17.08174,0
+            -96.74337,17.08213,0
+            -96.74365,17.0828,0
+            -96.74375,17.08303,0
+            -96.74389,17.08332,0
+            -96.74411,17.08389,0
+            -96.74465,17.08515,0
+            -96.74501,17.086,0
+            -96.74503,17.0861,0
+            -96.74546,17.087,0
+            -96.74574,17.08771,0
+            -96.74593,17.08809,0
+            -96.74627,17.08887,0
+            -96.74634,17.08903,0
+            -96.74649,17.08937,0
+            -96.74652,17.08944,0
+            -96.74679,17.09012,0
+            -96.74694,17.09049,0
+            -96.74712,17.09089,0
+            -96.74719,17.09106,0
+            -96.74762,17.092,0
+            -96.74794,17.09269,0
+            -96.74802,17.09294,0
+            -96.74805,17.093,0
+            -96.74808,17.09308,0
+            -96.74815,17.09323,0
+            -96.74831,17.09362,0
+            -96.74854,17.09414,0
+            -96.74881,17.09481,0
+            -96.74889,17.09497,0
+            -96.74889,17.09498,0
+            -96.74921,17.09564,0
+            -96.74952,17.09636,0
+            -96.74957,17.09647,0
+            -96.74958,17.0965,0
+            -96.74983,17.09719,0
+            -96.74989,17.09738,0
+            -96.7502,17.09792,0
+            -96.75043,17.09853,0
+            -96.75062,17.09898,0
+            -96.7508,17.09939,0
+            -96.75097,17.09975,0
+            -96.75138,17.10071,0
+            -96.75155,17.10107,0
+            -96.75162,17.10125,0
+            -96.75164,17.10132,0
+            -96.75195,17.10205,0
+            -96.75213,17.10245,0
+            -96.75257,17.10352,0
+            -96.75304,17.1045,0
+            -96.75307,17.10458,0
+            -96.75354,17.10566,0
+            -96.75372,17.1061,0
+            -96.75385,17.10644,0
+            -96.75399,17.10677,0
+            -96.7541,17.10701,0
+            -96.75424,17.10734,0
+            -96.75473,17.10843,0
+            -96.75485,17.10874,0
+            -96.75488,17.10882,0
+            -96.75504,17.10918,0
+            -96.75516,17.10946,0
+            -96.75537,17.10999,0
+            -96.75538,17.11001,0
+            -96.75547,17.11021,0
+            -96.75555,17.11038,0
+            -96.75556,17.1104,0
+            -96.75558,17.11043,0
+            -96.75572,17.11087,0
+            -96.7561,17.11178,0
+            -96.75611,17.11179,0
+            -96.75634,17.11232,0
+            -96.75637,17.11237,0
+            -96.75645,17.11247,0
+            -96.75651,17.11255,0
+            -96.75655,17.11264,0
+            -96.75656,17.11266,0
+            -96.75673,17.11297,0
+            -96.7569,17.11326,0
+            -96.75704,17.11346,0
+            -96.75708,17.11352,0
+            -96.7571,17.11356,0
+            -96.75714,17.1136,0
+            -96.75737,17.11393,0
+            -96.7577,17.11437,0
+            -96.75771,17.11439,0
+            -96.75783,17.11454,0
+            -96.75789,17.11463,0
+            -96.75827,17.11516,0
+            -96.75832,17.11523,0
+            -96.75847,17.11545,0
+            -96.75883,17.11586,0
+            -96.75897,17.11603,0
+            -96.75918,17.11626,0
+            -96.75941,17.11654,0
+            -96.76017,17.11747,0
+            -96.76035,17.11769,0
+            -96.76056,17.11796,0
+            -96.76076,17.11819,0
+            -96.7609,17.11836,0
+            -96.761,17.11848,0
+            -96.76129,17.11883,0
+            -96.76212,17.11982,0
+            -96.76245,17.12025,0
+            -96.76292,17.12082,0
+            -96.76305,17.12098,0
+            -96.76324,17.12122,0
+            -96.76347,17.1215,0
+            -96.76366,17.12177,0
+            -96.764,17.12222,0
+            -96.76411,17.12239,0
+            -96.7641,17.12243,0
+            -96.76411,17.12244,0
+            -96.76411,17.12245,0
+            -96.76411,17.12247,0
+            -96.76412,17.12248,0
+            -96.76412,17.12249,0
+            -96.76413,17.12251,0
+            -96.76414,17.12252,0
+            -96.76415,17.12253,0
+            -96.76416,17.12254,0
+            -96.76417,17.12255,0
+            -96.76418,17.12256,0
+            -96.76419,17.12257,0
+            -96.7642,17.12257,0
+            -96.76422,17.12258,0
+            -96.76423,17.12258,0
+            -96.76425,17.12259,0
+            -96.76426,17.12259,0
+            -96.76427,17.12259,0
+            -96.76428,17.12259,0
+            -96.76429,17.12259,0
+            -96.76431,17.12259,0
+            -96.76432,17.12259,0
+            -96.76433,17.12259,0
+            -96.76435,17.12258,0
+            -96.76436,17.12258,0
+            -96.76438,17.12257,0
+            -96.76439,17.12257,0
+            -96.7644,17.12256,0
+            -96.76441,17.12255,0
+            -96.76442,17.12254,0
+            -96.76443,17.12253,0
+            -96.76444,17.12252,0
+            -96.76445,17.12251,0
+            -96.76446,17.12249,0
+            -96.76446,17.12248,0
+            -96.76447,17.12247,0
+            -96.76447,17.12244,0
+            -96.76448,17.12243,0
+            -96.76448,17.12242,0
+            -96.76448,17.12241,0
+            -96.76448,17.1224,0
+            -96.76447,17.12239,0
+            -96.76505,17.12186,0
+            -96.76511,17.12175,0
+            -96.76535,17.12156,0
+            -96.76551,17.12143,0
+            -96.76579,17.12119,0
+            -96.76628,17.12077,0
+            -96.76708,17.12013,0
+            -96.76741,17.1205,0
+            -96.76796,17.12107,0
+            -96.76802,17.12114,0
+            -96.76825,17.12137,0
+            -96.76846,17.12165,0
+            -96.76852,17.12172,0
+            -96.76871,17.12192,0
+            -96.76886,17.12206,0
+            -96.76909,17.12229,0
+            -96.76928,17.12246,0
+            -96.76931,17.1225,0
+            -96.76945,17.12264,0
+            -96.76951,17.1227,0
+            -96.76971,17.12291,0
+            -96.76986,17.12307,0
+            -96.77009,17.12332,0
+            -96.77013,17.12336,0
+            -96.77028,17.12352,0
+            -96.77048,17.12372,0
+            -96.77054,17.12378,0
+            -96.77111,17.12436,0
+            -96.77166,17.12493,0
+            -96.77206,17.12535,0
+            -96.77227,17.12558,0
+            -96.77244,17.12576,0
+            -96.77305,17.12643,0
+            -96.77309,17.12648,0
+            -96.77311,17.1265,0
+            -96.77317,17.12656,0
+            -96.7732,17.1266,0
+            -96.77338,17.12678,0
+            -96.77358,17.12701,0
+            -96.77365,17.12708,0
+            -96.7737,17.12715,0
+            -96.77394,17.12743,0
+            -96.7742,17.12772,0
+            -96.77432,17.12787,0
+            -96.7744,17.12798,0
+            -96.77457,17.12817,0
+            -96.77514,17.12871,0
+            -96.77548,17.12905,0
+            -96.77574,17.12934,0
+            -96.77582,17.12943,0
+            -96.77608,17.12968,0
+            -96.77705,17.13071,0
+            -96.77733,17.13102,0
+            -96.77759,17.13131,0
+            -96.77765,17.13137,0
+            -96.77796,17.13169,0
+            -96.77818,17.13193,0
+            -96.77864,17.13241,0
+            -96.77872,17.13251,0
+            -96.77911,17.13297,0
+            -96.77968,17.13368,0
+            -96.77991,17.13395,0
+            -96.78005,17.13418,0
+            -96.7801,17.13426,0
+            -96.78014,17.13434,0
+            -96.78018,17.13443,0
+            -96.78021,17.13453,0
+            -96.78021,17.13454,0
+            -96.78026,17.13466,0
+            -96.7805,17.13516,0
+            -96.78027,17.13521,0
+            -96.7792,17.13545,0
+            -96.77895,17.13551,0
+            -96.77693,17.13598,0
+            -96.7769,17.13598,0
+            -96.77653,17.13607,0
+            -96.77642,17.1361,0
+            -96.77625,17.13614,0
+            -96.77553,17.13633,0
+            -96.77518,17.13642,0
+            -96.77506,17.13645,0
+            -96.77508,17.13652,0
+            -96.77536,17.13719,0
+            -96.77563,17.13787,0
+            -96.77523,17.13803,0
+            -96.77453,17.13829,0
+            -96.77356,17.13866,0
+            -96.7726,17.13903,0
+            -96.77255,17.13904,0
+            -96.7722,17.13918,0
+            -96.77203,17.13924,0
+            -96.77175,17.13935,0
+            -96.77167,17.13938,0
+            -96.77116,17.13958,0
+            -96.77027,17.13993,0
+            -96.76977,17.14016,0
+            -96.76906,17.14052,0
+            -96.76873,17.14068,0
+            -96.76858,17.14075,0
+            -96.76845,17.1408,0
+            -96.76836,17.14084,0
+            -96.76827,17.14087,0
+            -96.76811,17.14091,0
+            -96.76803,17.14093,0
+            -96.76796,17.14095,0
+            -96.76779,17.14097,0
+            -96.76777,17.14098,0
+            -96.76756,17.14101,0
+            -96.76743,17.14103,0
+            -96.7673,17.14105,0
+            -96.76718,17.14108,0
+            -96.76714,17.14109,0
+            -96.76703,17.14112,0
+            -96.76682,17.14121,0
+            -96.76697,17.14166,0
+            -96.76712,17.14206,0
+            -96.76724,17.14241,0
+            -96.76725,17.14246,0
+            -96.76739,17.14286,0
+            -96.76754,17.14327,0
+            -96.76754,17.1433,0
+            -96.76754,17.14332,0
+            -96.76753,17.14333,0
+            -96.76751,17.14334,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del valle Contrafrente</name>
+        <description><![CDATA[Descripción: SECUENCIA: 48<br>NUM: 2<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA16<br>LATITUD: 17.038562<br>LONGITUD: -96.710584<br>COL5B1FAE1267022B02: 48.0<br>COL5B1FAE1267D6B977: 2.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA16<br>COL5B1FAE1267ADC938: 17.038562<br>COL5B1FAE12671EF427: -96.710584]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 48
+NUM: 2
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA16
+LATITUD: 17.038562
+LONGITUD: -96.710584</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>48.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>2.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA16</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.038562</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.710584</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.710584,17.038562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del Valle</name>
+        <description><![CDATA[Descripción: SECUENCIA: 49<br>NUM: 3<br>SENTIDO: REGRESO<br>CONEXIÓN: RC11,RA05,RA16,RA17<br>LATITUD: 17.0401<br>LONGITUD: -96.71144<br>COL5B1FAE1267022B02: 49.0<br>COL5B1FAE1267D6B977: 3.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC11,RA05,RA16,RA17<br>COL5B1FAE1267ADC938: 17.0401<br>COL5B1FAE12671EF427: -96.71144]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 49
+NUM: 3
+SENTIDO: REGRESO
+CONEXIÓN: RC11,RA05,RA16,RA17
+LATITUD: 17.0401
+LONGITUD: -96.71144</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>49.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>3.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC11,RA05,RA16,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0401</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71144</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71144,17.0401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del Oaxaca</name>
+        <description><![CDATA[Descripción: SECUENCIA: 50<br>NUM: 4<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.0432<br>LONGITUD: -96.71385<br>COL5B1FAE1267022B02: 50.0<br>COL5B1FAE1267D6B977: 4.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.0432<br>COL5B1FAE12671EF427: -96.71385]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 50
+NUM: 4
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.0432
+LONGITUD: -96.71385</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>50.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>4.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0432</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71385</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71385,17.0432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Facultad de Arquitectura</name>
+        <description><![CDATA[Descripción: SECUENCIA: 51<br>NUM: 5<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.04649<br>LONGITUD: -96.71389<br>COL5B1FAE1267022B02: 51.0<br>COL5B1FAE1267D6B977: 5.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.04649<br>COL5B1FAE12671EF427: -96.71389]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 51
+NUM: 5
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.04649
+LONGITUD: -96.71389</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>51.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>5.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.04649</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71389</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71389,17.04649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Facultad de Enfermeria</name>
+        <description><![CDATA[Descripción: SECUENCIA: 52<br>NUM: 6<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.04861<br>LONGITUD: -96.71361<br>COL5B1FAE1267022B02: 52.0<br>COL5B1FAE1267D6B977: 6.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.04861<br>COL5B1FAE12671EF427: -96.71361]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 52
+NUM: 6
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.04861
+LONGITUD: -96.71361</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>52.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>6.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.04861</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71361</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71361,17.04861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rectoria CU</name>
+        <description><![CDATA[Descripción: SECUENCIA: 53<br>NUM: 7<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.05092<br>LONGITUD: -96.71328<br>COL5B1FAE1267022B02: 53.0<br>COL5B1FAE1267D6B977: 7.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.05092<br>COL5B1FAE12671EF427: -96.71328]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 53
+NUM: 7
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.05092
+LONGITUD: -96.71328</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>53.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>7.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05092</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71328</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71328,17.05092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crucero de 5 Señores</name>
+        <description><![CDATA[Descripción: SECUENCIA: 54<br>NUM: 8<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.053612<br>LONGITUD: -96.7128072<br>COL5B1FAE1267022B02: 54.0<br>COL5B1FAE1267D6B977: 8.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.053612<br>COL5B1FAE12671EF427: -96.7128072]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 54
+NUM: 8
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.053612
+LONGITUD: -96.7128072</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>54.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>8.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.053612</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7128072</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.712807,17.053612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emiliano Zapata</name>
+        <description><![CDATA[Descripción: SECUENCIA: 55<br>NUM: 9<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.0535<br>LONGITUD: -96.71598<br>COL5B1FAE1267022B02: 55.0<br>COL5B1FAE1267D6B977: 9.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.0535<br>COL5B1FAE12671EF427: -96.71598]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 55
+NUM: 9
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.0535
+LONGITUD: -96.71598</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>55.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>9.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0535</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71598</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71598,17.0535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gonzáles Ortega</name>
+        <description><![CDATA[Descripción: SECUENCIA: 56<br>NUM: 10<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.05264<br>LONGITUD: -96.71945<br>COL5B1FAE1267022B02: 56.0<br>COL5B1FAE1267D6B977: 10.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.05264<br>COL5B1FAE12671EF427: -96.71945]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 56
+NUM: 10
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.05264
+LONGITUD: -96.71945</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>56.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>10.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05264</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.71945</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71945,17.05264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Xicoténcatl</name>
+        <description><![CDATA[Descripción: SECUENCIA: 57<br>NUM: 11<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.05191<br>LONGITUD: -96.72244<br>COL5B1FAE1267022B02: 57.0<br>COL5B1FAE1267D6B977: 11.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.05191<br>COL5B1FAE12671EF427: -96.72244]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 57
+NUM: 11
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.05191
+LONGITUD: -96.72244</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>57.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>11.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05191</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.72244</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72244,17.05191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CFE Periferico</name>
+        <description><![CDATA[Descripción: SECUENCIA: 58<br>NUM: 12<br>SENTIDO: REGRESO<br>CONEXIÓN: RC10,RC11,RA05,RA17<br>LATITUD: 17.05128<br>LONGITUD: -96.72493<br>COL5B1FAE1267022B02: 58.0<br>COL5B1FAE1267D6B977: 12.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC10,RC11,RA05,RA17<br>COL5B1FAE1267ADC938: 17.05128<br>COL5B1FAE12671EF427: -96.72493]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 58
+NUM: 12
+SENTIDO: REGRESO
+CONEXIÓN: RC10,RC11,RA05,RA17
+LATITUD: 17.05128
+LONGITUD: -96.72493</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>58.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>12.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC10,RC11,RA05,RA17</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05128</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.72493</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72493,17.05128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miguel Cabrera</name>
+        <description><![CDATA[Descripción: SECUENCIA: 59<br>NUM: 13<br>SENTIDO: REGRESO<br>CONEXIÓN: RC12,RA06,RA13,RA16RA17,RA18<br>LATITUD: 17.0506444<br>LONGITUD: -96.7276826<br>COL5B1FAE1267022B02: 59.0<br>COL5B1FAE1267D6B977: 13.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RC12,RA06,RA13,RA16RA17,RA18<br>COL5B1FAE1267ADC938: 17.0506444<br>COL5B1FAE12671EF427: -96.7276826]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 59
+NUM: 13
+SENTIDO: REGRESO
+CONEXIÓN: RC12,RA06,RA13,RA16RA17,RA18
+LATITUD: 17.0506444
+LONGITUD: -96.7276826</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>59.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>13.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RC12,RA06,RA13,RA16RA17,RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0506444</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7276826</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.727683,17.050644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez Lázaro Cárdenas</name>
+        <description><![CDATA[Descripción: SECUENCIA: 60<br>NUM: 14<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RA01,RA06<br>LATITUD: 17.05582<br>LONGITUD: -96.73036<br>COL5B1FAE1267022B02: 60.0<br>COL5B1FAE1267D6B977: 14.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RA01,RA06<br>COL5B1FAE1267ADC938: 17.05582<br>COL5B1FAE12671EF427: -96.73036]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 60
+NUM: 14
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RA01,RA06
+LATITUD: 17.05582
+LONGITUD: -96.73036</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>60.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>14.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RA01,RA06</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.05582</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73036</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73036,17.05582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez Flores Magon</name>
+        <description><![CDATA[Descripción: SECUENCIA: 61<br>NUM: 15<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RA01,RA06<br>LATITUD: 17.06019<br>LONGITUD: -96.7332<br>COL5B1FAE1267022B02: 61.0<br>COL5B1FAE1267D6B977: 15.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RA01,RA06<br>COL5B1FAE1267ADC938: 17.06019<br>COL5B1FAE12671EF427: -96.7332]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 61
+NUM: 15
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RA01,RA06
+LATITUD: 17.06019
+LONGITUD: -96.7332</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>61.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>15.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RA01,RA06</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.06019</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7332</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.7332,17.06019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Francisco I. Madero</name>
+        <description><![CDATA[Descripción: SECUENCIA: 62<br>NUM: 16<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC10,RC08<br>LATITUD: 17.06624<br>LONGITUD: -96.73542<br>COL5B1FAE1267022B02: 62.0<br>COL5B1FAE1267D6B977: 16.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC10,RC08<br>COL5B1FAE1267ADC938: 17.06624<br>COL5B1FAE12671EF427: -96.73542]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 62
+NUM: 16
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC10,RC08
+LATITUD: 17.06624
+LONGITUD: -96.73542</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>62.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>16.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC10,RC08</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.06624</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73542</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73542,17.06624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ignacio Rayon</name>
+        <description><![CDATA[Descripción: SECUENCIA: 63<br>NUM: 17<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04<br>LATITUD: 17.06814<br>LONGITUD: -96.73547<br>COL5B1FAE1267022B02: 63.0<br>COL5B1FAE1267D6B977: 17.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC08,RC10,RC14,RA04<br>COL5B1FAE1267ADC938: 17.06814<br>COL5B1FAE12671EF427: -96.73547]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 63
+NUM: 17
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04
+LATITUD: 17.06814
+LONGITUD: -96.73547</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>63.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>17.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC08,RC10,RC14,RA04</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.06814</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73547</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73547,17.06814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alfonso Pérez Gasga</name>
+        <description><![CDATA[Descripción: SECUENCIA: 64<br>NUM: 18<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04<br>LATITUD: 17.0709<br>LONGITUD: -96.73661<br>COL5B1FAE1267022B02: 64.0<br>COL5B1FAE1267D6B977: 18.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC08,RC10,RC14,RA04<br>COL5B1FAE1267ADC938: 17.0709<br>COL5B1FAE12671EF427: -96.73661]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 64
+NUM: 18
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04
+LATITUD: 17.0709
+LONGITUD: -96.73661</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>64.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>18.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC08,RC10,RC14,RA04</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0709</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73661</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73661,17.0709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montes de Oca</name>
+        <description><![CDATA[Descripción: SECUENCIA: 65<br>NUM: 19<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04<br>LATITUD: 17.07368<br>LONGITUD: -96.73811<br>COL5B1FAE1267022B02: 65.0<br>COL5B1FAE1267D6B977: 19.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC08,RC10,RC14,RA04<br>COL5B1FAE1267ADC938: 17.07368<br>COL5B1FAE12671EF427: -96.73811]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 65
+NUM: 19
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04
+LATITUD: 17.07368
+LONGITUD: -96.73811</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>65.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>19.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC08,RC10,RC14,RA04</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.07368</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73811</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73811,17.07368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panteon del Ex Marquesado</name>
+        <description><![CDATA[Descripción: SECUENCIA: 66<br>NUM: 20<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04<br>LATITUD: 17.07512<br>LONGITUD: -96.73907<br>COL5B1FAE1267022B02: 66.0<br>COL5B1FAE1267D6B977: 20.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC08,RC10,RC14,RA04<br>COL5B1FAE1267ADC938: 17.07512<br>COL5B1FAE12671EF427: -96.73907]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 66
+NUM: 20
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC08,RC10,RC14,RA04
+LATITUD: 17.07512
+LONGITUD: -96.73907</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>66.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>20.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC08,RC10,RC14,RA04</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.07512</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.73907</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73907,17.07512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monumento a la Madre</name>
+        <description><![CDATA[Descripción: SECUENCIA: 67<br>NUM: 21<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,TC01,RC06,RC08,RC10,RC14<br>LATITUD: 17.0794<br>LONGITUD: -96.74129<br>COL5B1FAE1267022B02: 67.0<br>COL5B1FAE1267D6B977: 21.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,TC01,RC06,RC08,RC10,RC14<br>COL5B1FAE1267ADC938: 17.0794<br>COL5B1FAE12671EF427: -96.74129]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 67
+NUM: 21
+SENTIDO: REGRESO
+CONEXIÓN: RT01,TC01,RC06,RC08,RC10,RC14
+LATITUD: 17.0794
+LONGITUD: -96.74129</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>67.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>21.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,TC01,RC06,RC08,RC10,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0794</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.74129</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74129,17.0794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuauhtémoc</name>
+        <description><![CDATA[Descripción: SECUENCIA: 68<br>NUM: 22<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14<br>LATITUD: 17.082718<br>LONGITUD: -96.7436292<br>COL5B1FAE1267022B02: 68.0<br>COL5B1FAE1267D6B977: 22.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC06,RC09,RC10,RC14<br>COL5B1FAE1267ADC938: 17.082718<br>COL5B1FAE12671EF427: -96.7436292]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 68
+NUM: 22
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14
+LATITUD: 17.082718
+LONGITUD: -96.7436292</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>68.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>22.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC06,RC09,RC10,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.082718</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7436292</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.743629,17.082718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagá Nda</name>
+        <description><![CDATA[Descripción: SECUENCIA: 69<br>NUM: 23<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC10,RC14<br>LATITUD: 17.0864708<br>LONGITUD: -96.7452508<br>COL5B1FAE1267022B02: 69.0<br>COL5B1FAE1267D6B977: 23.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC10,RC14<br>COL5B1FAE1267ADC938: 17.0864708<br>COL5B1FAE12671EF427: -96.7452508]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 69
+NUM: 23
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC10,RC14
+LATITUD: 17.0864708
+LONGITUD: -96.7452508</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>69.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>23.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC10,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0864708</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7452508</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.745251,17.086471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niidzi</name>
+        <description><![CDATA[Descripción: SECUENCIA: 70<br>NUM: 24<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14<br>LATITUD: 17.0900134<br>LONGITUD: -96.746781<br>COL5B1FAE1267022B02: 70.0<br>COL5B1FAE1267D6B977: 24.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC06,RC09,RC10,RC14<br>COL5B1FAE1267ADC938: 17.0900134<br>COL5B1FAE12671EF427: -96.746781]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 70
+NUM: 24
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14
+LATITUD: 17.0900134
+LONGITUD: -96.746781</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>70.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>24.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC06,RC09,RC10,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.0900134</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.746781</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.746781,17.090013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zonal Santa Rosa</name>
+        <description><![CDATA[Descripción: SECUENCIA: 71<br>NUM: 25<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14<br>LATITUD: 17.09329<br>LONGITUD: -96.74805<br>COL5B1FAE1267022B02: 71.0<br>COL5B1FAE1267D6B977: 25.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC06,RC09,RC10,RC14<br>COL5B1FAE1267ADC938: 17.09329<br>COL5B1FAE12671EF427: -96.74805]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 71
+NUM: 25
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14
+LATITUD: 17.09329
+LONGITUD: -96.74805</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>71.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>25.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC06,RC09,RC10,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.09329</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.74805</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74805,17.09329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugambilias</name>
+        <description><![CDATA[Descripción: SECUENCIA: 72<br>NUM: 26<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14<br>LATITUD: 17.09778<br>LONGITUD: -96.75001<br>COL5B1FAE1267022B02: 72.0<br>COL5B1FAE1267D6B977: 26.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC06,RC09,RC10,RC14<br>COL5B1FAE1267ADC938: 17.09778<br>COL5B1FAE12671EF427: -96.75001]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 72
+NUM: 26
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14
+LATITUD: 17.09778
+LONGITUD: -96.75001</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>72.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>26.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC06,RC09,RC10,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.09778</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.75001</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.75001,17.09778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abraham Castellanos</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.750653,17.099298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colonia del Maestro</name>
+        <description><![CDATA[Descripción: SECUENCIA: 73<br>NUM: 27<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14<br>LATITUD: 17.1008405<br>LONGITUD: -96.7514083<br>COL5B1FAE1267022B02: 73.0<br>COL5B1FAE1267D6B977: 27.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC06,RC09,RC10,RC14<br>COL5B1FAE1267ADC938: 17.1008405<br>COL5B1FAE12671EF427: -96.7514083]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 73
+NUM: 27
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC06,RC09,RC10,RC14
+LATITUD: 17.1008405
+LONGITUD: -96.7514083</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>73.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>27.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC06,RC09,RC10,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1008405</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7514083</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.751408,17.10084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jaime Torres Bodet</name>
+        <description><![CDATA[Descripción: SECUENCIA: 74<br>NUM: 28<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC14<br>LATITUD: 17.10498<br>LONGITUD: -96.75309<br>COL5B1FAE1267022B02: 74.0<br>COL5B1FAE1267D6B977: 28.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC14<br>COL5B1FAE1267ADC938: 17.10498<br>COL5B1FAE12671EF427: -96.75309]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 74
+NUM: 28
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC14
+LATITUD: 17.10498
+LONGITUD: -96.75309</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>74.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>28.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.10498</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.75309</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.753112,17.104949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Querétaro</name>
+        <description><![CDATA[Descripción: SECUENCIA: 75<br>NUM: 29<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC14<br>LATITUD: 17.1084425<br>LONGITUD: -96.7547104<br>COL5B1FAE1267022B02: 75.0<br>COL5B1FAE1267D6B977: 29.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC14<br>COL5B1FAE1267ADC938: 17.1084425<br>COL5B1FAE12671EF427: -96.7547104]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 75
+NUM: 29
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC14
+LATITUD: 17.1084425
+LONGITUD: -96.7547104</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>75.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>29.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1084425</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7547104</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.75471,17.108442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vicente Guerrero</name>
+        <description><![CDATA[Descripción: SECUENCIA: 76<br>NUM: 30<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC14<br>LATITUD: 17.11238<br>LONGITUD: -96.75631<br>COL5B1FAE1267022B02: 76.0<br>COL5B1FAE1267D6B977: 30.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC14<br>COL5B1FAE1267ADC938: 17.11238<br>COL5B1FAE12671EF427: -96.75631]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 76
+NUM: 30
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC14
+LATITUD: 17.11238
+LONGITUD: -96.75631</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>76.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>30.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.11238</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.75631</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.75631,17.11238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plutarco Elias Calles</name>
+        <description><![CDATA[Descripción: SECUENCIA: 77<br>NUM: 31<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC01,RC14<br>LATITUD: 17.1155529<br>LONGITUD: -96.758627<br>COL5B1FAE1267022B02: 77.0<br>COL5B1FAE1267D6B977: 31.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC01,RC14<br>COL5B1FAE1267ADC938: 17.1155529<br>COL5B1FAE12671EF427: -96.758627]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 77
+NUM: 31
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC01,RC14
+LATITUD: 17.1155529
+LONGITUD: -96.758627</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>77.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>31.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC01,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1155529</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.758627</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.758627,17.115553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cobao 01</name>
+        <description><![CDATA[Descripción: SECUENCIA: 78<br>NUM: 32<br>SENTIDO: REGRESO<br>CONEXIÓN: RT01,RC14<br>LATITUD: 17.1184566<br>LONGITUD: -96.7609575<br>COL5B1FAE1267022B02: 78.0<br>COL5B1FAE1267D6B977: 32.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RT01,RC14<br>COL5B1FAE1267ADC938: 17.1184566<br>COL5B1FAE12671EF427: -96.7609575]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 78
+NUM: 32
+SENTIDO: REGRESO
+CONEXIÓN: RT01,RC14
+LATITUD: 17.1184566
+LONGITUD: -96.7609575</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>78.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>32.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RT01,RC14</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1184566</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7609575</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.760958,17.118457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Libramiento Atoyac</name>
+        <description><![CDATA[Descripción: SECUENCIA: 79<br>NUM: 33<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1221948<br>LONGITUD: -96.7646888<br>COL5B1FAE1267022B02: 79.0<br>COL5B1FAE1267D6B977: 33.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1221948<br>COL5B1FAE12671EF427: -96.7646888]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 79
+NUM: 33
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1221948
+LONGITUD: -96.7646888</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>79.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>33.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1221948</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7646888</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.764689,17.122195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Libramiento</name>
+        <description><![CDATA[Descripción: SECUENCIA: 80<br>NUM: 34<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1202496<br>LONGITUD: -96.7669237<br>COL5B1FAE1267022B02: 80.0<br>COL5B1FAE1267D6B977: 34.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1202496<br>COL5B1FAE12671EF427: -96.7669237]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 80
+NUM: 34
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1202496
+LONGITUD: -96.7669237</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>80.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>34.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1202496</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7669237</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.766924,17.12025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olivos</name>
+        <description><![CDATA[Descripción: SECUENCIA: 81<br>NUM: 35<br>SENTIDO: REGRESO<br>CONEXIÓN: RA18<br>LATITUD: 17.12189<br>LONGITUD: -96.76865<br>COL5B1FAE1267022B02: 81.0<br>COL5B1FAE1267D6B977: 35.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RA18<br>COL5B1FAE1267ADC938: 17.12189<br>COL5B1FAE12671EF427: -96.76865]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 81
+NUM: 35
+SENTIDO: REGRESO
+CONEXIÓN: RA18
+LATITUD: 17.12189
+LONGITUD: -96.76865</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>81.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>35.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.12189</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.76865</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76865,17.12189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Esmeralda</name>
+        <description><![CDATA[Descripción: SECUENCIA: 82<br>NUM: 36<br>SENTIDO: REGRESO<br>CONEXIÓN: RA18<br>LATITUD: 17.12433<br>LONGITUD: -96.77103<br>COL5B1FAE1267022B02: 82.0<br>COL5B1FAE1267D6B977: 36.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RA18<br>COL5B1FAE1267ADC938: 17.12433<br>COL5B1FAE12671EF427: -96.77103]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 82
+NUM: 36
+SENTIDO: REGRESO
+CONEXIÓN: RA18
+LATITUD: 17.12433
+LONGITUD: -96.77103</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>82.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>36.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.12433</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.77103</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.77103,17.12433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bulevard Eduardo Vasconcelos</name>
+        <description><![CDATA[Descripción: SECUENCIA: 83<br>NUM: 37<br>SENTIDO: REGRESO<br>CONEXIÓN: RA18<br>LATITUD: 17.12634<br>LONGITUD: -96.77291<br>COL5B1FAE1267022B02: 83.0<br>COL5B1FAE1267D6B977: 37.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RA18<br>COL5B1FAE1267ADC938: 17.12634<br>COL5B1FAE12671EF427: -96.77291]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 83
+NUM: 37
+SENTIDO: REGRESO
+CONEXIÓN: RA18
+LATITUD: 17.12634
+LONGITUD: -96.77291</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>83.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>37.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.12634</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.77291</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.77291,17.12634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Revolución</name>
+        <description><![CDATA[Descripción: SECUENCIA: 84<br>NUM: 38<br>SENTIDO: REGRESO<br>CONEXIÓN: RA18<br>LATITUD: 17.12948<br>LONGITUD: -96.77577<br>COL5B1FAE1267022B02: 84.0<br>COL5B1FAE1267D6B977: 38.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RA18<br>COL5B1FAE1267ADC938: 17.12948<br>COL5B1FAE12671EF427: -96.77577]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 84
+NUM: 38
+SENTIDO: REGRESO
+CONEXIÓN: RA18
+LATITUD: 17.12948
+LONGITUD: -96.77577</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>84.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>38.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.12948</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.77577</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.77577,17.12948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidalgo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 85<br>NUM: 39<br>SENTIDO: REGRESO<br>CONEXIÓN: RA18<br>LATITUD: 17.13251<br>LONGITUD: -96.77866<br>COL5B1FAE1267022B02: 85.0<br>COL5B1FAE1267D6B977: 39.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RA18<br>COL5B1FAE1267ADC938: 17.13251<br>COL5B1FAE12671EF427: -96.77866]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 85
+NUM: 39
+SENTIDO: REGRESO
+CONEXIÓN: RA18
+LATITUD: 17.13251
+LONGITUD: -96.77866</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>85.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>39.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.13251</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.77866</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.77866,17.13251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino a San Lorenzo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 86<br>NUM: 40<br>SENTIDO: REGRESO<br>CONEXIÓN: RA18<br>LATITUD: 17.1351<br>LONGITUD: -96.7804<br>COL5B1FAE1267022B02: 86.0<br>COL5B1FAE1267D6B977: 40.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: RA18<br>COL5B1FAE1267ADC938: 17.1351<br>COL5B1FAE12671EF427: -96.7804]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 86
+NUM: 40
+SENTIDO: REGRESO
+CONEXIÓN: RA18
+LATITUD: 17.1351
+LONGITUD: -96.7804</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>86.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>40.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value>RA18</value>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1351</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7804</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.7804,17.1351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carretera 190</name>
+        <description><![CDATA[Descripción: SECUENCIA: 87<br>NUM: 41<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1368445<br>LONGITUD: -96.7751793<br>COL5B1FAE1267022B02: 87.0<br>COL5B1FAE1267D6B977: 41.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1368445<br>COL5B1FAE12671EF427: -96.7751793]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 87
+NUM: 41
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1368445
+LONGITUD: -96.7751793</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>87.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>41.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1368445</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7751793</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.775179,17.136844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perla</name>
+        <description><![CDATA[Descripción: SECUENCIA: 88<br>NUM: 42<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1379994<br>LONGITUD: -96.7753421<br>COL5B1FAE1267022B02: 88.0<br>COL5B1FAE1267D6B977: 42.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1379994<br>COL5B1FAE12671EF427: -96.7753421]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 88
+NUM: 42
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1379994
+LONGITUD: -96.7753421</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>88.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>42.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1379994</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7753421</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.775342,17.137999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 de Septiembre</name>
+        <description><![CDATA[Descripción: SECUENCIA: 89<br>NUM: 43<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1386399<br>LONGITUD: -96.7736637<br>COL5B1FAE1267022B02: 89.0<br>COL5B1FAE1267D6B977: 43.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1386399<br>COL5B1FAE12671EF427: -96.7736637]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 89
+NUM: 43
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1386399
+LONGITUD: -96.7736637</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>89.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>43.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1386399</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7736637</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.773664,17.13864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1° de Mayo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 90<br>NUM: 44<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1400035<br>LONGITUD: -96.770116<br>COL5B1FAE1267022B02: 90.0<br>COL5B1FAE1267D6B977: 44.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1400035<br>COL5B1FAE12671EF427: -96.770116]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 90
+NUM: 44
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1400035
+LONGITUD: -96.770116</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>90.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>44.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1400035</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.770116</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.770116,17.140004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidalgo</name>
+        <description><![CDATA[Descripción: SECUENCIA: 91<br>NUM: 45<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1411572<br>LONGITUD: -96.7669919<br>COL5B1FAE1267022B02: 91.0<br>COL5B1FAE1267D6B977: 45.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1411572<br>COL5B1FAE12671EF427: -96.7669919]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 91
+NUM: 45
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1411572
+LONGITUD: -96.7669919</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>91.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>45.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1411572</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7669919</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.766992,17.141157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base Benito juarez</name>
+        <description><![CDATA[Descripción: SECUENCIA: 92<br>NUM: 46<br>SENTIDO: REGRESO<br>CONEXIÓN: <br>LATITUD: 17.1433494<br>LONGITUD: -96.7675071<br>COL5B1FAE1267022B02: 92.0<br>COL5B1FAE1267D6B977: 46.0<br>COL5B1FAE12676D40D2: REGRESO<br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: 17.1433494<br>COL5B1FAE12671EF427: -96.7675071]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value>SECUENCIA: 92
+NUM: 46
+SENTIDO: REGRESO
+CONEXIÓN: 
+LATITUD: 17.1433494
+LONGITUD: -96.7675071</value>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value>92.0</value>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value>46.0</value>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value>17.1433494</value>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value>-96.7675071</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.767507,17.143349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carlos Gracida</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71346,17.03312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cala Sanz</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71215,17.03572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Simbolos Patrios</name>
+        <description><![CDATA[Descripción: <br>COL5B1FAE1267022B02: <br>COL5B1FAE1267D6B977: <br>COL5B1FAE12676D40D2: <br>COL5B1FAE126745DC1D: <br>COL5B1FAE1267ADC938: <br>COL5B1FAE12671EF427: ]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="Descripción">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267022B02">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267D6B977">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12676D40D2">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE126745DC1D">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE1267ADC938">
+            <value/>
+          </Data>
+          <Data name="COL5B1FAE12671EF427">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71283,17.03174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

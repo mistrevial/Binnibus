@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.6850, 17.0680]
+      },
+      "properties": {
+        "nombre": "Colonia Satelite",
+        "ruta": "RA-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7150, 17.1050]
+      },
+      "properties": {
+        "nombre": "Donají",
+        "ruta": "RA-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7292, 17.0505]
+      },
+      "properties": {
+        "nombre": "Yuroo Parque del Amor",
+        "ruta": "RA-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.6900, 17.0850]
+      },
+      "properties": {
+        "nombre": "Camino a Huayapam",
+        "ruta": "RC-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7200, 17.0150]
+      },
+      "properties": {
+        "nombre": "Animas Trujano",
+        "ruta": "RC-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7050, 17.0250]
+      },
+      "properties": {
+        "nombre": "Manzana L",
+        "ruta": "RC-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7678, 17.1264]
+      },
+      "properties": {
+        "nombre": "Yuroo Viguera",
+        "ruta": "RA-18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7450, 17.0300]
+      },
+      "properties": {
+        "nombre": "Yuroo Xoxocotlan",
+        "ruta": "RT-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.6450, 17.0600]
+      },
+      "properties": {
+        "nombre": "Santo Domingo Tomaltepec",
+        "ruta": "RA-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.6800, 17.0700]
+      },
+      "properties": {
+        "nombre": "Retiro",
+        "ruta": "RA-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.6350, 17.0450]
+      },
+      "properties": {
+        "nombre": "Tule",
+        "ruta": "RA-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7439, 17.0597]
+      },
+      "properties": {
+        "nombre": "Monte Albán",
+        "ruta": "RC-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7450, 17.0900]
+      },
+      "properties": {
+        "nombre": "Colonia Heladio",
+        "ruta": "RC-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7250, 17.0850]
+      },
+      "properties": {
+        "nombre": "Colonia Jardín",
+        "ruta": "RC-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7114, 17.0401]
+      },
+      "properties": {
+        "nombre": "Plaza del Valle",
+        "ruta": "RC-04"
+      }
+    }
+  ]
+}
