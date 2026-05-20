@@ -1,4 +1,3 @@
-2026/05/14-22:01:23.901 758c Creating DB D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Sync Data\LevelDB since it was missing.
-2026/05/14-22:01:24.690 758c Reusing MANIFEST D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/05/14-22:01:24.690 758c Recovering log #3
-2026/05/14-22:01:24.691 758c Reusing old log D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Sync Data\LevelDB/000003.log 
+2026/05/19-21:18:24.790 4a08 Reusing MANIFEST D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/05/19-21:18:24.794 4a08 Recovering log #3
+2026/05/19-21:18:24.794 4a08 Reusing old log D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Sync Data\LevelDB/000003.log 

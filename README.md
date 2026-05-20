@@ -1,27 +1,37 @@
-Qué onda, te dejo unas notas rápidas para que sepas cómo está armado y cómo funciona el proyecto del BinniBus.
+# Binnibus Mapa Sonoro
 
-Todo el sistema se divide básicamente en dos partes que se comunican entre sí: el bot de WhatsApp y el mapa en la página web.
+Este proyecto visualiza las rutas de Binnibus en un mapa interactivo y sonoro, reaccionando en tiempo real a los reportes de un canal de WhatsApp.
 
-El Bot de WhatsApp
-Cuando corres el proyecto, te va a salir un código QR en la terminal de tu compu. Lo escaneas con tu cel y con eso el bot ya queda vinculado a tu WhatsApp. 
-A partir de ahí, el bot se queda leyendo los mensajes del grupo. Cuando ve que alguien manda un reporte (tipo "unidad saliendo de Colonia Jardín"), agarra el texto, lo limpia y se queda solo con el nombre de la colonia. 
+## Requisitos
 
-Luego checa en su lista de coordenadas dónde queda ese lugar. Si por alguna razón es un lugar nuevo y no lo conoce, lo busca rápido en internet usando los mapas de OpenStreetMap, saca las coordenadas y las guarda para la próxima. Ya que sabe exactamente dónde es, le manda una alerta al mapa.
+-   [Node.js](https://nodejs.org/) (versión 16 o superior)
 
-El Mapa
-La página web siempre está atenta a las alertas del bot. En cuanto recibe el aviso de una parada, la cámara del mapa vuela directo hacia esa ubicación. El punto se pone naranja, se hace un poco más grande para que lo ubiques rápido y suena una marimba.
+## Instalación
 
-Para no saturar la pantalla de puntos naranjas, pasados 10 segundos la parada regresa a su color gris original de forma automática.
+1.  Clona o descarga este repositorio.
+2.  Abre una terminal en la carpeta del proyecto.
+3.  Instala las dependencias necesarias ejecutando el siguiente comando:
+    ```bash
+    npm install
+    ```
 
-Cómo arrancarlo
-Nada más abre la terminal en la carpeta del proyecto, corre el comando:
-node server.js
+## Configuración
 
-Y abre localhost:3000 en tu navegador web.
+1.  Abre el archivo `server.js`.
+2.  Busca la línea `const ID_GRUPO_BINNIBUS = '...';`.
+3.  Reemplaza el ID de ejemplo con el ID real de tu grupo de WhatsApp.
+    *   **Para obtener el ID de tu grupo:** Descomenta temporalmente la línea `// console.log(...)` dentro de `client.on('message', ...)` en `server.js`, ejecuta el servidor y envía un mensaje a tu grupo. El ID aparecerá en la consola. Cópialo, pégalo y vuelve a comentar la línea.
 
-Modo de prueba (Mock Mode)
-Si quieres hacer pruebas, moverle al código, o enseñarle el mapa a alguien pero no hay mensajes en el grupo de WhatsApp en ese momento, abre el archivo server.js y cambia la variable MOCK_MODE a true. 
+## Ejecución
 
-Con eso el bot de WhatsApp se desactiva por completo y el sistema empieza a prender paradas al azar cada 10 segundos para que veas cómo funciona.
+1.  En la terminal, dentro de la carpeta del proyecto, ejecuta el siguiente comando para iniciar el servidor:
+    ```bash
+    node server.js
+    ```
+2.  La primera vez, se generará un código QR en la terminal. Escanéalo con tu teléfono desde la aplicación de WhatsApp (en `Dispositivos vinculados`).
+3.  Una vez que la terminal muestre "Sesión iniciada", abre tu navegador web y ve a la siguiente dirección:
+    ```
+    http://localhost:3000
+    ```
 
-Cualquier duda, me avisas.
+El mapa ahora está listo para recibir y visualizar los eventos.

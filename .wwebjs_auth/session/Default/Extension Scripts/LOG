@@ -1,2 +1,4 @@
-2026/05/14-22:01:24.765 6ae8 Creating DB D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Extension Scripts since it was missing.
-2026/05/14-22:01:25.023 6ae8 Reusing MANIFEST D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Extension Scripts/MANIFEST-000001
+2026/05/19-16:33:51.268 2728 Creating DB D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Extension Scripts since it was missing.
+2026/05/19-16:33:51.501 2728 Reusing MANIFEST D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Extension Scripts/MANIFEST-000001
+2026/05/19-16:33:51.501 2728 Recovering log #3
+2026/05/19-16:33:51.520 2728 Reusing old log D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Extension Scripts/000003.log 

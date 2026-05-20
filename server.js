@@ -13,6 +13,11 @@ app.use(express.static('public'));
 io.on('connection', (socket) => {
     console.log(`Cliente conectado: ${socket.id}`);
 
+    socket.on('iluminar_estacion', (datos) => {
+        console.log(`\n[Cliente: ${socket.id}] Evento recibido:`, datos);
+        io.emit('iluminar_estacion', datos);
+    });
+
     socket.on('disconnect', () => {
         console.log(`Cliente desconectado: ${socket.id}`);
     });
@@ -21,6 +26,7 @@ io.on('connection', (socket) => {
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
+        headless: false,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     }
 });
@@ -30,24 +36,63 @@ client.on('qr', (qr) => {
     console.log('Por favor, escanea el código QR con tu aplicación de WhatsApp.');
 });
 
-client.on('ready', () => {
-    console.log('¡Bot de WhatsApp conectado y listo para escuchar mensajes!');
-});
+const ID_GRUPO_BINNIBUS = '120363041982639399@g.us';
 
-client.on('message', msg => {
-    const match = msg.body.match(/saliendo de\s+(.*?)(?:\s+con destino a|$)/i);
-    
-    if (match && match[1]) {
-        const estacion = match[1].trim().replace(/\.$/, '');
-        
-        console.log(`Estación detectada: ${estacion}`);
-        io.emit('iluminar_estacion', estacion);
+client.on('message', async (message) => {
+    // console.log(`\nDEBUG: Mensaje recibido del chat con ID: ${message.from}`);
+
+    if (message.from === ID_GRUPO_BINNIBUS) {
+        procesarMensaje(message.body);
     }
 });
 
-client.initialize().catch(err => {
-    console.error("Error al inicializar el bot de WhatsApp:", err);
+client.on('ready', () => {
+    console.log('Sesión iniciada. El bot está escuchando nuevos mensajes en tiempo real.');
 });
+
+function procesarMensaje(texto) {
+    console.log(`\nProcesando mensaje: "${texto}"`);
+    
+    const regexRuta = /(R[A-C]-?\d{2}|RT-?01)/i;
+    const matchRuta = texto.match(regexRuta);
+
+    if (matchRuta) {
+        const ruta = matchRuta[0].toUpperCase().replace(/-/g, '');
+        
+        const regexEstacion = /(?:saliendo de|desde|en)\s+(.+?)(?=\s+con destino a|\s+con dirección a|\s+a\s+Base|\s+hacia|$)/i;
+        const matchEstacion = texto.match(regexEstacion);
+        
+        if (!matchEstacion || !matchEstacion[1]) {
+            console.log(`No se pudo extraer la estación del mensaje.\n`);
+            return;
+        }
+        const estacion = matchEstacion[1].trim().replace(/^(la|el|base de|terminal)\s/i, ''); // Limpia prefijos comunes
+        
+        const hora_reporte = new Date().toISOString();
+        
+        const resultado = {
+            ruta,
+            estacion,
+            hora_reporte,
+            raw: texto
+        };
+
+        console.log(`Evento extraído:`, resultado);
+        console.log(`Emitiendo: ruta="${ruta}", estación="${estacion}"\n`);
+        
+        io.emit('iluminar_estacion', { ruta: ruta, estacion: estacion });
+    } else {
+        console.log(`No es un evento del Binnibús (no coincide con regex de ruta).\n`);
+    }
+}
+
+(async () => {
+    try {
+        await client.initialize();
+    } catch (error) {
+        console.error('Fallo en la inicialización:', error);
+    }
+})();
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {

@@ -13,17 +13,189 @@
         body, html {
             margin: 0;
             padding: 0;
-            height: 100%;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
             font-family: Arial, sans-serif;
         }
         
         #mapa {
-            width: 100vw;
-            height: 100vh; /* Ocupa el 100% del alto de la pantalla */
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Botón Toggle de Tema (Modo Día/Noche) */
+        #btn-tema {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            background: rgba(255, 255, 255, 0.85);
+            font-size: 22px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        #btn-tema:hover {
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+            transform: scale(1.1);
+        }
+
+        #btn-tema:active {
+            transform: scale(0.95);
+        }
+
+        /* Estilos en Modo Oscuro */
+        body.dark-mode {
+            background: #000000;
+            color: #e0e0e0;
+        }
+
+        /* Forzar fondo negro en el contenedor del mapa para sobreescribir el de Leaflet */
+        body.dark-mode .leaflet-container {
+            background: #000000;
+        }
+
+        body.dark-mode #btn-tema {
+            background: rgba(40, 40, 40, 0.9);
+            color: #fff;
+        }
+
+        body.dark-mode #btn-tema:hover {
+            background: rgba(60, 60, 60, 0.95);
+        }
+
+        body.dark-mode #test-panel {
+            background: #2a2a2a !important;
+            color: #e0e0e0 !important;
+            border: 1px solid #444;
+        }
+
+        body.dark-mode #test-panel h3 {
+            color: #e0e0e0;
+        }
+
+        body.dark-mode #btn-test {
+            background: #ff6600 !important;
+        }
+
+        /* Panel de Mensaje de WhatsApp Simulado */
+        #whatsapp-simulator {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            max-width: 280px;
+            transition: all 0.3s ease;
+        }
+
+        body.dark-mode #whatsapp-simulator {
+            background: #2a2a2a;
+            color: #e0e0e0;
+            border: 1px solid #444;
+        }
+
+        #whatsapp-simulator h3 {
+            margin-top: 0;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        #whatsapp-simulator .msg-log {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            min-height: 30px;
+            max-height: 80px;
+            overflow-y: auto;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        body.dark-mode #whatsapp-simulator .msg-log {
+            background: #1a1a1a;
+        }
+
+        #whatsapp-simulator .msg-log .msg {
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        body.dark-mode #whatsapp-simulator .msg-log .msg {
+            border-bottom-color: #444;
+        }
+
+        #whatsapp-simulator .msg-log .msg:last-child {
+            border-bottom: none;
+        }
+
+        #whatsapp-simulator button {
+            padding: 8px 12px;
+            cursor: pointer;
+            background: #25d366;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 12px;
+            width: 100%;
+            transition: all 0.2s;
+        }
+
+        #whatsapp-simulator button:hover {
+            background: #20c85f;
+            box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
+        }
+
+        #whatsapp-simulator button:active {
+            transform: scale(0.98);
+        }
+
+        .station-point {
+            transition: all 0.4s ease-in-out;
+        }
+
+        /* Optimizaciones para Móvil */
+        @media (max-width: 768px) {
+            #whatsapp-simulator {
+                display: none; /* Ocultar el simulador en pantallas pequeñas */
+            }
+            #btn-tema {
+                bottom: 10px;
+                left: 10px;
+            }
         }
     </style>
 </head>
 <body>
+
+    <!-- Botón Toggle (UI) -->
+    <button id="btn-tema">☀️</button>
+
+    <!-- Panel Simulador de WhatsApp -->
+    <div id="whatsapp-simulator">
+        <h3>Simulador de Mensaje WhatsApp</h3>
+        <div class="msg-log" id="msg-log"></div>
+        <button id="btn-test">Enviar Mensaje</button>
+    </div>
 
     <!-- Contenedor del mapa -->
     <div id="mapa"></div>
@@ -36,6 +208,9 @@
     
     <!-- Script Cliente de Socket.IO (Proporcionado automáticamente por el servidor) -->
     <script src="/socket.io/socket.io.js"></script>
+    
+    <!-- Script Tone.js para Web Audio API -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
 
     <script>
         // 1. Definir los límites del mapa para restringir la vista a Oaxaca
@@ -48,216 +223,480 @@
         const mapa = L.map('mapa', {
             maxBounds: limitesOaxaca,
             maxBoundsViscosity: 1.0, // Hace el límite rígido para no salir de Oaxaca
-            minZoom: 11 // Evita que el usuario quite zoom y vea todo México
+            minZoom: 11, // Evita que el usuario quite zoom y vea todo México
+            renderer: L.canvas() // Usar Canvas para mejor rendimiento con muchos vectores
         }).setView([17.0608, -96.7250], 12);
 
-        // 2. Configurar el Tile Layer de CartoDB Light
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        // 2. Configurar el Tile Layer de CartoDB Light como variable reutilizable
+        const mapaBase = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
             subdomains: 'abcd',
             maxZoom: 20
         }).addTo(mapa);
 
-        // 3. Lista de archivos KML vinculando el nombre real del archivo con un nombre limpio para mostrar
+        // 3. Control de Modo Oscuro (Optimizado en Memoria)
+        let modoOscuro = false;
+
+        function cambiarTema() {
+            modoOscuro = !modoOscuro;
+            const body = document.body;
+            const btnTema = document.getElementById('btn-tema');
+
+            if (modoOscuro) {
+                // Cambiar a modo oscuro
+                body.classList.add('dark-mode');
+                btnTema.textContent = '🌙';
+                mapaBase.setOpacity(0);
+
+                capasRutas.forEach(capa => {
+                    capa.setStyle({ color: '#BDBDBD', weight: 2, opacity: 0.6 });
+                    capa.eachLayer(function(layer) {
+                        // Solo afectar a los puntos que no están iluminados
+                        if (layer.setStyle && layer.feature.geometry.type === 'Point' && !layer.isIlluminated) {
+                            layer.setStyle({ fillColor: '#BDBDBD' });
+                        }
+                    });
+                });
+            } else {
+                body.classList.remove('dark-mode');
+                btnTema.textContent = '☀️';
+                mapaBase.setUrl('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png');
+                mapaBase.setOpacity(1);
+                
+                capasRutas.forEach(capa => {
+                    capa.setStyle({ color: '#999999', weight: 2, opacity: 0.5 }); // Rutas más visibles
+                    capa.eachLayer(function(layer) {
+                        // Solo afectar a los puntos que no están iluminados
+                        if (layer.setStyle && layer.feature.geometry.type === 'Point' && !layer.isIlluminated) {
+                            layer.setStyle({ fillColor: '#999999' }); // Cambiar solo el color de relleno
+                        }
+                    });
+                });
+            }
+        }
+
+        document.getElementById('btn-tema').addEventListener('click', cambiarTema);
+
+        const socket = io();
+
         const kmlFiles = [
-            { archivo: "Ruta RC-11 Má┼² La RayaAeropuerto - Módulo Azul.kml", nombre: "RC-11 Má' La Raya Aeropuerto - Módulo Azul" },
-            { archivo: "Ruta RC-15 Yu Ngnta' H de la Mujer y la Niñez Oaxaqueña - Base Walmart Símbolos Patrios - Módulo Azul.kml", nombre: "RC-15 Yu Ngnta' H de la Mujer y la Niñez - Módulo Azul" },
-            { archivo: "Ruta RC-06 Mondok San Jacinto Amilpas - Camino a Huayápam.kml", nombre: "RC-06 Mondok San Jacinto Amilpas - Camino a Huayápam" },
-            { archivo: "Ruta RC-10 Kaymo Manzana L - Ánimas Trujano.kml", nombre: "RC-10 Kaymo Manzana L - Ánimas Trujano" },
-            { archivo: "Ruta RC-09 Kítsian Jan Colónia Bugambilias - Fracc. El Rosario.kml", nombre: "RC-09 Kítsian Jan Colonia Bugambilias - Fracc. El Rosario" },
-            { archivo: "Ruta RA-18 Nave'e Yuroo Viguera – Centro de Rehabilitación DIF.kml", nombre: "RA-18 Nave'e Yuroo Viguera – Centro de Rehabilitación DIF" },
-            { archivo: "Ruta RA-04 Monumento a la MadreTecnológico - Santa Cruz Amilpas.kml", nombre: "RA-04 Monumento a la Madre Tecnológico - Santa Cruz Amilpas" },
+            { archivo: "RC-08 Ruja Colonia Jardín - Colonia Heladio Ramírez López.kml", nombre: "RC-08 Ruja Colonia Jardín - Col. Heladio Ramírez López" },
+            { archivo: "Ruta RA-01 Jnón Esquipulas - Central de Abastos.kml", nombre: "RA-01 Jnón Esquipulas - Central de Abastos" },
             { archivo: "Ruta RA-02 Mo' Santa María Atzompa - Guadalupe Victoria.kml", nombre: "RA-02 Mo' Santa María Atzompa - Guadalupe Victoria" },
+            { archivo: "Ruta RA-03 Laxido' Yuroo Parque del Amor - De Azucena Camino a Huayápam.kml", nombre: "RA-03 Laxido' Yuroo Parque del Amor - De Azucena Camino a Huayápam" },
+            { archivo: "Ruta RA-04 Monumento a la MadreTecnológico - Santa Cruz Amilpas.kml", nombre: "RA-04 Monumento a la Madre Tecnológico - Santa Cruz Amilpas" },
             { archivo: "Ruta RA-05 GUIE' Colonia Jardín - Anáhuac.kml", nombre: "RA-05 GUIE' Colonia Jardín - Anáhuac" },
-            { archivo: "Ruta RA-10 Tza' Tøk Fraccionamiento el Rosario 5a. Etapa - La Cuevita.kml", nombre: "RA-10 Tza' Tøk Fracc. El Rosario 5a. Etapa - La Cuevita" },
-            { archivo: "Ruta RA-14 Poj Montoya - Fraccionamiento El Rosario.kml", nombre: "RA-14 Poj Montoya - Fracc. El Rosario" },
-            { archivo: "Ruta RT-01 Kayaal Yuroo Viguera - Yuroo Xoxocotlán (2).kml", nombre: "RT-01 Kayaal Yuroo Viguera - Yuroo Xoxocotlán" },
+            { archivo: "Ruta RA-06 Wagul San Martín Mexicapam - Primera Etapa.kml", nombre: "RA-06 Wagul San Martín Mexicapam - Primera Etapa" },
             { archivo: "Ruta RA-07 Uxacha 2da. Sección Guadalupe Victoria - Colonia Moctezuma.kml", nombre: "RA-07 Uxacha 2da. Sección Guadalupe Victoria - Col. Moctezuma" },
-            { archivo: "Ruta RC-08 Ruja Colonia Jardín - Colonia Heladio Ramírez López.kml", nombre: "RC-08 Ruja Colonia Jardín - Col. Heladio Ramírez López" },
-            { archivo: "Ruta RC-04 Atlantekomatl Fracc. Benito JuárezEsmeralda - Plaza del Valle.kml", nombre: "RC-04 Atlantekomatl Fracc. Benito Juárez Esmeralda - Plaza del Valle" },
+            { archivo: "Ruta RA-08 Koo Agencia Donají - Colonia Satélite.kml", nombre: "RA-08 Koo Agencia Donají - Col. Satélite" },
             { archivo: "Ruta RA-09 Moog Fraccionamiento Los Álamos - Panteón Jardín.kml", nombre: "RA-09 Moog Fracc. Los Álamos - Panteón Jardín" },
+            { archivo: "Ruta RA-10 Tza' Tøk Fraccionamiento el Rosario 5a. Etapa - La Cuevita.kml", nombre: "RA-10 Tza' Tøk Fracc. El Rosario 5a. Etapa - La Cuevita" },
+            { archivo: "Ruta RA-11 Tüchi Montoya - Colonia Jardín.kml", nombre: "RA-11 Túchi Montoya - Colonia Jardín" },
+            { archivo: "Ruta RA-12 Najmé Colonia La Soledad - Primera Etapa.kml", nombre: "RA-12 Najmé Colonia La Soledad - Primera Etapa" },
+            { archivo: "Ruta RA-13 Waxin Yuroo Parque del Amor Ladxido' - San Luis Beltrán.kml", nombre: "RA-13 Waxin Parque del Amor - San Luis Beltrán" },
+            { archivo: "Ruta RA-14 Poj Montoya - Fraccionamiento El Rosario.kml", nombre: "RA-14 Poj Montoya - Fraccionamiento El Rosario" },
+            { archivo: "Ruta RA-15 Xra' Colonia Monte Albán - Sto. Domingo Tomaltepec.kml", nombre: "RA-15 Xra' Colonia Monte Albán - Sto. Domingo Tomaltepec" },
+            { archivo: "Ruta RA-16 Ri'nîn Colonia Guelaguetza - Plaza del Valle.kml", nombre: "RA-16 Ri'nîn Colonia Guelaguetza - Plaza del Valle" },
+            { archivo: "Ruta RA17 Bakku Nunni Monte Albán –  Símbolos Patrios.kml", nombre: "RA-17 Bakku Nunni Símbolos Patrios - Col. Monte Albán" },
+            { archivo: "Ruta RA-18 Nave'e Yuroo Viguera – Centro de Rehabilitación DIF.kml", nombre: "RA-18 Nave'e Yuroo Viguera – Centro de Rehabilitación DIF" },
+            { archivo: "Ruta RA-19 Nandá Yuroo Viguera - Huitzo.kml", nombre: "RA-19 Nandá Yuroo Viguera - Huitzo" },
+            { archivo: "Ruta RC-01 Dugue Pueblo Nuevo La Joya - Agencia Donají.kml", nombre: "RC-01 Dugue Pueblo Nuevo La Joya - Agencia Donají" },
             { archivo: "Ruta RC-02 Fane Kantsini Viguera - Primera Etapa.kml", nombre: "RC-02 Fane Kantsini Viguera - Primera Etapa" },
-            { archivo: "Ruta RC-01 Fane Kantsini Viguera - Segunda Etapa.kml", nombre: "RC-01 Fane Kantsini Viguera - Segunda Etapa" },
-            { archivo: "Ruta RC-03 Fane Kantsini Viguera - Tercera Etapa.kml", nombre: "RC-03 Fane Kantsini Viguera - Tercera Etapa" },
-            { archivo: "Ruta RC-05 Atlantekomatl Fracc. Benito JuárezEsmeralda - Plaza del Valle.kml", nombre: "RC-05 Atlantekomatl Fracc. Benito Juárez Esmeralda - Plaza del Valle" },
-            { archivo: "Ruta RC-07 Ruja Colonia Jardín - Colonia Heladio Ramírez López.kml", nombre: "RC-07 Ruja Colonia Jardín - Col. Heladio Ramírez López" },
-            { archivo: "Ruta RC-12 Kaymo Manzana L - Ánimas Trujano.kml", nombre: "RC-12 Kaymo Manzana L - Ánimas Trujano" },
-            { archivo: "Ruta RC-13 Mondok San Jacinto Amilpas - Camino a Huayápam.kml", nombre: "RC-13 Mondok San Jacinto Amilpas - Camino a Huayápam" },
-            { archivo: "Ruta RC-14 Kaymo Manzana L - Ánimas Trujano.kml", nombre: "RC-14 Kaymo Manzana L - Ánimas Trujano" },
-            { archivo: "Ruta RC-15 Yu Ngnta' H de la Mujer y la Niñez Oaxaqueña - Base Walmart Símbolos Patrios - Módulo Azul.kml", nombre: "RC-15 Yu Ngnta' H de la Mujer y la Niñez - Módulo Azul" }
+            { archivo: "Ruta RC-03 Nisa San Felipe del Agua - Plaza del Valle.kml", nombre: "RC-03 Nisa San Felipe del Agua - Plaza del Valle" },
+            { archivo: "Ruta RC-04 Atlantekomatl Fracc. Benito JuárezEsmeralda - Plaza del Valle.kml", nombre: "RC-04 Atlantekomatl Fracc. Benito Juárez Esmeralda - Plaza del Valle" },
+            { archivo: "Ruta RC-05 Xuujx Viguera Los Ángeles - Parque Francisco I. Madero.kml", nombre: "RC-05 Xuujx Viguera Los Ángeles - Parque Francisco I. Madero" },
+            { archivo: "Ruta RC-06 Mondok San Jacinto Amilpas - Camino a Huayápam.kml", nombre: "RC-06 Mondok San Jacinto Amilpas - Camino a Huayápam" },
+            { archivo: "Ruta RC-07 Vitú Vií Colonia Monte Bello - Monumento a Juárez Santa Cruz Xoxocotlán.kml", nombre: "RC-07 Vitú Vií Col. Monte Bello - Monumento a Juárez Santa Cruz Xoxocotlán" },
+            { archivo: "Ruta RC-09 Kítsian Jan Colónia Bugambilias - Fracc. El Rosario.kml", nombre: "RC-09 Kítsian Jan Colonia Bugambilias - Fracc. El Rosario" },
+            { archivo: "Ruta RC-10 Kaymo Manzana L - Ánimas Trujano.kml", nombre: "RC-10 Kaymo Manzana L - Ánimas Trujano" },
+            { archivo: "Ruta RC-11 Má┼² La RayaAeropuerto - Módulo Azul.kml", nombre: "RC-11 Má' La Raya Aeropuerto - Módulo Azul" },
+            { archivo: "Ruta RC-12 Ñunda Tlalixtac de Cabrera - Yuroo Parque del Amor 'Ladxido'.kml", nombre: "RC-12 Ñunda Tlalixtac de Cabrera - Yuroo Parque del Amor 'Ladxido'" },
+            { archivo: "Ruta RC13 Yuku Tay Hospital ISSSTE - Base CRIT.kml", nombre: "RC-13 Yuku Tay Hospital ISSSTE - Base CRIT" },
+            { archivo: "Ruta RC-14 Laba' Yuroo Viguera - San Sebastián Tutla.kml", nombre: "RC-14 Laba' Yuroo Viguera - San Sebastián Tutla" },
+            { archivo: "Ruta RC-15 Yu Ngnta' H de la Mujer y la Niñez Oaxaqueña - Base Walmart Símbolos Patrios - Módulo Azul.kml", nombre: "RC-15 Yu Ngnta' H de la Mujer y la Niñez - Módulo Azul" },
+            { archivo: "Ruta RT-01 Kayaal Yuroo Viguera - Yuroo Xoxocotlán (2).kml", nombre: "RT-01 Kayaal Yuroo Viguera - Yuroo Xoxocotlán" }
         ];
 
-        const capasRutas = []; // Para almacenar las capas de KML y poder buscar las estaciones luego
+        const capasRutas = [];
 
-        // 4. Cargar y renderizar cada archivo KML
+        const paletaDeColores = [
+            '#E91E63', '#9C27B0', '#3F51B5', '#03A9F4', '#009688', 
+            '#8BC34A', '#FFEB3B', '#FF9800', '#795548', '#607D8B',
+            '#F44336', '#673AB7', '#2196F3', '#00BCD4', '#4CAF50',
+            '#CDDC39', '#FFC107', '#FF5722', '#9E9E9E', '#424242'
+        ];
+        const coloresPorRuta = {};
+        let indiceColorActual = 0;
+
         kmlFiles.forEach((ruta, index) => {
-            // Distribuir el color equitativamente a lo largo del espectro (0-360) 
-            // para asegurar que cada ruta tenga un color diferente y bien distinguible
-            const hue = index * (360 / kmlFiles.length);
-            const colorRuta = `hsl(${hue}, 80%, 45%)`;
+            let colorRuta;
+            const matchCodigo = ruta.nombre.match(/(R[A-C]-?\d{2}|RT-?01)/i);
+            
+            if (matchCodigo) {
+                const codigoRuta = matchCodigo[0].toUpperCase().replace('-', ''); // ej. "RA01"
+                if (!coloresPorRuta[codigoRuta]) {
+                    coloresPorRuta[codigoRuta] = paletaDeColores[indiceColorActual % paletaDeColores.length];
+                    indiceColorActual++;
+                }
+                colorRuta = coloresPorRuta[codigoRuta];
+            } else {
+                colorRuta = '#777777'; // Color gris para archivos sin código de ruta claro
+            }
 
-            // Crear la capa base para inyectarle estilos
             const customLayer = L.geoJson(null, {
                 style: function() {
-                    // Color gris inicial para todas las rutas
-                    return { color: '#888888', weight: 1.5, opacity: 0.7 }; // Grosor permanentemente fino
+                    return { color: '#999999', weight: 2, opacity: 0.5 };
                 },
-                // pointToLayer dibuja los puntos (paradas) como círculos en lugar del marcador azul por defecto
                 pointToLayer: function(feature, latlng) {
                     return L.circleMarker(latlng, {
-                        radius: 3,           // Tamaño pequeño y fijo para el punto
-                        fillColor: '#888888', // Color gris inicial
-                        color: '#fff',       // Borde blanco para que resalten
-                        weight: 1,           // Borde del punto más fino
-                        opacity: 1,
-                        fillOpacity: 0.9     // Opacidad del relleno
+                        radius: getRadiusForZoom(mapa.getZoom()), // Radio dinámico basado en el zoom
+                        fillColor: '#999999',
+                        color: 'transparent',
+                        weight: 0,
+                        fillOpacity: 0.7,
+                        className: 'station-point'
                     });
                 }
             });
 
-            // Guardamos el color único de la ruta en la capa para poder iluminarla en el futuro
             customLayer.colorRuta = colorRuta;
+            
+            customLayer.nombreNormalizado = ruta.nombre.trim().toLowerCase().replace(/[\s.'-]/g, '');
 
             capasRutas.push(customLayer);
 
-            // Cargar el KML con omnivore, inyectando la capa estilizada
             omnivore.kml(`kml/${ruta.archivo}`, null, customLayer)
                 .on('ready', function() {
-                    // Evitar que las medidas originales del archivo KML sobreescriban nuestro estilo fino
-                    this.setStyle({ color: '#888888', weight: 1.5, opacity: 0.7 });
+                    const capaPadre = this; // Capturar la capa GeoJSON padre para acceder a sus propiedades
+                    this.setStyle({ 
+                        color: modoOscuro ? '#BDBDBD' : '#999999', 
+                        weight: 2, 
+                        opacity: modoOscuro ? 0.6 : 0.5 
+                    });
 
-                    // Iterar las capas de este KML para añadir un popup interactivo
                     this.eachLayer(function(layer) {
-                        // También forzar un tamaño fino en las paradas
-                        if (layer.setRadius) {
-                            layer.setRadius(3);
-                            layer.setStyle({ fillColor: '#888888', color: '#fff', weight: 1, fillOpacity: 0.9 });
+                        if (layer.setStyle && layer.feature.geometry.type === 'Point') {
+                            layer.setStyle({ radius: getRadiusForZoom(mapa.getZoom()), fillColor: modoOscuro ? '#BDBDBD' : '#999999', color: 'transparent', weight: 0, fillOpacity: 0.7 });
                         }
-                        layer.bindPopup(`<b>Ruta:</b><br>${ruta.nombre}`);
+                        layer.bindPopup(`<b>Estación:</b><br>${layer.feature.properties.name || 'Parada desconocida'}`);  
 
-                        // [NUEVO] Reproducir sonido al hacer clic manual en la ruta/parada para probar
-                        layer.on('click', function() {
-                            reproducirMarimba();
-                        });
+                        if (layer.feature && layer.feature.geometry && layer.feature.geometry.type === 'Point') {
+                            layer.on('click', async function(e) { // Corregido: 'e' es el evento de Leaflet
+                                e.originalEvent.stopPropagation(); // Usar originalEvent para detener la propagación del DOM
+                                
+                                // Asegurar que audio está inicializado
+                                if (!audioIniciado) {
+                                    await inicializarAudio();
+                                }
+                                
+                                const nombreEst = layer.feature.properties.name || layer.feature.properties.nombre || "Parada desconocida";
+                                obtenerNotaEstacion(nombreEst);
+                                
+                                layer.isIlluminated = true; // Marcar como iluminado
+                                const colorClick = capaPadre.colorRuta || '#ffcc00';
+                                const illuminatedRadius = getRadiusForZoom(mapa.getZoom()) + 2;
+                                layer.setStyle({ fillColor: colorClick, color: colorClick, weight: 2, fillOpacity: 0.9, radius: illuminatedRadius });
+                                setTimeout(() => {
+                                    layer.isIlluminated = false; // Desmarcar
+                                    layer.setStyle({ 
+                                        fillColor: modoOscuro ? '#BDBDBD' : '#999999', 
+                                        color: 'transparent', 
+                                        weight: 0, 
+                                        fillOpacity: 0.7, 
+                                        radius: getRadiusForZoom(mapa.getZoom())
+                                    });
+                                }, 800);
+                            });
+                        }
                     });
                 })
                 .addTo(mapa);
         });
 
-        // 5. Configuración de Web Audio API (Marimba)
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        const audioCtx = new AudioContext();
+        let marimbaSynth;
+        let audioIniciado = false;
+        let reverb;
 
-        // Los navegadores bloquean el audio automático. Un solo clic en el mapa inicializará el motor de audio.
-        document.addEventListener('click', () => {
-            if (audioCtx.state === 'suspended') audioCtx.resume();
-        }, { once: true });
+        async function inicializarAudio() {
+            if (!audioIniciado) {
+                try {
+                    await Tone.start();
 
-        function reproducirMarimba() {
-            // Intentar reanudar el contexto si sigue suspendido
-            if (audioCtx.state === 'suspended') {
-                audioCtx.resume();
+                    reverb = new Tone.Reverb({
+                        decay: 2.5
+                    }).toDestination();
+
+                    marimbaSynth = new Tone.FMSynth({
+                        harmonicity: 3.01,
+                        modulationIndex: 14,
+                        modulation: { type: 'sine' },
+                        envelope: {
+                            attack: 0.005,
+                            decay: 0.3,
+                            sustain: 0.01,
+                            release: 0.8
+                        }
+                    }).connect(reverb);
+
+                    audioIniciado = true;
+                    console.log("Marimba Oaxaqueña Ambient inicializada correctamente");
+                } catch (error) {
+                    console.error("❌ Error al inicializar Tone.js:", error);
+                    audioIniciado = false;
+                }
             }
-
-            const osc1 = audioCtx.createOscillator();
-            const osc2 = audioCtx.createOscillator();
-            const gainNode = audioCtx.createGain();
-
-            const tiempo = audioCtx.currentTime + 0.05; // Un ligero retraso evita chasquidos
-
-            // Configuración del sonido: Seno para el cuerpo del sonido y Triángulo para el golpe
-            osc1.type = 'sine';
-            osc1.frequency.setValueAtTime(523.25, tiempo); // C5
-            osc2.type = 'triangle';
-            osc2.frequency.setValueAtTime(1046.50, tiempo); // C6 (Una octava arriba)
-
-            // Envolvente de volumen (Decaimiento rápido percusivo)
-            gainNode.gain.setValueAtTime(1, tiempo);
-            gainNode.gain.exponentialRampToValueAtTime(0.001, tiempo + 0.5);
-
-            osc1.connect(gainNode);
-            osc2.connect(gainNode);
-            gainNode.connect(audioCtx.destination);
-
-            osc1.start(tiempo);
-            osc2.start(tiempo);
-            osc1.stop(tiempo + 0.5);
-            osc2.stop(tiempo + 0.5);
-            
-            console.log("🎵 Sonido reproducido");
         }
 
-        // 6. Conexión de Socket.IO
-        const socket = io();
+        document.addEventListener('click', inicializarAudio, { once: true });
+        
+        setTimeout(() => {
+            if (!audioIniciado) {
+                inicializarAudio().catch(err => console.warn("Auto-inicialización de audio rechazada por navegador"));
+            }
+        }, 2000);
+
+        const escalaOaxaquena = [
+            'C4', 'D4', 'E4', 'F#4', 'G4', 'A4', 'B4',
+            'C5', 'D5', 'E5', 'F#5', 'G5', 'A5', 'B5',
+            'C6', 'D6'
+        ];
+
+        function simpleHash(str) {
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) {
+                const char = str.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash |= 0; // Convertir a entero de 32 bits
+            }
+            return Math.abs(hash);
+        }
+
+        function obtenerNotaEstacion(nombreEstacion) {
+            if (!audioIniciado) {
+                console.warn("Audio aún no inicializado, esperando...");
+                inicializarAudio().then(() => {
+                    reproducirNota(nombreEstacion);
+                });
+                return;
+            }
+            
+            reproducirNota(nombreEstacion);
+        }
+
+        function reproducirNota(nombreEstacion) {
+            if (!audioIniciado || !marimbaSynth) {
+                console.warn("⚠️ Audio no está listo");
+                return;
+            }
+
+            const nombreNormalizado = String(nombreEstacion || 'Generico').toLowerCase().trim();
+
+            const hash = simpleHash(nombreNormalizado);
+            const nota = escalaOaxaquena[hash % escalaOaxaquena.length];
+
+            const duracion = nota.includes('C6') || nota.includes('A5') ? '16n' :
+                            nota.includes('C5') || nota.includes('D5') ? '8n' : '8n';
+
+            try {
+                marimbaSynth.triggerAttackRelease(nota, duracion);
+                console.log(`Marimba Oaxaqueña: ${nota} - ${nombreEstacion}`);
+            } catch (error) {
+                console.error("❌ Error al reproducir nota:", error);
+            }
+        }
 
         const layerTimers = {}; // Guarda los temporizadores activos de cada capa
 
-        socket.on('iluminar_estacion', function(nombreEstacion) {
+        socket.on('iluminar_estacion', function(datos) {
             let fueIluminada = false;
             
-            // 1. Limpiamos el nombre buscado: minúsculas, sin espacios extra y sin puntos
-            const nombreBuscado = nombreEstacion.trim().toLowerCase().replace(/\./g, '');
+            console.log(`\nEVENTO RECIBIDO DEL SERVIDOR:`, datos);
             
-            // Función recursiva para verificar e iluminar una capa o marcador individual
-            const verificarCapa = (layer) => {
-                if (layer.feature && layer.feature.properties) {
-                    // Soportamos la propiedad 'nombre' (tu GeoJSON) o 'name' (los KML originales)
-                    const propNombre = layer.feature.properties.nombre || layer.feature.properties.name;
-                    if (propNombre) {
-                        const nombreActual = propNombre.trim().toLowerCase().replace(/\./g, '');
-                        if (nombreActual === nombreBuscado) {
+            let rutaId = typeof datos === 'string' ? datos : datos.ruta;
+            let estacionBusqueda = typeof datos === 'string' ? '' : (datos.estacion ? datos.estacion.trim().toLowerCase() : '');
+            
+            const nombreBuscado = rutaId.trim().toLowerCase().replace(/[\s.'-]/g, '');
+            
+            console.log(`🔍 Buscando: Ruta código="${nombreBuscado}", Estación="${estacionBusqueda}"`);
+            
+            capasRutas.forEach(capa => {
+                if (capa.nombreNormalizado && capa.nombreNormalizado.includes(nombreBuscado)) {
+                    console.log(`Ruta encontrada en capas: ${capa.nombreNormalizado}`);
+                    
+                    capa.eachLayer(function verificarCapa(layer) {
+                        if (!layer.feature || !layer.feature.geometry) return;
+                        
+                        if (layer.feature.geometry.type !== 'Point') return;
+                        
+                        const nombreEstacionKML = layer.feature.properties.name || layer.feature.properties.nombre;
+                        const estacionEvento = datos.estacion;
+
+                        if (!estacionEvento || !nombreEstacionKML) return;
+
+                        const obtenerPalabrasClave = (str) => {
+                            return str
+                                .toLowerCase()
+                                .replace(/\bsto\.?\b/g, 'santo')
+                                .replace(/\bsta\.?\b/g, 'santa')
+                                .replace(/\bcol\.?\b/g, 'colonia')
+                                .replace(/\bfracc\.?\b/g, 'fraccionamiento')
+                                .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                                .split(/[\s\.,\-_()]+/)
+                                .filter(palabra => palabra && palabra.length > 2);
+                        };
+
+                        const palabrasKML = obtenerPalabrasClave(nombreEstacionKML);
+                        const palabrasEvento = obtenerPalabrasClave(estacionEvento);
+
+                        if (palabrasEvento.length === 0) return;
+
+                        const hayCoincidencia = palabrasEvento.every(pEvento => 
+                            palabrasKML.some(pKML => pKML.includes(pEvento) || pEvento.includes(pKML))
+                        );
+
+                        if (hayCoincidencia) {
+                            fueIluminada = true;
+                            
+                            console.log(`Coincidencia FLEXIBLE encontrada: KML:"${nombreEstacionKML}" vs Evento:"${estacionEvento}"`);
+                            
                             if (layer.setStyle) {
-                                layer.setStyle({ fillColor: '#ff9900', color: '#ff9900', radius: 7, fillOpacity: 1, weight: 2 });
+                                layer.isIlluminated = true; // Marcar como iluminado
+                                const colorIluminacion = capa.colorRuta || '#ff9900'; // Usar el color de la ruta
+                                const illuminatedRadius = getRadiusForZoom(mapa.getZoom()) + 2;
+                                layer.setStyle({ fillColor: colorIluminacion, color: colorIluminacion, radius: illuminatedRadius, fillOpacity: 0.95, weight: 3 });
                                 layer.bringToFront();
-                                fueIluminada = true;
-                                
-                                // Opcional: Centrar el mapa en la estación con animación de "vuelo"
-                                if (layer.getLatLng) {
-                                    mapa.flyTo(layer.getLatLng(), 15, { duration: 1.5 });
-                                }
-
-                                // Si hay un temporizador previo para esta capa, lo limpiamos
-                                const layerId = L.stamp(layer); // Genera/obtiene un ID único interno de Leaflet
-                                if (layerTimers[layerId]) {
-                                    clearTimeout(layerTimers[layerId]);
-                                }
-
-                                // Regresar al estilo gris original después de 10 segundos (10000 ms)
-                                layerTimers[layerId] = setTimeout(() => {
-                                    if (layer.setStyle) {
-                                        layer.setStyle({ 
-                                            radius: 3,           
-                                            fillColor: '#888888', 
-                                            color: '#fff',       
-                                            weight: 1,           
-                                            fillOpacity: 0.9     
-                                        });
-                                    }
-                                    delete layerTimers[layerId];
-                                }, 10000);
                             }
-                        }
-                    }
-                }
-            };
+                            
+                            obtenerNotaEstacion(nombreEstacionKML);
+                            
+                            const layerId = L.stamp(layer);
+                            if (layerTimers[layerId]) clearTimeout(layerTimers[layerId]);
+                            
+                            layerTimers[layerId] = setTimeout(() => {
+                                if (layer.setStyle) {
+                                    layer.isIlluminated = false; // Desmarcar
 
-            // 2. Buscar en todas las capas del mapa (incluyendo grupos inyectados como L.geoJson)
-            mapa.eachLayer(layer => {
-                if (layer.eachLayer) {
-                    // Si es un grupo (como tu GeoJSON), iteramos sus subcapas
-                    layer.eachLayer(subLayer => verificarCapa(subLayer));
-                } else {
-                    // Si es una capa individual
-                    verificarCapa(layer);
+                                    layer.setStyle({ 
+                                        radius: getRadiusForZoom(mapa.getZoom()), 
+                                        fillColor: modoOscuro ? '#BDBDBD' : '#999999', 
+                                        color: 'transparent', weight: 0, fillOpacity: 0.7 
+                                    });
+                                }
+                                delete layerTimers[layerId];
+                            }, 4000);
+                        }
+                    });
                 }
             });
 
             if (fueIluminada) {
-                console.log(` Estación encontrada e iluminada: ${nombreEstacion}`);
-                reproducirMarimba();
+                console.log(`Evento procesado. Ruta: ${rutaId}, Estación: ${estacionBusqueda || 'N/A'}`);
             } else {
-                console.warn(` No se encontró la estación (revisa el nombre exacto): ${nombreEstacion}`);
+                console.warn(`No se encontró coincidencia. Ruta: ${rutaId}, Estación buscada: "${estacionBusqueda}"`, datos);
             }
+        });
+
+        function manejarIluminacion(rutaId, estacion = '') {
+            socket.emit('iluminar_estacion', { ruta: rutaId, estacion: estacion });
+        }
+
+        function obtenerEstacionesDeRuta(rutaCodigoNormalizado) {
+            let estaciones = [];
+            const codigoLimpio = rutaCodigoNormalizado.toLowerCase().replace(/[\s.'-]/g, '');
+            
+            capasRutas.forEach(capa => {
+                if (capa.nombreNormalizado) {
+                    const capaNormalizada = capa.nombreNormalizado.toLowerCase().replace(/[\s.'-]/g, '');
+                    if (capaNormalizada.startsWith(codigoLimpio)) {
+                        capa.eachLayer(function(layer) {
+                            if (layer.feature && layer.feature.geometry && layer.feature.geometry.type === 'Point') {
+                                const nombreEst = layer.feature.properties.name || layer.feature.properties.nombre || '';
+                                if (nombreEst && nombreEst.trim() && !estaciones.includes(nombreEst)) {
+                                    estaciones.push(nombreEst);
+                                }
+                            }
+                        });
+                    }
+                }
+            });
+            
+            console.log(`Estaciones encontradas para ${rutaCodigoNormalizado}:`, estaciones);
+            return estaciones;
+        }
+
+        document.getElementById('btn-test').addEventListener('click', async () => {
+            if (!audioIniciado) {
+                await inicializarAudio();
+            }
+
+            const rutaAlAzar = kmlFiles[Math.floor(Math.random() * kmlFiles.length)];
+            
+            const match = rutaAlAzar.nombre.match(/(R[A-C]-?\d{2}|RT-?01)/i);
+            
+            if (match) {
+                const rutaCodigo = match[0];
+                const rutaEmitida = rutaCodigo.toUpperCase().replace(/-/g, '');
+                const rutaNormalizado = rutaCodigo.toLowerCase().replace(/[\s.'-]/g, '');
+                
+                console.log(`Ruta seleccionada: ${rutaCodigo} (${rutaAlAzar.nombre})`);
+                
+                const estaciones = obtenerEstacionesDeRuta(rutaNormalizado);
+                
+                if (estaciones.length > 0) {
+                    const estacionAlAzar = estaciones[Math.floor(Math.random() * estaciones.length)];
+                    
+                    const timestamp = new Date().toLocaleTimeString('es-MX', { hour: '2-digit', minute: '2-digit' });
+                    const mensaje = `🚍 ${rutaCodigo} saliendo de ${estacionAlAzar}`;
+                    
+                    const msgLog = document.getElementById('msg-log');
+                    const msgDiv = document.createElement('div');
+                    msgDiv.className = 'msg';
+                    msgDiv.innerHTML = `<strong>${timestamp}</strong><br>${mensaje}`;
+                    msgLog.appendChild(msgDiv);
+                    msgLog.scrollTop = msgLog.scrollHeight;
+                    
+                    console.log(`Mensaje simulado: ${mensaje}`);
+                    
+                    manejarIluminacion(rutaEmitida, estacionAlAzar);
+                } else {
+                    const msgLog = document.getElementById('msg-log');
+                    const msgDiv = document.createElement('div');
+                    msgDiv.className = 'msg';
+                    const timestamp = new Date().toLocaleTimeString('es-MX', { hour: '2-digit', minute: '2-digit' });
+                    msgDiv.innerHTML = `<strong>${timestamp}</strong><br>⚠️ Sin estaciones para ${rutaCodigo}`;
+                    msgLog.appendChild(msgDiv);
+                    msgLog.scrollTop = msgLog.scrollHeight;
+                    
+                    console.warn(`⚠️ No se encontraron estaciones para la ruta ${rutaCodigo}`);
+                }
+            } else {
+                console.warn("No se pudo extraer el código de la ruta");
+            }
+        });
+
+        function getRadiusForZoom(zoom) {
+            if (zoom >= 15) {
+                return 6; // Tamaño visible de cerca
+            } else if (zoom >= 13) {
+                return 4; // Tamaño intermedio
+            } else {
+                return 2; // Pequeño cuando se está lejos para evitar superposición
+            }
+        }
+
+        mapa.on('zoomend', function() {
+            const zoom = mapa.getZoom();
+            const radio = getRadiusForZoom(zoom);
+
+            capasRutas.forEach(capa => {
+                capa.eachLayer(function(layer) {
+                    if (layer.setRadius && layer.feature.geometry.type === 'Point') {
+                        if (!layer.isIlluminated) {
+                            layer.setRadius(radio);
+                        }
+                    }
+                });
+            });
         });
     </script>
 
