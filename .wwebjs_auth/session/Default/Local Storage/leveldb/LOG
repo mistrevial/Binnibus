@@ -1,6 +1,15 @@
-2026/05/19-21:18:24.840 62f4 Reusing MANIFEST D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/05/19-21:18:24.847 62f4 Recovering log #11
-2026/05/19-21:18:24.850 62f4 Reusing old log D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Local Storage\leveldb/000011.log 
-2026/05/19-22:34:42.812 4afc Level-0 table #15: started
-2026/05/19-22:34:42.925 4afc Level-0 table #15: 13660 bytes OK
-2026/05/19-22:34:42.956 4afc Delete type=0 #11
+2026/05/20-17:45:35.692 6e1c Reusing MANIFEST D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/05/20-17:45:35.701 6e1c Recovering log #17
+2026/05/20-17:45:35.703 6e1c Reusing old log D:\Documents\4. Rodo\Binnibus\.wwebjs_auth\session\Default\Local Storage\leveldb/000017.log 
+2026/05/20-18:45:46.239 6e1c Level-0 table #21: started
+2026/05/20-18:45:46.389 6e1c Level-0 table #21: 13861 bytes OK
+2026/05/20-18:45:46.456 6e1c Delete type=0 #17
+2026/05/20-18:45:46.459 6e1c Compacting 4@0 + 1@1 files
+2026/05/20-18:45:46.552 6e1c Generated table #22@0: 85 keys, 7089 bytes
+2026/05/20-18:45:46.552 6e1c Compacted 4@0 + 1@1 files => 7089 bytes
+2026/05/20-18:45:46.602 6e1c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/20-18:45:46.603 6e1c Delete type=2 #9
+2026/05/20-18:45:46.604 6e1c Delete type=2 #12
+2026/05/20-18:45:46.604 6e1c Delete type=2 #15
+2026/05/20-18:45:46.604 6e1c Delete type=2 #18
+2026/05/20-18:45:46.604 6e1c Delete type=2 #21

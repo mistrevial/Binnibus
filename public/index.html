@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Mapa de Oaxaca de Juárez</title>
     
+    <!-- Fuentes de Google: Barlow -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+
     <!-- Hoja de estilos de Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     
@@ -17,7 +25,7 @@
             width: 100vw;
             height: 100vh;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
+            font-family: 'Barlow', sans-serif;
         }
         
         #mapa {
@@ -76,16 +84,6 @@
             background: rgba(60, 60, 60, 0.95);
         }
 
-        body.dark-mode #test-panel {
-            background: #2a2a2a !important;
-            color: #e0e0e0 !important;
-            border: 1px solid #444;
-        }
-
-        body.dark-mode #test-panel h3 {
-            color: #e0e0e0;
-        }
-
         body.dark-mode #btn-test {
             background: #ff6600 !important;
         }
@@ -100,7 +98,7 @@
             padding: 15px;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: 'Barlow', sans-serif;
             max-width: 280px;
             transition: all 0.3s ease;
         }
@@ -173,6 +171,36 @@
             transition: all 0.4s ease-in-out;
         }
 
+        /* Estilo para los Badges de las Rutas y Tooltips */
+        .route-badge {
+            display: inline-block;
+            padding: 2px 5px;
+            color: #ffffff;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            border: 1px solid rgba(0,0,0,0.2);
+        }
+        
+        .station-tooltip, .leaflet-popup-content-wrapper {
+            background: rgba(255, 255, 255, 0.95) !important;
+            border: 1px solid #ccc !important;
+            border-radius: 6px !important;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2) !important;
+            color: #333 !important;
+        }
+        
+        body.dark-mode .station-tooltip, body.dark-mode .leaflet-popup-content-wrapper {
+            background: rgba(40, 40, 40, 0.95) !important;
+            color: #e0e0e0 !important;
+            border-color: #555 !important;
+        }
+        
+        body.dark-mode .leaflet-popup-tip {
+            background: rgba(40, 40, 40, 0.95) !important;
+        }
+
         /* Optimizaciones para Móvil */
         @media (max-width: 768px) {
             #whatsapp-simulator {
@@ -216,7 +244,7 @@
         // 1. Definir los límites del mapa para restringir la vista a Oaxaca
         const limitesOaxaca = [
             [16.85, -96.95], // Suroeste
-            [17.25, -96.55]  // Noreste
+            [17.35, -96.55]  // Noreste (ampliado para dar holgura arriba)
         ];
 
         // Inicializar el mapa con límites de paneo y zoom mínimo
@@ -249,7 +277,7 @@
                 mapaBase.setOpacity(0);
 
                 capasRutas.forEach(capa => {
-                    capa.setStyle({ color: '#BDBDBD', weight: 2, opacity: 0.6 });
+                    capa.setStyle({ color: '#BDBDBD', weight: getWeightForZoom(mapa.getZoom()), opacity: 0.6 });
                     capa.eachLayer(function(layer) {
                         // Solo afectar a los puntos que no están iluminados
                         if (layer.setStyle && layer.feature.geometry.type === 'Point' && !layer.isIlluminated) {
@@ -264,7 +292,7 @@
                 mapaBase.setOpacity(1);
                 
                 capasRutas.forEach(capa => {
-                    capa.setStyle({ color: '#999999', weight: 2, opacity: 0.5 }); // Rutas más visibles
+                    capa.setStyle({ color: '#999999', weight: getWeightForZoom(mapa.getZoom()), opacity: 0.5 }); // Rutas más visibles
                     capa.eachLayer(function(layer) {
                         // Solo afectar a los puntos que no están iluminados
                         if (layer.setStyle && layer.feature.geometry.type === 'Point' && !layer.isIlluminated) {
@@ -318,6 +346,7 @@
         ];
 
         const capasRutas = [];
+        const estacionesGlobales = []; // Nueva lista global para unificar TODAS las rutas del mapa
 
         const paletaDeColores = [
             '#E91E63', '#9C27B0', '#3F51B5', '#03A9F4', '#009688', 
@@ -328,9 +357,44 @@
         const coloresPorRuta = {};
         let indiceColorActual = 0;
 
+        // Función para dar formato (Mayúscula Inicial) a los textos que vienen todo en MAYÚSCULAS
+        function formatearNombre(str) {
+            if (!str) return 'Parada desconocida';
+            
+            // Si el texto ya tiene minúsculas, respetamos su formato original
+            if (str !== str.toUpperCase()) return str;
+
+            const palabrasMenores = ['de', 'la', 'el', 'en', 'los', 'las', 'del', 'al', 'y', 'a', 'por', 'para'];
+            const acronimos = ['DIF', 'ISSSTE', 'CRIT', 'URSE', 'CBTIS', 'COBAO', 'ADO', 'IMSS', 'UABJO', 'CU', 'II', 'III', 'IV'];
+
+            return str.split(/(\s+)/).map((word, index) => {
+                if (!word.trim()) return word; // Mantener espacios intactos
+                const wordLimpia = word.toUpperCase().replace(/[^A-ZÁÉÍÓÚÑ]/g, '');
+                if (acronimos.includes(wordLimpia)) return word.toUpperCase();
+                const wordLower = word.toLowerCase();
+                // Ignorar la primera palabra para que siempre vaya en mayúscula inicial
+                if (index > 0 && palabrasMenores.includes(wordLower)) return wordLower;
+                return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            }).join('');
+        }
+
+        // Función para inyectar el diseño visual de los Badges dinámicamente
+        function generarHtmlRecuadro(nombre, rutas) {
+            let html = `<div style="text-align: center; min-width: 100px;">`;
+            html += `<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; margin-bottom: 5px;">`;
+            rutas.forEach(r => {
+                html += `<span class="route-badge" style="background-color: ${r.color};">${r.id}</span>`;
+            });
+            html += `</div>`;
+            html += `<strong style="font-size: 13px; display: block; line-height: 1.2;">${nombre}</strong>`;
+            html += `</div>`;
+            return html;
+        }
+
         kmlFiles.forEach((ruta, index) => {
             let colorRuta;
             const matchCodigo = ruta.nombre.match(/(R[A-C]-?\d{2}|RT-?01)/i);
+            const codigoVisual = matchCodigo ? matchCodigo[0].toUpperCase() : 'RUTA';
             
             if (matchCodigo) {
                 const codigoRuta = matchCodigo[0].toUpperCase().replace('-', ''); // ej. "RA01"
@@ -345,14 +409,13 @@
 
             const customLayer = L.geoJson(null, {
                 style: function() {
-                    return { color: '#999999', weight: 2, opacity: 0.5 };
+                    return { color: '#999999', weight: getWeightForZoom(mapa.getZoom()), opacity: 0.5 };
                 },
                 pointToLayer: function(feature, latlng) {
                     return L.circleMarker(latlng, {
                         radius: getRadiusForZoom(mapa.getZoom()), // Radio dinámico basado en el zoom
                         fillColor: '#999999',
-                        color: 'transparent',
-                        weight: 0,
+                        stroke: false,
                         fillOpacity: 0.7,
                         className: 'station-point'
                     });
@@ -370,44 +433,80 @@
                     const capaPadre = this; // Capturar la capa GeoJSON padre para acceder a sus propiedades
                     this.setStyle({ 
                         color: modoOscuro ? '#BDBDBD' : '#999999', 
-                        weight: 2, 
+                        weight: getWeightForZoom(mapa.getZoom()), 
                         opacity: modoOscuro ? 0.6 : 0.5 
                     });
 
-                    this.eachLayer(function(layer) {
-                        if (layer.setStyle && layer.feature.geometry.type === 'Point') {
-                            layer.setStyle({ radius: getRadiusForZoom(mapa.getZoom()), fillColor: modoOscuro ? '#BDBDBD' : '#999999', color: 'transparent', weight: 0, fillOpacity: 0.7 });
-                        }
-                        layer.bindPopup(`<b>Estación:</b><br>${layer.feature.properties.name || 'Parada desconocida'}`);  
+                    const layersToRemove = [];
 
+                    this.eachLayer(function(layer) {
                         if (layer.feature && layer.feature.geometry && layer.feature.geometry.type === 'Point') {
-                            layer.on('click', async function(e) { // Corregido: 'e' es el evento de Leaflet
-                                e.originalEvent.stopPropagation(); // Usar originalEvent para detener la propagación del DOM
+                            let nombreOriginal = layer.feature.properties.name || layer.feature.properties.nombre || '';
+                            let nombreEst = formatearNombre(nombreOriginal);
+                            
+                            const latlng = layer.getLatLng();
+                            
+                            // Fusión GLOBAL: Compara contra todas las estaciones de TODAS las rutas ya cargadas
+                            const duplicado = estacionesGlobales.find(est => {
+                                const distancia = latlng.distanceTo(est.latlng);
                                 
-                                // Asegurar que audio está inicializado
-                                if (!audioIniciado) {
-                                    await inicializarAudio();
+                                // Limpieza extrema: quitamos espacios, puntos, guiones y acentos
+                                const nom1 = est.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+                                const nom2 = nombreEst.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+                                
+                                // Nivel 1: Muy cerca (< 40m), permitimos que un nombre incluya al otro (ej. "Viguera" y "Terminal Viguera")
+                                if (distancia < 40 && (nom1.includes(nom2) || nom2.includes(nom1))) return true;
+                                
+                                // Nivel 2: Avenida ancha (hasta 150m), EXIGIMOS que el nombre sea exactamente idéntico
+                                return distancia < 150 && nom1 === nom2;
+                            });
+                            
+                            if (duplicado) {
+                                layersToRemove.push(layer);
+                                // Fusionamos en secreto para el buscador de WSP, pero NO alteramos el texto del Popup
+                                if (duplicado.layer.feature.properties.name && !duplicado.layer.feature.properties.name.includes(nombreOriginal)) {
+                                    duplicado.layer.feature.properties.name += " " + nombreOriginal;
                                 }
                                 
-                                const nombreEst = layer.feature.properties.name || layer.feature.properties.nombre || "Parada desconocida";
-                                obtenerNotaEstacion(nombreEst);
+                                // Añadir dinámicamente la ruta a los tags visuales de la estación unificada
+                                if (!duplicado.rutas.some(r => r.id === codigoVisual)) {
+                                    duplicado.rutas.push({ id: codigoVisual, color: colorRuta });
+                                }
+                                const html = generarHtmlRecuadro(duplicado.nombre, duplicado.rutas);
+                                if (duplicado.layer.getPopup()) duplicado.layer.setPopupContent(html);
+                                if (duplicado.layer.getTooltip()) duplicado.layer.setTooltipContent(html);
+                            } else {
+                                const nuevasRutas = [{ id: codigoVisual, color: colorRuta }];
+                                estacionesGlobales.push({ latlng: latlng, nombre: nombreEst, layer: layer, rutas: nuevasRutas });
                                 
-                                layer.isIlluminated = true; // Marcar como iluminado
-                                const colorClick = capaPadre.colorRuta || '#ffcc00';
-                                const illuminatedRadius = getRadiusForZoom(mapa.getZoom()) + 2;
-                                layer.setStyle({ fillColor: colorClick, color: colorClick, weight: 2, fillOpacity: 0.9, radius: illuminatedRadius });
-                                setTimeout(() => {
-                                    layer.isIlluminated = false; // Desmarcar
-                                    layer.setStyle({ 
-                                        fillColor: modoOscuro ? '#BDBDBD' : '#999999', 
-                                        color: 'transparent', 
-                                        weight: 0, 
-                                        fillOpacity: 0.7, 
-                                        radius: getRadiusForZoom(mapa.getZoom())
-                                    });
-                                }, 800);
-                            });
+                                if (layer.setStyle) {
+                                    layer.setStyle({ radius: getRadiusForZoom(mapa.getZoom()), fillColor: modoOscuro ? '#BDBDBD' : '#999999', stroke: false, fillOpacity: 0.7 });
+                                }
+                                
+                                const html = generarHtmlRecuadro(nombreEst, nuevasRutas);
+                                layer.bindPopup(html); // Mantiene comportamiento del click (ej. celulares)
+                                layer.bindTooltip(html, { direction: 'top', offset: [0, -10], className: 'station-tooltip' }); // Activa el hover instantáneo
+
+                                layer.on('click', async function(e) {
+                                    L.DomEvent.stopPropagation(e); // Detener propagación de manera segura para móviles y web
+                                    
+                                    if (!audioIniciado) {
+                                        await inicializarAudio();
+                                    }
+                                    
+                                    obtenerNotaEstacion(nombreEst);
+                                    
+                                    const colorClick = capaPadre.colorRuta || '#ffcc00';
+                                    iluminarEstacionVisual(layer, colorClick);
+                                });
+                            }
                         }
+                    });
+                    
+                    // Destrucción total visual para evitar "fantasmas" de dibujo en el mapa
+                    layersToRemove.forEach(l => {
+                        if (l.setStyle) { l.setRadius(0); l.setStyle({ opacity: 0, fillOpacity: 0, stroke: false }); }
+                        capaPadre.removeLayer(l);
                     });
                 })
                 .addTo(mapa);
@@ -426,16 +525,22 @@
                         decay: 2.5
                     }).toDestination();
 
-                    marimbaSynth = new Tone.FMSynth({
-                        harmonicity: 3.01,
-                        modulationIndex: 14,
-                        modulation: { type: 'sine' },
-                        envelope: {
-                            attack: 0.005,
-                            decay: 0.3,
-                            sustain: 0.01,
-                            release: 0.8
-                        }
+                    // Usamos Tone.Sampler para cargar audios reales de marimba
+                    marimbaSynth = new Tone.Sampler({
+                        urls: {
+                            "C3": "C3.wav",
+                            "C5": "C5.wav",
+                            "C7": "C7.wav",
+                            "E2": "E2.wav",
+                            "E4": "E4.wav",
+                            "E6": "E6.wav",
+                            "F3": "F3.wav",
+                            "F5": "F5.wav",
+   // Solo necesitas algunas notas, Tone.js calcula las demás
+                        },
+                        release: 1,
+                        baseUrl: "/samples/marimba/", // La ruta en tu servidor a los archivos de audio
+                        onload: () => console.log("🎹 Librería de Marimba Original cargada!")
                     }).connect(reverb);
 
                     audioIniciado = true;
@@ -476,7 +581,7 @@
                 console.warn("Audio aún no inicializado, esperando...");
                 inicializarAudio().then(() => {
                     reproducirNota(nombreEstacion);
-                });
+                }).catch(err => console.warn("No se pudo auto-iniciar el audio (requiere clic):", err));
                 return;
             }
             
@@ -498,8 +603,10 @@
                             nota.includes('C5') || nota.includes('D5') ? '8n' : '8n';
 
             try {
-                marimbaSynth.triggerAttackRelease(nota, duracion);
-                console.log(`Marimba Oaxaqueña: ${nota} - ${nombreEstacion}`);
+                // Usar Tone.now() + offset pequeño para evitar colisión de timing
+                const now = Tone.now();
+                marimbaSynth.triggerAttackRelease(nota, duracion, now + 0.05);
+                console.log(`🎷 Marimba Oaxaqueña: ${nota} - ${nombreEstacion}`);
             } catch (error) {
                 console.error("❌ Error al reproducir nota:", error);
             }
@@ -507,10 +614,92 @@
 
         const layerTimers = {}; // Guarda los temporizadores activos de cada capa
 
-        socket.on('iluminar_estacion', function(datos) {
-            let fueIluminada = false;
+        // 🌊 Función para crear una Onda Expansiva (Efecto Ripple / Sonar)
+        function crearEfectoOnda(latlng, color, radioInicial) {
+            const radio = radioInicial > 0 ? radioInicial : 2;
+            const onda = L.circleMarker(latlng, {
+                radius: radio,
+                fillColor: color,
+                color: color,
+                weight: 2,
+                opacity: 0.9,
+                fillOpacity: 0.4,
+                interactive: false
+            }).addTo(mapa);
+
+            let start = performance.now();
+            function animarOnda(time) {
+                let progress = (time - start) / 800; // 800ms de duración
+                if (progress > 1) progress = 1;
+                
+                let ease = 1 - Math.pow(1 - progress, 3); // Curva suave
+                
+                onda.setRadius(radio + (25 * ease));
+                onda.setStyle({
+                    opacity: 0.9 * (1 - ease),
+                    fillOpacity: 0.4 * (1 - ease)
+                });
+                
+                if (progress < 1) requestAnimationFrame(animarOnda);
+                else mapa.removeLayer(onda);
+            }
+            requestAnimationFrame(animarOnda);
+        }
+
+        // ✨ Función maestra para iluminar con transiciones suaves
+        function iluminarEstacionVisual(layer, colorIluminacion) {
+            if (!layer.setStyle) return;
             
-            console.log(`\nEVENTO RECIBIDO DEL SERVIDOR:`, datos);
+            const latlng = layer.getLatLng();
+            const radioBase = getRadiusForZoom(mapa.getZoom());
+            const radioDestino = radioBase + 4; // Tamaño resaltado
+            
+            crearEfectoOnda(latlng, colorIluminacion, radioBase);
+
+            layer.isIlluminated = true;
+            layer.setStyle({ fillColor: colorIluminacion, color: modoOscuro ? '#000000' : '#FFFFFF', fillOpacity: 1, weight: 2, stroke: true });
+            layer.bringToFront();
+
+            // Animación suave de expansión
+            let startIn = performance.now();
+            function expandir(time) {
+                let prog = Math.min((time - startIn) / 200, 1);
+                layer.setRadius(radioBase + ((radioDestino - radioBase) * prog));
+                if (prog < 1) requestAnimationFrame(expandir);
+            }
+            requestAnimationFrame(expandir);
+
+            const layerId = L.stamp(layer);
+            if (layerTimers[layerId]) clearTimeout(layerTimers[layerId]);
+            
+            layerTimers[layerId] = setTimeout(() => {
+                if (layer.setStyle) {
+                    layer.isIlluminated = false;
+                    
+                    // Animación suave de contracción
+                    let startOut = performance.now();
+                    function contraer(time) {
+                        let prog = Math.min((time - startOut) / 300, 1);
+                        let currentRadioBase = getRadiusForZoom(mapa.getZoom());
+                        let currentRadioDestino = currentRadioBase + 4;
+                        
+                        layer.setRadius(currentRadioDestino - ((currentRadioDestino - currentRadioBase) * prog));
+                        
+                        if (prog < 1) {
+                            requestAnimationFrame(contraer);
+                        } else {
+                            layer.setStyle({ fillColor: modoOscuro ? '#BDBDBD' : '#999999', stroke: false, fillOpacity: 0.7 });
+                            layer.setRadius(currentRadioBase);
+                        }
+                    }
+                    requestAnimationFrame(contraer);
+                }
+                delete layerTimers[layerId];
+            }, 2500); // Se apaga más rápido (2.5 seg)
+        }
+
+        socket.on('iluminar_estacion', function(datos) {
+            console.log(`\n🔔 EVENTO RECIBIDO DEL SERVIDOR:`, datos);
             
             let rutaId = typeof datos === 'string' ? datos : datos.ruta;
             let estacionBusqueda = typeof datos === 'string' ? '' : (datos.estacion ? datos.estacion.trim().toLowerCase() : '');
@@ -519,80 +708,84 @@
             
             console.log(`🔍 Buscando: Ruta código="${nombreBuscado}", Estación="${estacionBusqueda}"`);
             
+            // 1. Identificar el color de la ruta que detonó el evento
+            let colorDeRutaActiva = '#ff9900'; // Color por defecto
             capasRutas.forEach(capa => {
                 if (capa.nombreNormalizado && capa.nombreNormalizado.includes(nombreBuscado)) {
-                    console.log(`Ruta encontrada en capas: ${capa.nombreNormalizado}`);
-                    
-                    capa.eachLayer(function verificarCapa(layer) {
-                        if (!layer.feature || !layer.feature.geometry) return;
-                        
-                        if (layer.feature.geometry.type !== 'Point') return;
-                        
-                        const nombreEstacionKML = layer.feature.properties.name || layer.feature.properties.nombre;
-                        const estacionEvento = datos.estacion;
+                    colorDeRutaActiva = capa.colorRuta;
+                    console.log(`✅ Ruta identificada para color: ${capa.nombreNormalizado}`);
+                }
+            });
+            
+            // MEJORADA: Almacena candidatos con score de coincidencia
+            let mejorCandidato = null;
+            let mejorScore = -1;
+            
+            const stopWords = ['de', 'la', 'el', 'en', 'los', 'las', 'del', 'al', 'y', 'a', 'hacia', 'por', 'para', 'con', 'desde', 'rumbo', 'destino', 'saliendo', 'llegando', 'pasando', 'ruta'];
+            const obtenerPalabrasClave = (str) => {
+                return str
+                    .toLowerCase()
+                    .replace(/\bsto\.?\b/g, 'santo')
+                    .replace(/\bsta\.?\b/g, 'santa')
+                    .replace(/\bcol\.?\b/g, 'colonia')
+                    .replace(/\bfracc\.?\b/g, 'fraccionamiento')
+                    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                    .split(/[\s\.,\-_()]+/)
+                    .filter(palabra => palabra && palabra.length > 1 && !stopWords.includes(palabra));
+            };
+            
+            // 2. Buscar en la lista GLOBAL de estaciones únicas (sin importar qué ruta la haya creado primero)
+            estacionesGlobales.forEach(estacionObj => {
+                const layer = estacionObj.layer;
+                const nombreEstacionKML = layer.feature.properties.name || layer.feature.properties.nombre;
+                const nombreVisual = estacionObj.nombre;
+                const estacionEvento = datos.estacion;
 
-                        if (!estacionEvento || !nombreEstacionKML) return;
+                if (!estacionEvento || !nombreEstacionKML) return;
+                
+                const palabrasKML = obtenerPalabrasClave(nombreEstacionKML);
+                const palabrasEvento = obtenerPalabrasClave(estacionEvento);
 
-                        const obtenerPalabrasClave = (str) => {
-                            return str
-                                .toLowerCase()
-                                .replace(/\bsto\.?\b/g, 'santo')
-                                .replace(/\bsta\.?\b/g, 'santa')
-                                .replace(/\bcol\.?\b/g, 'colonia')
-                                .replace(/\bfracc\.?\b/g, 'fraccionamiento')
-                                .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-                                .split(/[\s\.,\-_()]+/)
-                                .filter(palabra => palabra && palabra.length > 2);
-                        };
+                if (palabrasEvento.length === 0 || palabrasKML.length === 0) return;
 
-                        const palabrasKML = obtenerPalabrasClave(nombreEstacionKML);
-                        const palabrasEvento = obtenerPalabrasClave(estacionEvento);
-
-                        if (palabrasEvento.length === 0) return;
-
-                        const hayCoincidencia = palabrasEvento.every(pEvento => 
-                            palabrasKML.some(pKML => pKML.includes(pEvento) || pEvento.includes(pKML))
-                        );
-
-                        if (hayCoincidencia) {
-                            fueIluminada = true;
-                            
-                            console.log(`Coincidencia FLEXIBLE encontrada: KML:"${nombreEstacionKML}" vs Evento:"${estacionEvento}"`);
-                            
-                            if (layer.setStyle) {
-                                layer.isIlluminated = true; // Marcar como iluminado
-                                const colorIluminacion = capa.colorRuta || '#ff9900'; // Usar el color de la ruta
-                                const illuminatedRadius = getRadiusForZoom(mapa.getZoom()) + 2;
-                                layer.setStyle({ fillColor: colorIluminacion, color: colorIluminacion, radius: illuminatedRadius, fillOpacity: 0.95, weight: 3 });
-                                layer.bringToFront();
-                            }
-                            
-                            obtenerNotaEstacion(nombreEstacionKML);
-                            
-                            const layerId = L.stamp(layer);
-                            if (layerTimers[layerId]) clearTimeout(layerTimers[layerId]);
-                            
-                            layerTimers[layerId] = setTimeout(() => {
-                                if (layer.setStyle) {
-                                    layer.isIlluminated = false; // Desmarcar
-
-                                    layer.setStyle({ 
-                                        radius: getRadiusForZoom(mapa.getZoom()), 
-                                        fillColor: modoOscuro ? '#BDBDBD' : '#999999', 
-                                        color: 'transparent', weight: 0, fillOpacity: 0.7 
-                                    });
-                                }
-                                delete layerTimers[layerId];
-                            }, 4000);
+                // MEJORADO: Calcular score de coincidencia
+                let coincidenciasCount = 0;
+                palabrasEvento.forEach(pEvento => {
+                    palabrasKML.forEach(pKML => {
+                        if (pKML.includes(pEvento) || pEvento.includes(pKML)) {
+                            coincidenciasCount++;
                         }
                     });
+                });
+                
+                // Calculamos el score basado en la frase más corta
+                const score = coincidenciasCount / Math.min(palabrasEvento.length, palabrasKML.length);
+                
+                // Mantenemos un score estricto (60%) para evitar falsos positivos
+                if (score >= 0.6 && coincidenciasCount > mejorScore) {
+                    mejorScore = coincidenciasCount;
+                    mejorCandidato = {
+                        layer: layer,
+                        colorIluminacion: colorDeRutaActiva,
+                        nombreEstacionKML: nombreEstacionKML,
+                        nombreVisual: nombreVisual,
+                        score: score,
+                        coincidencias: coincidenciasCount
+                    };
+                    console.log(`🎯 Candidato encontrado: "${nombreVisual}" (score: ${score.toFixed(2)}, coincidencias: ${coincidenciasCount})`);
                 }
             });
 
-            if (fueIluminada) {
-                console.log(`Evento procesado. Ruta: ${rutaId}, Estación: ${estacionBusqueda || 'N/A'}`);
+            // MEJORADO: Solo ilumina el MEJOR candidato
+            if (mejorCandidato) {
+                console.log(`⭐ ILUMINANDO MEJOR CANDIDATO: "${mejorCandidato.nombreVisual}" con score ${mejorCandidato.score.toFixed(2)}`);
+                
+                iluminarEstacionVisual(mejorCandidato.layer, mejorCandidato.colorIluminacion);
+                obtenerNotaEstacion(mejorCandidato.nombreVisual);
+                
+                console.log(`✅ Evento procesado exitosamente. Ruta: ${rutaId}, Estación: ${estacionBusqueda || 'N/A'}`);
             } else {
-                console.warn(`No se encontró coincidencia. Ruta: ${rutaId}, Estación buscada: "${estacionBusqueda}"`, datos);
+                console.warn(`❌ No se encontró coincidencia. Ruta: ${rutaId}, Estación buscada: "${estacionBusqueda}"`);
             }
         });
 
@@ -610,8 +803,9 @@
                     if (capaNormalizada.startsWith(codigoLimpio)) {
                         capa.eachLayer(function(layer) {
                             if (layer.feature && layer.feature.geometry && layer.feature.geometry.type === 'Point') {
-                                const nombreEst = layer.feature.properties.name || layer.feature.properties.nombre || '';
-                                if (nombreEst && nombreEst.trim() && !estaciones.includes(nombreEst)) {
+                                const nombreOriginal = layer.feature.properties.name || layer.feature.properties.nombre || '';
+                                const nombreEst = formatearNombre(nombreOriginal);
+                                if (nombreEst && nombreEst.trim() && !estaciones.includes(nombreEst) && nombreEst !== 'Parada desconocida') {
                                     estaciones.push(nombreEst);
                                 }
                             }
@@ -679,21 +873,43 @@
                 return 6; // Tamaño visible de cerca
             } else if (zoom >= 13) {
                 return 4; // Tamaño intermedio
+            } else if (zoom >= 12) {
+                return 2; // Tamaño al abrir la página (zoom inicial)
             } else {
-                return 2; // Pequeño cuando se está lejos para evitar superposición
+                return 0; // Invisibles al alejar al máximo (zoom 11) para limpiar el mapa
+            }
+        }
+
+        function getWeightForZoom(zoom) {
+            if (zoom >= 15) {
+                return 2.5; // Gruesa muy de cerca
+            } else if (zoom >= 13) {
+                return 1.5; // Grosor intermedio
+            } else if (zoom >= 12) {
+                return 0.8; // Delgada al alejar un poco (zoom inicial)
+            } else {
+                return 0.1; // Un hilo casi imperceptible al alejar al máximo para máxima limpieza
             }
         }
 
         mapa.on('zoomend', function() {
             const zoom = mapa.getZoom();
             const radio = getRadiusForZoom(zoom);
+            const peso = getWeightForZoom(zoom);
 
             capasRutas.forEach(capa => {
                 capa.eachLayer(function(layer) {
-                    if (layer.setRadius && layer.feature.geometry.type === 'Point') {
+                    // Actualiza el radio de los puntos (estaciones)
+                    if (layer.feature && layer.feature.geometry.type === 'Point') {
                         if (!layer.isIlluminated) {
                             layer.setRadius(radio);
+                        } else {
+                            layer.setRadius(radio + 4); // Si está iluminado, mantiene su proporción sin importar el zoom
                         }
+                    } 
+                    // Actualiza el grosor de las líneas (rutas)
+                    else if (layer.setStyle) {
+                        layer.setStyle({ weight: peso });
                     }
                 });
             });

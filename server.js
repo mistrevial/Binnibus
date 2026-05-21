@@ -36,37 +36,47 @@ client.on('qr', (qr) => {
     console.log('Por favor, escanea el código QR con tu aplicación de WhatsApp.');
 });
 
-const ID_GRUPO_BINNIBUS = '120363041982639399@g.us';
+// --- MEJORA: Usar el evento 'message' para fiabilidad ---
 
-client.on('message', async (message) => {
-    // console.log(`\nDEBUG: Mensaje recibido del chat con ID: ${message.from}`);
-
-    if (message.from === ID_GRUPO_BINNIBUS) {
-        procesarMensaje(message.body);
-    }
-});
+// ¡IMPORTANTE! Reemplaza esto con el ID real de tu grupo de WhatsApp.
+// Para obtenerlo, puedes descomentar la línea de depuración en el evento 'message',
+// ejecutar el servidor y enviar un mensaje a tu grupo. El ID aparecerá en la consola.
+const ID_GRUPO_BINNIBUS = 'ID_DEL_GRUPO@g.us'; // EJEMPLO: 120363041234567890@g.us
 
 client.on('ready', () => {
-    console.log('Sesión iniciada. El bot está escuchando nuevos mensajes en tiempo real.');
+    console.log('✅ Sesión iniciada. El cliente está listo para recibir mensajes.');
+    console.log(`📡 Escuchando mensajes del grupo Binnibús (${ID_GRUPO_BINNIBUS}) y Canales de WhatsApp...`);
+});
+
+client.on('message', async (message) => {
+    const isChannel = message.from.endsWith('@newsletter');
+    const isDM = message.from.endsWith('@c.us'); // Permitir mensajes directos para pruebas
+    
+    // Filtramos para procesar mensajes del grupo, canales o mensajes directos
+    if (isChannel || message.from === ID_GRUPO_BINNIBUS || isDM) {
+        if (message.body) {
+            console.log(`\n[${new Date().toLocaleTimeString()}] Mensaje recibido de Canal/Grupo: "${message.body}"`);
+            procesarMensaje(message.body);
+        }
+    }
+    // ⚠️ LÍNEA DESCOMENTADA: Esto imprimirá TODO lo que recibas para que encuentres tu ID
+    console.log(`[DEBUG WSP] Mensaje de: ${message.from} | Tipo: ${message.type} | Cuerpo: "${message.body}"`);
 });
 
 function procesarMensaje(texto) {
-    console.log(`\nProcesando mensaje: "${texto}"`);
+    console.log(`\n📨 Procesando mensaje: "${texto}"`);
     
-    const regexRuta = /(R[A-C]-?\d{2}|RT-?01)/i;
+    // Permite formato con o sin guion o espacio (ej. RA-17, RA 17, RA17)
+    const regexRuta = /(R[A-C][-\s]?\d{2}|RT[-\s]?01)/i;
     const matchRuta = texto.match(regexRuta);
 
     if (matchRuta) {
-        const ruta = matchRuta[0].toUpperCase().replace(/-/g, '');
+        // Normalizamos quitando guiones y espacios para la lógica del frontend
+        const ruta = matchRuta[0].toUpperCase().replace(/[-\s]/g, '');
         
-        const regexEstacion = /(?:saliendo de|desde|en)\s+(.+?)(?=\s+con destino a|\s+con dirección a|\s+a\s+Base|\s+hacia|$)/i;
-        const matchEstacion = texto.match(regexEstacion);
-        
-        if (!matchEstacion || !matchEstacion[1]) {
-            console.log(`No se pudo extraer la estación del mensaje.\n`);
-            return;
-        }
-        const estacion = matchEstacion[1].trim().replace(/^(la|el|base de|terminal)\s/i, ''); // Limpia prefijos comunes
+        // Enviamos todo el texto (quitando solo el código de la ruta) para no perder palabras clave
+        let estacion = texto.replace(matchRuta[0], '').trim();
+        estacion = estacion.replace(/^[:\-,\.]+|[:\-,\.]+$/g, '').trim(); // Limpiar puntuaciones
         
         const hora_reporte = new Date().toISOString();
         
@@ -77,12 +87,12 @@ function procesarMensaje(texto) {
             raw: texto
         };
 
-        console.log(`Evento extraído:`, resultado);
-        console.log(`Emitiendo: ruta="${ruta}", estación="${estacion}"\n`);
+        console.log(`✅ Evento extraído:`, resultado);
+        console.log(`📡 Emitiendo: ruta="${ruta}", estación="${estacion}"\n`);
         
         io.emit('iluminar_estacion', { ruta: ruta, estacion: estacion });
     } else {
-        console.log(`No es un evento del Binnibús (no coincide con regex de ruta).\n`);
+        console.log(`⏭️  No es un evento del Binnibús (no coincide con regex de ruta)\n`);
     }
 }
 
@@ -97,4 +107,9 @@ function procesarMensaje(texto) {
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
+}).on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+        console.error(`\n❌ ERROR: El puerto ${PORT} ya está en uso.`);
+        console.error(`💡 SOLUCIÓN: Cierra la otra terminal que está corriendo el servidor, o usa 'taskkill' para detenerlo.\n`);
+    }
 });
